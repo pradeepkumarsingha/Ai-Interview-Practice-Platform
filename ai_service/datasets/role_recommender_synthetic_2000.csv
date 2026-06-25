@@ -1,0 +1,2001 @@
+skills,projects,internships,certifications,cgpa,target_role
+linux gcp azure terraform aws cloud security,4,1,5,6.8,Cloud Engineer
+python pandas tensorflow data analysis machine learning,3,1,1,6.7,Data Scientist
+postgresql django fastapi python,2,1,2,6.6,Python Developer
+dbms java sql system design,1,3,4,7.2,Software Engineer
+postgresql fastapi flask django,1,1,2,8.7,Python Developer
+django fastapi flask python,5,2,3,9.6,Python Developer
+dbms system design oops sql dsa java,3,0,2,7.0,Software Engineer
+docker github actions linux kubernetes terraform,4,3,1,7.5,DevOps Engineer
+python excel sql tableau statistics mlops,3,2,0,7.2,Data Analyst
+python fastapi postgresql flask django,5,3,3,9.1,Python Developer
+statistics excel tableau power bi,5,3,5,9.3,Data Analyst
+fastapi flask postgresql django python,3,1,4,9.0,Python Developer
+hibernate spring boot rest api mysql,1,1,4,7.4,Java Developer
+deep learning pytorch mlops computer vision python tensorflow,5,0,5,8.7,ML Engineer
+tensorflow statistics data analysis machine learning,3,3,5,7.6,Data Scientist
+tensorflow data analysis machine learning python,4,1,4,6.9,Data Scientist
+llm python langchain vector database rag prompt engineering,3,0,5,7.6,AI Engineer
+statistics data visualization excel sql python tableau power bi,3,0,3,7.6,Data Analyst
+linux docker jenkins terraform github actions kubernetes,1,3,0,8.9,DevOps Engineer
+aws linux gcp terraform,5,1,4,6.7,Cloud Engineer
+vector database python prompt engineering transformers llm rag langchain,1,2,0,8.0,AI Engineer
+jenkins docker github actions linux,2,0,3,8.2,DevOps Engineer
+azure terraform gcp linux,1,2,0,9.4,Cloud Engineer
+java spring boot mysql rest api hibernate,2,3,0,7.4,Java Developer
+gcp aws cloud security terraform linux azure mysql,5,1,1,8.7,Cloud Engineer
+power bi statistics python tableau sql excel data visualization mysql,3,0,4,9.2,Data Analyst
+mysql hibernate java rest api,2,3,1,6.5,Java Developer
+sql dbms dsa java system design oops hibernate,5,2,3,6.9,Software Engineer
+transformers python rag llm vector database langchain prompt engineering,5,1,2,8.4,AI Engineer
+data visualization excel python statistics sql tableau power bi,4,0,4,8.9,Data Analyst
+vector database llm langchain prompt engineering rag transformers,1,0,3,9.2,AI Engineer
+system design dsa dbms sql oops rag,1,1,3,8.8,Software Engineer
+deep learning tensorflow nlp python,1,0,1,6.9,ML Engineer
+oops system design dbms java,4,0,1,6.6,Software Engineer
+java spring boot mysql hibernate,2,2,5,8.5,Java Developer
+tensorflow deep learning pytorch computer vision nlp python,1,2,4,8.4,ML Engineer
+kubernetes linux jenkins github actions,3,2,3,7.7,DevOps Engineer
+flask postgresql python fastapi,2,3,4,9.7,Python Developer
+rest api hibernate java mysql spring boot,2,1,4,7.3,Java Developer
+statistics data analysis tensorflow machine learning python,2,3,0,7.7,Data Scientist
+data visualization statistics sql power bi tableau excel python,3,2,4,9.8,Data Analyst
+gcp aws cloud security terraform,4,0,3,9.5,Cloud Engineer
+machine learning pandas numpy data analysis python statistics tensorflow,3,2,2,7.5,Data Scientist
+deep learning python mlops nlp computer vision,1,3,2,6.6,ML Engineer
+html javascript css nodejs,1,0,0,9.4,Full Stack Developer
+dbms oops sql system design dsa,1,2,0,7.9,Software Engineer
+mlops computer vision python tensorflow,5,2,0,7.8,ML Engineer
+dsa oops system design dbms sql,4,0,3,9.0,Software Engineer
+power bi tableau excel data visualization python,2,2,5,8.3,Data Analyst
+docker jenkins linux terraform github actions kubernetes,4,0,2,8.9,DevOps Engineer
+html javascript css react nodejs express mongodb,4,3,0,6.9,Full Stack Developer
+data analysis numpy python statistics machine learning tensorflow pandas,4,0,2,9.2,Data Scientist
+express css mongodb html javascript react,3,3,3,9.2,Full Stack Developer
+statistics numpy data analysis tensorflow machine learning pandas,4,2,0,6.6,Data Scientist
+system design oops sql dbms java dsa,1,2,1,7.5,Software Engineer
+terraform github actions jenkins linux,4,3,0,8.5,DevOps Engineer
+python fastapi flask django postgresql,4,1,4,8.6,Python Developer
+terraform kubernetes linux github actions,2,0,3,7.4,DevOps Engineer
+rest api java mysql spring boot,3,1,0,9.3,Java Developer
+python machine learning numpy data analysis,2,1,1,8.4,Data Scientist
+css react express html mongodb,1,1,5,9.7,Full Stack Developer
+llm prompt engineering python rag transformers langchain,2,2,2,8.0,AI Engineer
+terraform kubernetes github actions jenkins linux docker,4,0,2,6.6,DevOps Engineer
+spring boot java hibernate rest api,2,2,2,7.0,Java Developer
+linux cloud security azure terraform javascript,1,0,3,6.7,Cloud Engineer
+linux azure gcp cloud security terraform aws,3,2,1,6.5,Cloud Engineer
+dbms system design sql dsa java,4,1,3,8.4,Software Engineer
+javascript nodejs css mongodb,4,0,0,8.4,Full Stack Developer
+tableau statistics excel sql data visualization,5,1,1,7.2,Data Analyst
+express html react nodejs,5,3,4,6.9,Full Stack Developer
+css html nodejs react javascript dsa,3,2,4,8.7,Full Stack Developer
+tensorflow numpy data analysis machine learning pandas,2,3,4,8.1,Data Scientist
+postgresql python django fastapi,5,3,0,6.9,Python Developer
+hibernate java rest api spring boot mysql,1,0,4,7.9,Java Developer
+prompt engineering vector database langchain rag transformers llm python,3,3,2,8.5,AI Engineer
+python numpy pandas tensorflow,5,0,0,8.3,Data Scientist
+github actions linux jenkins terraform kubernetes,5,0,1,9.3,DevOps Engineer
+vector database rag llm transformers python postgresql,2,2,4,9.6,AI Engineer
+tensorflow pandas machine learning statistics numpy,4,1,2,8.1,Data Scientist
+terraform aws azure gcp,1,0,4,8.7,Cloud Engineer
+sql tableau python power bi statistics excel data visualization,2,2,4,7.7,Data Analyst
+sql dsa system design dbms java oops deep learning,5,0,2,7.9,Software Engineer
+mongodb express nodejs css,1,2,5,9.7,Full Stack Developer
+mongodb nodejs html express css react javascript,4,2,1,7.3,Full Stack Developer
+github actions kubernetes linux terraform html,2,2,2,9.8,DevOps Engineer
+css express mongodb javascript html react,3,3,4,9.1,Full Stack Developer
+kubernetes docker jenkins github actions terraform,5,0,0,8.7,DevOps Engineer
+nlp deep learning pytorch mlops computer vision tensorflow,3,1,3,9.5,ML Engineer
+numpy machine learning data analysis tensorflow statistics pandas python tableau,4,0,0,8.7,Data Scientist
+terraform github actions linux jenkins,2,2,3,7.8,DevOps Engineer
+html react nodejs mongodb,4,3,0,7.9,Full Stack Developer
+terraform github actions jenkins linux,3,1,1,6.9,DevOps Engineer
+numpy python pandas statistics tensorflow machine learning data analysis,5,2,5,8.6,Data Scientist
+pandas numpy tensorflow machine learning python statistics,5,3,2,6.9,Data Scientist
+gcp linux terraform azure,1,2,2,6.8,Cloud Engineer
+linux gcp aws cloud security,5,2,1,8.8,Cloud Engineer
+langchain transformers vector database python llm rag,5,0,1,8.4,AI Engineer
+fastapi flask python postgresql,1,2,3,8.9,Python Developer
+css mongodb javascript react nodejs html express,5,3,3,6.9,Full Stack Developer
+azure linux aws gcp terraform cloud security,1,1,5,9.7,Cloud Engineer
+dbms oops dsa system design java sql,4,1,1,7.8,Software Engineer
+dsa system design oops java sql dbms nodejs,3,1,4,9.3,Software Engineer
+python computer vision mlops nlp pytorch tensorflow,3,1,5,7.3,ML Engineer
+flask django fastapi python postgresql,5,0,1,7.7,Python Developer
+numpy tensorflow data analysis python pandas machine learning statistics,4,1,3,8.2,Data Scientist
+sql java system design dbms oops dsa,2,3,0,7.5,Software Engineer
+prompt engineering python langchain rag llm transformers,5,1,1,8.4,AI Engineer
+data analysis pandas tensorflow statistics,4,1,4,8.6,Data Scientist
+llm rag langchain prompt engineering transformers python,3,3,3,6.7,AI Engineer
+pytorch tensorflow mlops python computer vision nlp,1,0,5,9.6,ML Engineer
+python prompt engineering rag vector database llm transformers langchain,2,2,3,7.3,AI Engineer
+css react nodejs javascript express,5,1,2,8.6,Full Stack Developer
+rest api spring boot hibernate mysql java,4,0,1,7.3,Java Developer
+terraform jenkins docker linux github actions,5,0,5,7.5,DevOps Engineer
+llm rag python prompt engineering transformers,4,1,1,7.9,AI Engineer
+pandas machine learning numpy python statistics data analysis tensorflow,1,3,0,9.5,Data Scientist
+spring boot java mysql rest api,5,2,2,8.1,Java Developer
+java dbms sql oops system design,4,0,1,7.3,Software Engineer
+python machine learning pandas data analysis statistics,5,1,4,7.8,Data Scientist
+jenkins kubernetes github actions terraform linux system design,5,2,5,6.7,DevOps Engineer
+terraform aws linux azure cloud security gcp,4,2,2,8.7,Cloud Engineer
+rest api java mysql hibernate spring boot,2,3,3,8.8,Java Developer
+mysql java rest api hibernate,1,2,4,9.3,Java Developer
+deep learning python nlp mlops pytorch tensorflow,1,2,5,9.2,ML Engineer
+data analysis pandas statistics numpy python tensorflow,5,0,5,7.3,Data Scientist
+react nodejs css express mongodb html javascript,5,3,3,8.1,Full Stack Developer
+computer vision tensorflow nlp mlops deep learning python pytorch,1,0,5,9.5,ML Engineer
+java dbms sql oops system design,2,1,5,7.0,Software Engineer
+rest api hibernate mysql java spring boot prompt engineering,5,3,4,7.8,Java Developer
+statistics tensorflow machine learning data analysis pandas python,3,3,0,8.3,Data Scientist
+linux terraform gcp azure,5,1,5,7.5,Cloud Engineer
+linux azure cloud security terraform,1,1,3,7.2,Cloud Engineer
+prompt engineering rag langchain transformers,1,2,3,9.7,AI Engineer
+computer vision tensorflow nlp mlops pytorch,1,0,4,7.9,ML Engineer
+oops dsa system design java sql dbms,1,3,1,9.2,Software Engineer
+django fastapi flask python postgresql,2,2,2,6.9,Python Developer
+gcp cloud security aws linux,5,1,2,9.7,Cloud Engineer
+terraform aws linux gcp cloud security azure,4,0,4,7.6,Cloud Engineer
+kubernetes linux jenkins docker terraform,1,1,3,9.2,DevOps Engineer
+html css express mongodb,1,3,2,9.5,Full Stack Developer
+postgresql fastapi python flask django,1,3,1,8.8,Python Developer
+data analysis numpy machine learning tensorflow,4,1,1,7.0,Data Scientist
+kubernetes docker github actions terraform,5,0,5,7.0,DevOps Engineer
+dsa oops system design dbms,2,2,0,7.1,Software Engineer
+html javascript react css mongodb,4,2,2,7.8,Full Stack Developer
+pytorch nlp python deep learning computer vision mlops data analysis,5,3,5,8.5,ML Engineer
+llm langchain python transformers,5,0,5,8.5,AI Engineer
+django python fastapi flask,1,0,2,8.6,Python Developer
+numpy statistics pandas python,2,0,4,8.6,Data Scientist
+tableau excel data visualization statistics python,2,1,1,9.7,Data Analyst
+linux docker github actions kubernetes terraform jenkins hibernate,3,3,2,7.5,DevOps Engineer
+dsa sql oops system design prompt engineering,1,0,3,8.6,Software Engineer
+transformers langchain rag llm statistics,5,1,1,9.3,AI Engineer
+hibernate java spring boot mysql rest api,3,1,2,7.0,Java Developer
+data analysis numpy pandas machine learning python tensorflow statistics,3,0,5,8.7,Data Scientist
+python power bi statistics sql data visualization,1,1,2,8.0,Data Analyst
+deep learning mlops nlp tensorflow,3,1,4,9.5,ML Engineer
+jenkins terraform github actions kubernetes linux docker cloud security,2,3,0,8.8,DevOps Engineer
+mlops python deep learning tensorflow computer vision nlp,5,2,1,8.7,ML Engineer
+docker kubernetes linux jenkins github actions terraform,3,1,4,7.1,DevOps Engineer
+python transformers prompt engineering langchain llm vector database,4,3,3,8.4,AI Engineer
+oops system design dsa sql java,2,3,5,7.7,Software Engineer
+sql power bi statistics excel,2,0,5,8.0,Data Analyst
+hibernate rest api java spring boot,4,1,5,9.7,Java Developer
+cloud security terraform linux aws azure,5,2,1,8.7,Cloud Engineer
+css express javascript mongodb react nodejs html django,1,2,1,9.5,Full Stack Developer
+jenkins docker kubernetes github actions,1,1,3,7.3,DevOps Engineer
+flask postgresql django fastapi,1,3,4,9.2,Python Developer
+pandas machine learning statistics data analysis numpy tensorflow,3,0,3,7.1,Data Scientist
+jenkins kubernetes docker terraform linux,2,2,3,7.8,DevOps Engineer
+rest api spring boot mysql hibernate,3,0,5,7.8,Java Developer
+langchain transformers prompt engineering vector database rag llm,5,2,5,8.3,AI Engineer
+linux aws cloud security terraform azure,5,1,5,8.4,Cloud Engineer
+linux cloud security azure gcp,4,2,4,7.2,Cloud Engineer
+computer vision nlp tensorflow python,4,3,4,9.8,ML Engineer
+fastapi python django postgresql,1,3,5,7.7,Python Developer
+rag langchain python prompt engineering transformers,3,0,1,9.4,AI Engineer
+flask fastapi django python postgresql,4,2,3,9.7,Python Developer
+sql system design dbms dsa,1,3,1,7.3,Software Engineer
+docker github actions kubernetes jenkins terraform linux,1,1,3,7.1,DevOps Engineer
+postgresql fastapi python django flask,2,2,4,7.5,Python Developer
+llm prompt engineering rag python,4,0,2,7.4,AI Engineer
+gcp aws linux cloud security azure,3,2,4,7.2,Cloud Engineer
+java hibernate rest api spring boot,3,1,0,7.3,Java Developer
+sql oops dsa system design dbms,1,0,4,9.4,Software Engineer
+rag vector database llm langchain jenkins,4,2,0,7.8,AI Engineer
+terraform azure aws linux gcp,1,3,4,7.4,Cloud Engineer
+jenkins terraform docker linux kubernetes,2,1,2,8.8,DevOps Engineer
+rest api spring boot hibernate mysql,4,2,0,8.9,Java Developer
+flask django fastapi python postgresql,5,3,2,9.1,Python Developer
+python prompt engineering vector database llm rag transformers langchain,1,3,3,8.5,AI Engineer
+data analysis statistics python tensorflow,2,1,2,6.7,Data Scientist
+django python postgresql fastapi flask,1,0,4,6.9,Python Developer
+data analysis pandas numpy tensorflow statistics,1,3,2,8.2,Data Scientist
+tableau statistics python excel,1,3,5,6.7,Data Analyst
+nlp python deep learning computer vision pytorch mlops,4,0,3,7.6,ML Engineer
+mysql java rest api spring boot hibernate,3,2,0,9.5,Java Developer
+dbms system design sql java oops,4,0,1,7.4,Software Engineer
+langchain transformers llm rag vector database prompt engineering python,1,3,2,9.4,AI Engineer
+javascript nodejs express react mongodb css html,3,2,1,7.9,Full Stack Developer
+gcp azure cloud security terraform,1,1,5,8.1,Cloud Engineer
+pytorch mlops deep learning computer vision,2,2,4,7.3,ML Engineer
+data visualization excel statistics tableau python,3,1,2,9.4,Data Analyst
+langchain llm transformers python rag,3,2,0,7.1,AI Engineer
+python computer vision nlp tensorflow,4,3,2,9.5,ML Engineer
+machine learning statistics numpy pandas data analysis python tensorflow,2,1,0,8.2,Data Scientist
+nodejs mongodb react javascript html,3,0,5,8.5,Full Stack Developer
+python django fastapi flask,5,0,0,8.3,Python Developer
+rest api mysql java hibernate,4,1,1,7.9,Java Developer
+sql tableau python data visualization power bi,1,3,4,7.0,Data Analyst
+docker terraform linux github actions,5,1,0,9.2,DevOps Engineer
+statistics tableau sql power bi excel python,5,3,1,6.8,Data Analyst
+numpy python data analysis tensorflow statistics pandas,2,0,4,9.1,Data Scientist
+data visualization sql power bi tableau statistics excel python,2,0,4,7.2,Data Analyst
+python vector database transformers rag llm,1,1,1,6.5,AI Engineer
+terraform gcp aws linux cloud security azure pandas,1,3,4,9.5,Cloud Engineer
+spring boot rest api mysql java,5,0,4,8.8,Java Developer
+numpy machine learning pandas statistics data analysis tensorflow,2,3,4,8.9,Data Scientist
+nlp mlops python computer vision,3,3,1,7.9,ML Engineer
+django python flask postgresql fastapi,1,1,1,7.7,Python Developer
+sql java dsa oops system design css,1,0,4,9.7,Software Engineer
+tableau excel data visualization sql power bi python statistics oops,4,1,2,7.9,Data Analyst
+nlp mlops deep learning python tensorflow pytorch computer vision,1,3,4,8.3,ML Engineer
+mysql hibernate java spring boot rest api,5,0,1,7.9,Java Developer
+linux azure cloud security aws,3,0,5,6.5,Cloud Engineer
+cloud security terraform linux aws azure,3,0,3,7.3,Cloud Engineer
+computer vision python deep learning mlops html,1,1,1,8.9,ML Engineer
+python data visualization statistics power bi sql react,1,0,2,8.5,Data Analyst
+github actions linux jenkins docker kubernetes,1,0,4,8.7,DevOps Engineer
+numpy tensorflow python data analysis statistics machine learning pandas,2,0,2,9.4,Data Scientist
+terraform gcp linux cloud security azure pandas,1,2,2,8.7,Cloud Engineer
+machine learning tensorflow python statistics numpy,4,0,1,6.7,Data Scientist
+github actions terraform kubernetes linux,3,1,1,6.8,DevOps Engineer
+react javascript html nodejs mongodb,1,3,1,6.9,Full Stack Developer
+terraform github actions linux kubernetes data visualization,1,0,2,7.3,DevOps Engineer
+statistics numpy pandas machine learning,3,1,0,6.7,Data Scientist
+hibernate mysql rest api spring boot java,3,3,1,9.2,Java Developer
+system design sql oops java dsa dbms fastapi,2,1,5,7.8,Software Engineer
+fastapi postgresql django python,1,1,5,8.0,Python Developer
+tensorflow deep learning computer vision nlp python pytorch mlops,4,0,5,7.7,ML Engineer
+prompt engineering langchain python vector database,5,1,5,8.7,AI Engineer
+nodejs mongodb css javascript react,4,3,5,9.3,Full Stack Developer
+tensorflow pytorch python nlp mlops deep learning,2,0,4,9.1,ML Engineer
+system design java sql dbms dsa,4,2,5,9.3,Software Engineer
+postgresql flask python django fastapi,5,1,3,8.9,Python Developer
+data visualization tableau python sql statistics,2,3,5,7.6,Data Analyst
+java sql system design dbms dsa oops,5,2,5,6.7,Software Engineer
+cloud security azure gcp aws,5,0,4,7.1,Cloud Engineer
+java sql oops dbms,4,0,3,9.7,Software Engineer
+python django postgresql fastapi flask,5,2,5,7.5,Python Developer
+hibernate mysql spring boot rest api java,5,2,4,9.7,Java Developer
+pandas data analysis machine learning statistics numpy tensorflow python,1,2,5,7.5,Data Scientist
+spring boot hibernate rest api java pytorch,3,2,1,9.0,Java Developer
+python computer vision deep learning tensorflow mlops pytorch,2,3,1,8.2,ML Engineer
+react html express css mongodb javascript nodejs,4,1,3,7.3,Full Stack Developer
+hibernate mysql rest api spring boot,2,2,5,8.0,Java Developer
+pytorch deep learning mlops tensorflow nlp computer vision python,3,0,1,9.4,ML Engineer
+vector database prompt engineering transformers langchain rag,2,2,3,8.3,AI Engineer
+aws azure terraform linux cloud security,5,1,4,8.0,Cloud Engineer
+django python postgresql fastapi,1,3,2,9.5,Python Developer
+power bi statistics tableau excel sql data visualization,5,0,3,9.0,Data Analyst
+gcp aws terraform cloud security linux azure,3,1,2,9.1,Cloud Engineer
+statistics python data visualization power bi nodejs,1,0,2,7.6,Data Analyst
+express nodejs react html css javascript mongodb,5,3,2,7.0,Full Stack Developer
+mysql hibernate rest api spring boot,1,1,1,7.5,Java Developer
+react html express css mongodb nodejs,1,0,3,9.5,Full Stack Developer
+statistics data analysis python tensorflow numpy pandas,4,2,0,7.8,Data Scientist
+python tableau statistics sql power bi data visualization excel java,1,2,5,7.9,Data Analyst
+python pandas machine learning tensorflow statistics numpy data analysis,4,0,4,7.3,Data Scientist
+rest api mysql java hibernate,4,0,4,7.3,Java Developer
+fastapi flask django postgresql,4,2,2,8.4,Python Developer
+aws cloud security linux azure gcp terraform,1,2,3,7.1,Cloud Engineer
+python deep learning computer vision tensorflow,4,2,3,8.1,ML Engineer
+kubernetes jenkins terraform docker,3,0,5,7.4,DevOps Engineer
+cloud security gcp terraform linux,4,3,3,7.0,Cloud Engineer
+gcp cloud security azure terraform,4,1,0,8.9,Cloud Engineer
+vector database python prompt engineering transformers rag,4,2,3,9.2,AI Engineer
+pytorch mlops python computer vision nlp,3,0,1,9.4,ML Engineer
+mongodb javascript react html nodejs,5,0,4,8.1,Full Stack Developer
+pandas statistics python numpy tensorflow machine learning data analysis,1,3,1,7.9,Data Scientist
+aws gcp linux cloud security terraform,1,0,4,8.2,Cloud Engineer
+express javascript css html,4,0,0,8.8,Full Stack Developer
+rag transformers llm python langchain prompt engineering vector database,2,2,5,8.2,AI Engineer
+python flask postgresql fastapi,2,2,0,6.8,Python Developer
+fastapi python postgresql flask django,5,0,0,9.4,Python Developer
+sql excel statistics python data visualization tableau,4,2,1,8.8,Data Analyst
+numpy python data analysis tensorflow machine learning pandas,2,2,4,9.5,Data Scientist
+terraform jenkins kubernetes docker,1,1,5,9.7,DevOps Engineer
+tableau power bi data visualization sql excel python,2,3,3,9.3,Data Analyst
+power bi sql data visualization excel python statistics tableau,5,3,5,9.0,Data Analyst
+django fastapi python postgresql,1,3,3,8.6,Python Developer
+nodejs express html mongodb javascript css react,2,2,1,6.6,Full Stack Developer
+css express mongodb react javascript nodejs,2,0,5,6.5,Full Stack Developer
+docker linux terraform jenkins kubernetes github actions,1,3,2,8.3,DevOps Engineer
+deep learning computer vision tensorflow nlp pytorch,5,0,0,8.0,ML Engineer
+python pandas machine learning numpy,3,0,1,9.1,Data Scientist
+power bi sql tableau data visualization python excel statistics,3,2,1,6.8,Data Analyst
+kubernetes terraform github actions jenkins linux docker,5,1,3,9.5,DevOps Engineer
+cloud security terraform azure aws,3,2,5,8.8,Cloud Engineer
+deep learning python mlops pytorch tensorflow,1,1,2,8.5,ML Engineer
+pytorch tensorflow computer vision python deep learning nlp,1,0,5,7.0,ML Engineer
+python data visualization power bi statistics jenkins,2,0,3,7.3,Data Analyst
+terraform cloud security aws linux gcp,4,1,0,9.4,Cloud Engineer
+mongodb javascript nodejs react express,2,0,1,6.8,Full Stack Developer
+python prompt engineering langchain vector database transformers rag,1,3,3,7.4,AI Engineer
+terraform linux azure aws cloud security,4,3,2,7.0,Cloud Engineer
+mysql rest api java spring boot hibernate,4,0,0,9.5,Java Developer
+flask fastapi python postgresql,5,3,2,6.6,Python Developer
+java oops dsa dbms system design,4,0,3,9.0,Software Engineer
+statistics sql excel python tableau power bi data visualization,1,1,0,7.6,Data Analyst
+rest api hibernate mysql spring boot,3,1,3,7.9,Java Developer
+linux github actions terraform kubernetes jenkins azure,3,2,1,6.8,DevOps Engineer
+postgresql django fastapi flask,1,2,5,7.6,Python Developer
+dsa system design dbms oops java,5,2,1,9.2,Software Engineer
+java hibernate rest api mysql spring boot,1,1,1,9.4,Java Developer
+nlp computer vision tensorflow pytorch mlops,5,2,4,9.2,ML Engineer
+nodejs express html css javascript mongodb,3,1,4,7.4,Full Stack Developer
+css nodejs mongodb react,2,0,2,7.7,Full Stack Developer
+cloud security gcp terraform aws data analysis,3,0,0,7.8,Cloud Engineer
+css react nodejs javascript mongodb express,4,1,4,8.1,Full Stack Developer
+sql python statistics excel tableau power bi,5,1,2,7.4,Data Analyst
+kubernetes jenkins docker terraform,4,3,2,8.2,DevOps Engineer
+excel sql statistics python data visualization tableau power bi,3,3,1,7.1,Data Analyst
+pandas machine learning data analysis statistics tensorflow numpy python react,5,0,4,8.2,Data Scientist
+dbms system design oops sql dsa java,4,3,3,7.9,Software Engineer
+python tensorflow computer vision deep learning,1,2,1,8.2,ML Engineer
+gcp linux cloud security azure,2,3,2,7.3,Cloud Engineer
+rag transformers langchain llm python vector database prompt engineering,2,0,4,7.6,AI Engineer
+linux terraform docker jenkins github actions,2,1,2,6.8,DevOps Engineer
+langchain prompt engineering python vector database rag transformers,3,2,5,8.0,AI Engineer
+pytorch python nlp computer vision,1,3,1,7.1,ML Engineer
+tensorflow pytorch nlp deep learning computer vision mlops python,3,2,4,8.3,ML Engineer
+mongodb express html css,3,2,1,9.7,Full Stack Developer
+deep learning pytorch mlops tensorflow nlp,2,2,0,9.3,ML Engineer
+data analysis machine learning pandas statistics tensorflow numpy,5,3,3,8.5,Data Scientist
+github actions linux jenkins docker kubernetes,3,0,1,8.9,DevOps Engineer
+machine learning python numpy statistics pandas,1,0,1,7.4,Data Scientist
+tableau excel python power bi statistics,1,3,3,8.5,Data Analyst
+hibernate java rest api mysql,3,2,3,9.7,Java Developer
+kubernetes docker linux terraform jenkins github actions,5,3,3,9.0,DevOps Engineer
+html nodejs react express,3,1,3,6.7,Full Stack Developer
+numpy machine learning pandas data analysis statistics,5,2,0,8.1,Data Scientist
+terraform aws gcp azure cloud security,4,2,5,9.1,Cloud Engineer
+dsa sql java oops dbms tableau,4,0,4,8.3,Software Engineer
+tensorflow computer vision nlp deep learning python pytorch mlops,3,0,4,7.3,ML Engineer
+terraform docker jenkins kubernetes linux github actions oops,2,0,5,6.6,DevOps Engineer
+numpy tensorflow python machine learning statistics pandas,1,3,2,8.6,Data Scientist
+aws linux terraform azure cloud security gcp docker,1,0,5,8.4,Cloud Engineer
+javascript mongodb nodejs html computer vision,3,1,1,9.3,Full Stack Developer
+dbms dsa sql java oops,1,2,2,9.7,Software Engineer
+power bi excel tableau sql data visualization,3,0,5,8.1,Data Analyst
+deep learning python pytorch tensorflow,5,1,3,8.9,ML Engineer
+nodejs react html mongodb,1,3,2,8.5,Full Stack Developer
+github actions jenkins linux docker terraform kubernetes,1,0,2,8.4,DevOps Engineer
+tableau excel python sql statistics data visualization power bi,1,3,5,6.6,Data Analyst
+deep learning nlp mlops python tensorflow pytorch,4,2,2,6.6,ML Engineer
+terraform jenkins kubernetes github actions linux docker vector database,2,2,1,6.9,DevOps Engineer
+terraform linux jenkins docker kubernetes,4,0,3,9.1,DevOps Engineer
+fastapi python postgresql flask django,2,1,4,9.7,Python Developer
+hibernate mysql rest api spring boot java,3,0,0,7.1,Java Developer
+python deep learning pytorch tensorflow mlops nlp,4,2,2,8.9,ML Engineer
+data analysis tensorflow pandas numpy python machine learning statistics,1,0,1,8.9,Data Scientist
+langchain transformers rag python,2,2,5,8.3,AI Engineer
+sql excel tableau power bi statistics python data visualization,3,3,3,8.8,Data Analyst
+rag transformers llm python prompt engineering vector database langchain,3,2,2,9.5,AI Engineer
+computer vision mlops tensorflow pytorch nlp,4,3,3,8.6,ML Engineer
+linux github actions jenkins terraform kubernetes docker,3,1,4,8.0,DevOps Engineer
+pandas machine learning numpy python data analysis statistics,5,1,4,7.9,Data Scientist
+rest api java spring boot hibernate mysql,5,3,2,7.1,Java Developer
+data analysis tensorflow statistics numpy machine learning python pandas,1,1,5,7.1,Data Scientist
+html react nodejs javascript mongodb,4,3,0,7.2,Full Stack Developer
+terraform azure cloud security aws gcp deep learning,5,2,0,8.8,Cloud Engineer
+python tableau sql data visualization,4,1,0,9.4,Data Analyst
+kubernetes docker jenkins github actions,3,2,1,7.4,DevOps Engineer
+css html nodejs mongodb express react javascript,3,3,1,8.0,Full Stack Developer
+nodejs mongodb html express,3,2,0,9.7,Full Stack Developer
+pytorch computer vision python tensorflow mlops nlp deep learning,2,3,2,9.6,ML Engineer
+terraform jenkins github actions kubernetes,2,3,3,7.2,DevOps Engineer
+azure cloud security gcp terraform aws,5,0,4,8.3,Cloud Engineer
+css html react mongodb oops,4,1,3,8.4,Full Stack Developer
+css react html javascript express,1,2,5,9.2,Full Stack Developer
+java oops dsa system design,3,3,5,9.1,Software Engineer
+deep learning pytorch mlops python,3,0,0,7.1,ML Engineer
+github actions jenkins linux kubernetes terraform docker,2,0,0,9.2,DevOps Engineer
+mongodb react javascript html nodejs express,3,0,2,9.5,Full Stack Developer
+rag langchain transformers llm,3,3,0,9.4,AI Engineer
+deep learning pytorch computer vision mlops python nlp,4,1,3,7.2,ML Engineer
+express html react nodejs mongodb django,5,3,0,7.0,Full Stack Developer
+transformers rag prompt engineering langchain,5,3,0,8.8,AI Engineer
+nodejs javascript html express react langchain,3,2,2,6.7,Full Stack Developer
+linux docker kubernetes jenkins github actions,3,0,1,9.6,DevOps Engineer
+linux docker kubernetes terraform jenkins,3,2,3,8.6,DevOps Engineer
+computer vision nlp python mlops tensorflow,3,1,3,9.1,ML Engineer
+vector database transformers llm langchain python,5,0,3,9.6,AI Engineer
+nlp deep learning tensorflow mlops computer vision,2,3,4,7.2,ML Engineer
+dbms java dsa sql oops system design fastapi,4,2,2,8.4,Software Engineer
+flask python postgresql fastapi django,1,0,0,6.8,Python Developer
+kubernetes github actions terraform jenkins docker linux,4,3,0,7.5,DevOps Engineer
+numpy python pandas tensorflow statistics data analysis dsa,4,3,0,8.8,Data Scientist
+deep learning computer vision python pytorch mlops tensorflow machine learning,1,0,5,9.3,ML Engineer
+sql java system design dsa dbms oops postgresql,4,1,1,9.3,Software Engineer
+numpy machine learning data analysis tensorflow excel,3,3,2,9.2,Data Scientist
+system design sql java dbms hibernate,2,2,5,7.1,Software Engineer
+llm python rag transformers,5,0,1,8.5,AI Engineer
+deep learning mlops pytorch tensorflow,2,0,2,7.1,ML Engineer
+rest api hibernate mysql spring boot java,5,3,1,9.4,Java Developer
+azure cloud security aws linux,1,3,4,7.4,Cloud Engineer
+pandas machine learning python statistics,3,1,0,9.0,Data Scientist
+java mysql rest api spring boot hibernate,5,0,0,8.7,Java Developer
+python django postgresql flask fastapi,5,1,4,6.8,Python Developer
+mlops pytorch tensorflow nlp computer vision,4,3,4,8.4,ML Engineer
+python transformers vector database prompt engineering langchain,2,1,1,7.3,AI Engineer
+terraform github actions linux kubernetes,1,0,2,8.9,DevOps Engineer
+dbms dsa sql java system design oops,3,0,4,6.7,Software Engineer
+power bi python tableau excel statistics data visualization sql,4,2,3,7.3,Data Analyst
+react mongodb javascript html,1,3,3,7.6,Full Stack Developer
+statistics tensorflow numpy machine learning python pandas data analysis,3,1,4,9.1,Data Scientist
+data visualization sql python power bi statistics tableau,3,1,2,6.9,Data Analyst
+sql data visualization excel tableau statistics,3,3,0,8.4,Data Analyst
+kubernetes terraform docker jenkins linux github actions,1,3,2,7.3,DevOps Engineer
+llm rag transformers prompt engineering langchain,2,3,5,9.7,AI Engineer
+numpy statistics python pandas machine learning tensorflow data analysis,2,0,5,9.6,Data Scientist
+fastapi python postgresql flask,5,2,4,7.2,Python Developer
+pytorch nlp mlops deep learning python,1,3,4,8.1,ML Engineer
+postgresql django fastapi python,2,0,5,9.0,Python Developer
+terraform linux gcp aws,2,1,5,7.1,Cloud Engineer
+flask postgresql python django fastapi,4,0,3,9.8,Python Developer
+java rest api hibernate spring boot mysql,3,0,2,7.9,Java Developer
+hibernate spring boot java rest api,4,1,3,7.9,Java Developer
+postgresql fastapi python django flask,4,1,1,6.9,Python Developer
+nlp pytorch computer vision mlops deep learning,1,2,2,8.4,ML Engineer
+express nodejs react html css javascript,1,1,3,9.1,Full Stack Developer
+django fastapi flask python,5,1,4,9.6,Python Developer
+nlp deep learning pytorch computer vision tensorflow python mlops,3,3,2,6.7,ML Engineer
+gcp linux aws terraform cloud security,2,1,5,6.7,Cloud Engineer
+linux cloud security aws terraform azure gcp,1,2,3,7.4,Cloud Engineer
+hibernate mysql rest api spring boot,5,1,2,7.8,Java Developer
+system design sql oops dbms,3,3,2,8.9,Software Engineer
+machine learning data analysis numpy tensorflow pandas statistics python,2,2,0,6.5,Data Scientist
+mongodb nodejs express html react javascript css,2,1,5,9.4,Full Stack Developer
+mlops python pytorch computer vision tensorflow,3,1,0,8.2,ML Engineer
+python sql excel statistics tableau data visualization,1,0,3,7.3,Data Analyst
+express html javascript nodejs,4,2,4,7.5,Full Stack Developer
+llm python rag langchain gcp,5,3,5,8.4,AI Engineer
+react html javascript nodejs,4,3,3,8.9,Full Stack Developer
+computer vision nlp deep learning pytorch mlops,3,3,1,7.5,ML Engineer
+dsa sql dbms java system design oops,3,0,4,9.0,Software Engineer
+mongodb nodejs express css,5,3,3,7.3,Full Stack Developer
+vector database transformers llm prompt engineering rag python langchain cloud security,4,2,4,9.7,AI Engineer
+postgresql fastapi flask django,3,0,3,9.2,Python Developer
+excel sql statistics power bi,3,3,0,9.7,Data Analyst
+flask postgresql python django machine learning,2,2,2,6.6,Python Developer
+sql tableau statistics python excel power bi data visualization,1,3,5,8.8,Data Analyst
+python fastapi django flask,4,1,2,7.9,Python Developer
+azure gcp cloud security terraform aws,5,1,0,8.6,Cloud Engineer
+github actions jenkins terraform kubernetes docker linux,1,1,4,8.1,DevOps Engineer
+tensorflow statistics data analysis machine learning numpy python,2,1,4,9.5,Data Scientist
+linux terraform jenkins docker github actions kubernetes,1,1,0,8.8,DevOps Engineer
+react nodejs html css mongodb,4,0,2,8.2,Full Stack Developer
+nlp tensorflow python deep learning,4,1,2,8.5,ML Engineer
+numpy statistics data analysis python pandas tensorflow machine learning,3,0,3,8.5,Data Scientist
+data analysis tensorflow pandas numpy,2,1,1,7.8,Data Scientist
+llm rag python transformers vector database css,5,0,2,7.4,AI Engineer
+rest api hibernate mysql java,5,3,1,8.1,Java Developer
+mlops pytorch python tensorflow,1,3,4,8.7,ML Engineer
+tensorflow data analysis statistics machine learning pandas python numpy,3,0,5,6.7,Data Scientist
+python statistics tableau excel data visualization power bi,1,1,2,9.4,Data Analyst
+dsa system design dbms oops java,3,2,4,9.2,Software Engineer
+machine learning numpy tensorflow pandas python data analysis,5,2,5,8.8,Data Scientist
+sql dbms dsa system design oops java,5,0,3,7.7,Software Engineer
+python deep learning pytorch mlops nlp,3,1,3,9.3,ML Engineer
+tensorflow python mlops deep learning,2,1,3,7.7,ML Engineer
+java oops sql dsa dbms system design,3,3,3,9.4,Software Engineer
+python postgresql flask fastapi,2,1,1,8.5,Python Developer
+jenkins terraform docker linux,5,1,5,8.2,DevOps Engineer
+nlp deep learning tensorflow computer vision mlops pytorch python,4,1,4,9.3,ML Engineer
+llm rag langchain python prompt engineering vector database transformers,5,1,0,9.7,AI Engineer
+python pytorch nlp computer vision deep learning mlops,5,0,1,7.4,ML Engineer
+pandas data analysis python numpy statistics tensorflow machine learning,5,0,4,8.3,Data Scientist
+css express mongodb javascript,5,2,1,9.0,Full Stack Developer
+terraform linux aws cloud security azure gcp,3,1,4,7.2,Cloud Engineer
+react express css html,2,0,2,9.6,Full Stack Developer
+machine learning python numpy data analysis tensorflow pandas statistics,1,3,4,9.4,Data Scientist
+python mlops nlp tensorflow pytorch computer vision,3,0,5,9.6,ML Engineer
+fastapi postgresql flask python django,5,1,5,9.6,Python Developer
+python django fastapi postgresql flask,3,2,5,9.5,Python Developer
+vector database langchain prompt engineering transformers rag python llm,5,3,2,8.6,AI Engineer
+python pandas numpy tensorflow data analysis,4,3,3,7.6,Data Scientist
+dbms dsa oops java,4,2,2,9.2,Software Engineer
+tensorflow python pandas machine learning,4,3,2,8.2,Data Scientist
+html mongodb react nodejs javascript css,5,2,4,8.8,Full Stack Developer
+computer vision pytorch mlops tensorflow nlp,5,2,5,9.0,ML Engineer
+terraform linux gcp aws,1,0,2,9.5,Cloud Engineer
+python tensorflow deep learning pytorch,3,3,1,7.6,ML Engineer
+transformers prompt engineering vector database rag langchain,3,0,4,7.4,AI Engineer
+prompt engineering rag python llm vector database transformers java,2,0,0,6.7,AI Engineer
+django python flask fastapi postgresql,5,1,3,8.0,Python Developer
+nlp pytorch deep learning tensorflow llm,5,0,5,7.0,ML Engineer
+jenkins github actions kubernetes linux,4,0,0,9.6,DevOps Engineer
+prompt engineering rag langchain llm,5,0,4,9.1,AI Engineer
+docker github actions linux kubernetes terraform jenkins,2,0,2,6.5,DevOps Engineer
+tensorflow nlp pytorch deep learning,5,3,5,9.7,ML Engineer
+sql dbms java dsa system design oops,5,3,0,7.1,Software Engineer
+django python flask postgresql fastapi,5,3,3,9.5,Python Developer
+terraform docker kubernetes jenkins,5,1,3,6.5,DevOps Engineer
+cloud security aws gcp azure mysql,3,0,5,9.7,Cloud Engineer
+express react javascript mongodb html nodejs css,4,3,2,8.4,Full Stack Developer
+statistics power bi data visualization tableau,4,2,3,7.4,Data Analyst
+linux azure terraform gcp cloud security aws nlp,1,0,4,7.7,Cloud Engineer
+java rest api spring boot hibernate mlops,4,3,3,9.4,Java Developer
+statistics excel power bi sql,4,3,1,6.5,Data Analyst
+python pandas machine learning numpy statistics tensorflow,1,3,1,8.7,Data Scientist
+tensorflow computer vision mlops pytorch deep learning nlp python,5,2,4,7.1,ML Engineer
+css express mongodb react nodejs javascript,1,1,1,7.5,Full Stack Developer
+linux gcp terraform aws azure data analysis,2,0,1,9.6,Cloud Engineer
+kubernetes terraform linux jenkins github actions,1,2,0,9.5,DevOps Engineer
+dsa dbms sql oops system design java,2,3,3,7.5,Software Engineer
+numpy machine learning data analysis python tensorflow,2,3,4,9.3,Data Scientist
+html css mongodb express nodejs,1,3,3,8.1,Full Stack Developer
+rest api java hibernate mysql,1,3,2,8.8,Java Developer
+github actions kubernetes docker linux jenkins,4,3,5,7.6,DevOps Engineer
+python pandas statistics machine learning,5,0,3,7.4,Data Scientist
+kubernetes jenkins linux docker github actions,2,0,5,9.5,DevOps Engineer
+python llm prompt engineering transformers vector database langchain,2,2,5,8.3,AI Engineer
+llm vector database langchain rag transformers python,2,3,1,7.5,AI Engineer
+transformers rag llm langchain vector database prompt engineering,5,3,5,8.4,AI Engineer
+pytorch nlp mlops tensorflow deep learning computer vision python,1,2,4,9.6,ML Engineer
+statistics machine learning numpy tensorflow pandas python data analysis,3,3,4,7.0,Data Scientist
+dsa sql java oops,1,2,0,9.5,Software Engineer
+python flask django fastapi,3,2,5,8.2,Python Developer
+java mysql hibernate spring boot,1,3,1,6.9,Java Developer
+gcp linux cloud security aws terraform,1,1,2,9.6,Cloud Engineer
+statistics python data visualization sql terraform,4,0,2,6.7,Data Analyst
+transformers prompt engineering llm langchain,5,3,3,8.9,AI Engineer
+java dbms sql dsa system design oops,4,3,1,6.9,Software Engineer
+gcp aws azure terraform cloud security linux,2,2,0,8.0,Cloud Engineer
+html react express mongodb nodejs css,4,1,2,6.7,Full Stack Developer
+java dbms dsa oops css,1,1,4,8.0,Software Engineer
+python tensorflow pytorch computer vision,5,3,3,9.8,ML Engineer
+terraform azure aws gcp cloud security linux excel,2,0,0,9.7,Cloud Engineer
+power bi sql tableau python statistics excel,1,1,0,8.7,Data Analyst
+fastapi flask postgresql python,5,2,1,6.5,Python Developer
+java spring boot rest api hibernate mysql,2,0,1,7.6,Java Developer
+mysql java hibernate spring boot rest api,1,3,0,7.3,Java Developer
+django fastapi flask python,3,1,4,7.5,Python Developer
+java oops sql system design dbms,2,0,0,8.4,Software Engineer
+python langchain prompt engineering llm,5,0,2,8.3,AI Engineer
+docker github actions kubernetes terraform jenkins linux,4,3,1,6.9,DevOps Engineer
+terraform azure gcp cloud security linux aws,4,1,3,9.5,Cloud Engineer
+azure terraform cloud security gcp linux,1,1,4,8.2,Cloud Engineer
+tensorflow deep learning pytorch computer vision mlops nlp python,4,2,5,7.1,ML Engineer
+power bi sql statistics excel,3,3,0,8.3,Data Analyst
+python statistics pandas data analysis machine learning,1,2,0,9.0,Data Scientist
+mysql rest api java spring boot hibernate,5,2,1,7.7,Java Developer
+power bi excel tableau sql statistics,3,1,3,9.4,Data Analyst
+django fastapi flask python postgresql,2,0,5,7.8,Python Developer
+github actions jenkins linux docker,1,1,2,8.1,DevOps Engineer
+terraform linux gcp aws,1,1,5,9.6,Cloud Engineer
+statistics excel power bi tableau python data visualization sql,2,3,3,7.2,Data Analyst
+linux github actions terraform docker jenkins kubernetes,3,3,2,8.2,DevOps Engineer
+mlops computer vision deep learning nlp python tensorflow pytorch,3,3,0,7.7,ML Engineer
+azure aws terraform cloud security,5,0,0,7.4,Cloud Engineer
+java oops system design dsa sql dbms,1,0,1,8.5,Software Engineer
+langchain rag python vector database prompt engineering nlp,2,1,2,6.8,AI Engineer
+vector database langchain python transformers rag,1,0,3,8.8,AI Engineer
+java spring boot hibernate rest api mysql,3,1,4,7.4,Java Developer
+terraform aws azure gcp cloud security,2,2,4,8.8,Cloud Engineer
+java dbms sql oops flask,5,0,3,8.0,Software Engineer
+mysql hibernate rest api java,3,3,5,8.3,Java Developer
+data visualization python power bi excel sql statistics tableau,3,3,4,7.0,Data Analyst
+python django postgresql fastapi flask,3,3,3,8.9,Python Developer
+django fastapi flask postgresql,1,3,3,8.9,Python Developer
+flask postgresql python fastapi django,3,1,1,8.7,Python Developer
+javascript css html mongodb express nodejs react,5,3,1,8.6,Full Stack Developer
+tensorflow pytorch mlops python nlp deep learning,5,1,5,6.7,ML Engineer
+hibernate java rest api mysql,1,2,2,9.2,Java Developer
+mlops deep learning computer vision tensorflow nlp,5,0,3,8.5,ML Engineer
+python django flask fastapi postgresql,4,2,4,6.8,Python Developer
+cloud security azure linux terraform aws,3,0,3,9.8,Cloud Engineer
+azure gcp cloud security aws linux terraform,4,2,4,8.4,Cloud Engineer
+react mongodb javascript nodejs express html,5,1,2,8.1,Full Stack Developer
+azure terraform aws linux cloud security,1,1,1,6.5,Cloud Engineer
+javascript mongodb css nodejs react html express,5,1,2,7.2,Full Stack Developer
+machine learning numpy pandas data analysis,3,2,1,7.3,Data Scientist
+oops java dbms system design,2,2,5,9.4,Software Engineer
+tensorflow pytorch computer vision nlp deep learning python,4,1,5,7.3,ML Engineer
+postgresql fastapi django python flask,2,2,1,6.7,Python Developer
+linux kubernetes docker jenkins,1,1,3,9.7,DevOps Engineer
+machine learning python pandas numpy statistics data analysis tensorflow,2,2,1,6.9,Data Scientist
+python data analysis machine learning statistics jenkins,1,2,1,8.6,Data Scientist
+cloud security terraform gcp azure aws,3,3,1,8.1,Cloud Engineer
+prompt engineering transformers python vector database langchain llm rag,2,1,5,8.4,AI Engineer
+aws linux cloud security azure computer vision,3,0,3,6.9,Cloud Engineer
+flask python django fastapi,1,1,2,7.3,Python Developer
+terraform linux kubernetes docker jenkins,5,1,3,7.8,DevOps Engineer
+sql tableau data visualization power bi,3,3,5,9.3,Data Analyst
+nodejs express mongodb react html,1,0,4,6.8,Full Stack Developer
+azure aws cloud security linux gcp terraform,3,0,2,8.2,Cloud Engineer
+dbms java oops system design dsa,4,3,3,8.6,Software Engineer
+oops dbms sql java system design dsa,2,1,3,8.0,Software Engineer
+dsa system design oops java sql dbms,5,1,3,7.5,Software Engineer
+pytorch deep learning tensorflow python nlp,5,3,3,6.5,ML Engineer
+tensorflow computer vision mlops deep learning nlp,1,2,4,8.8,ML Engineer
+postgresql flask django python fastapi,1,1,0,9.5,Python Developer
+django python postgresql fastapi,3,3,5,7.7,Python Developer
+python postgresql flask django fastapi,3,2,2,7.6,Python Developer
+hibernate mysql java rest api spring boot,4,2,4,6.7,Java Developer
+react css nodejs html express javascript mongodb,5,0,0,7.9,Full Stack Developer
+python data analysis machine learning statistics tensorflow numpy,4,0,0,7.7,Data Scientist
+terraform linux kubernetes github actions,2,0,5,7.1,DevOps Engineer
+hibernate mysql rest api spring boot java,5,1,2,7.3,Java Developer
+nlp computer vision tensorflow deep learning pytorch mlops,3,1,2,8.7,ML Engineer
+oops dsa sql dbms java system design,4,2,5,6.8,Software Engineer
+express mongodb javascript react html nodejs,5,1,0,8.8,Full Stack Developer
+github actions linux jenkins terraform kubernetes docker,2,3,2,7.1,DevOps Engineer
+css javascript mongodb html express react nodejs,4,3,3,8.8,Full Stack Developer
+java rest api mysql spring boot,2,3,5,9.7,Java Developer
+python postgresql django fastapi,1,3,4,7.9,Python Developer
+system design sql dsa dbms flask,2,3,3,6.9,Software Engineer
+dbms sql oops dsa java system design,3,2,2,6.9,Software Engineer
+linux jenkins github actions terraform data analysis,2,0,0,6.7,DevOps Engineer
+fastapi postgresql python django,3,0,5,8.1,Python Developer
+python llm transformers langchain rag prompt engineering,3,3,4,9.5,AI Engineer
+transformers python prompt engineering langchain rag llm vector database,4,2,1,7.7,AI Engineer
+azure gcp cloud security linux aws,4,0,0,7.5,Cloud Engineer
+nodejs javascript react css mongodb express html,1,3,3,9.1,Full Stack Developer
+css nodejs react javascript html mongodb,1,2,0,7.1,Full Stack Developer
+java hibernate spring boot rest api,1,2,1,7.8,Java Developer
+tensorflow nlp python mlops,3,1,1,6.5,ML Engineer
+fastapi django python flask,3,0,4,9.2,Python Developer
+machine learning pandas statistics tensorflow numpy aws,4,2,2,7.2,Data Scientist
+aws azure linux terraform gcp,3,2,3,9.3,Cloud Engineer
+machine learning statistics numpy pandas tensorflow,4,1,2,8.7,Data Scientist
+java spring boot hibernate mysql,4,1,1,8.8,Java Developer
+statistics numpy machine learning python,5,2,5,7.8,Data Scientist
+computer vision tensorflow deep learning python pytorch nlp mlops,4,2,0,7.4,ML Engineer
+linux terraform aws cloud security gcp deep learning,5,2,1,7.4,Cloud Engineer
+cloud security aws azure linux css,2,3,2,6.8,Cloud Engineer
+data analysis pandas tensorflow machine learning statistics python numpy,1,0,4,9.4,Data Scientist
+fastapi django flask postgresql python,5,2,0,7.3,Python Developer
+css html express javascript react,2,0,1,8.9,Full Stack Developer
+power bi python excel tableau,3,2,1,9.3,Data Analyst
+transformers python llm vector database rag,2,2,3,9.1,AI Engineer
+terraform aws azure linux,2,2,4,7.7,Cloud Engineer
+aws terraform linux cloud security,3,2,4,7.4,Cloud Engineer
+linux terraform gcp azure aws cloud security,2,1,4,7.6,Cloud Engineer
+machine learning statistics python numpy,2,1,3,9.2,Data Scientist
+computer vision tensorflow python mlops nlp,3,2,3,8.7,ML Engineer
+java hibernate spring boot rest api mysql,5,3,3,7.3,Java Developer
+rest api mysql hibernate java spring boot,2,2,5,6.7,Java Developer
+docker linux terraform github actions system design,5,0,0,7.9,DevOps Engineer
+postgresql fastapi python flask,5,3,0,8.3,Python Developer
+rest api mysql hibernate spring boot java,5,2,1,9.2,Java Developer
+mysql spring boot hibernate java,5,1,4,8.5,Java Developer
+express javascript react css mongodb nodejs pandas,5,3,1,8.4,Full Stack Developer
+sql data visualization tableau python statistics,1,1,0,8.6,Data Analyst
+python django flask fastapi,5,3,3,8.7,Python Developer
+terraform linux aws gcp,4,0,3,7.8,Cloud Engineer
+tensorflow deep learning nlp mlops pytorch,4,2,3,8.2,ML Engineer
+pytorch python tensorflow mlops computer vision nlp deep learning,3,2,3,8.3,ML Engineer
+data visualization statistics excel sql power bi rag,2,0,1,6.8,Data Analyst
+dbms java system design dsa oops sql,1,1,2,7.3,Software Engineer
+spring boot mysql rest api hibernate java,3,3,4,9.7,Java Developer
+machine learning data analysis numpy pandas tensorflow python statistics hibernate,3,1,5,6.8,Data Scientist
+mysql spring boot hibernate java,3,1,5,7.9,Java Developer
+terraform linux kubernetes github actions docker jenkins,1,0,2,6.5,DevOps Engineer
+data visualization statistics power bi python,4,3,0,8.5,Data Analyst
+kubernetes jenkins docker github actions react,5,1,4,9.8,DevOps Engineer
+statistics numpy data analysis pandas tensorflow,4,0,4,8.2,Data Scientist
+excel data visualization python sql,1,2,3,8.5,Data Analyst
+langchain vector database llm transformers,1,3,3,8.6,AI Engineer
+javascript express react nodejs css,2,1,0,8.5,Full Stack Developer
+oops dsa system design dbms java sql,2,3,4,8.8,Software Engineer
+dsa sql dbms oops,3,0,4,6.8,Software Engineer
+tensorflow nlp pytorch deep learning,4,2,1,9.1,ML Engineer
+mlops pytorch nlp tensorflow deep learning python computer vision,5,0,3,8.1,ML Engineer
+css react nodejs mongodb html express javascript,2,3,3,9.3,Full Stack Developer
+pandas statistics data analysis machine learning numpy tensorflow python,2,3,0,8.1,Data Scientist
+dsa oops sql java dbms system design,4,3,2,9.5,Software Engineer
+linux gcp terraform azure cloud security aws,2,3,3,6.7,Cloud Engineer
+fastapi python flask django postgresql,3,3,3,9.3,Python Developer
+mysql hibernate rest api spring boot,2,2,2,9.0,Java Developer
+prompt engineering rag transformers vector database llm python langchain system design,2,3,2,8.6,AI Engineer
+linux github actions docker terraform jenkins,2,3,5,8.1,DevOps Engineer
+terraform kubernetes docker linux github actions jenkins,4,3,4,8.6,DevOps Engineer
+linux docker terraform github actions jenkins kubernetes,4,3,1,8.3,DevOps Engineer
+css express mongodb javascript,2,2,3,6.9,Full Stack Developer
+react nodejs javascript css,3,2,5,9.3,Full Stack Developer
+mongodb html css react,5,3,5,7.6,Full Stack Developer
+linux kubernetes terraform jenkins github actions,5,1,3,7.5,DevOps Engineer
+python tensorflow machine learning statistics pandas mongodb,3,3,4,7.5,Data Scientist
+python nlp tensorflow computer vision mlops,2,2,4,6.7,ML Engineer
+langchain llm rag transformers azure,3,1,2,7.2,AI Engineer
+java hibernate mysql rest api spring boot,1,3,5,7.2,Java Developer
+django fastapi python postgresql,5,3,5,8.6,Python Developer
+terraform jenkins github actions docker,2,1,0,7.7,DevOps Engineer
+excel tableau statistics power bi sql python data visualization,2,1,5,9.1,Data Analyst
+flask django fastapi python postgresql excel,4,3,1,8.3,Python Developer
+rag vector database python transformers prompt engineering langchain llm,1,2,3,8.2,AI Engineer
+sql tableau statistics python data visualization excel,5,2,0,7.0,Data Analyst
+aws azure linux gcp,3,3,5,6.6,Cloud Engineer
+azure gcp aws terraform cloud security linux,1,3,3,7.6,Cloud Engineer
+python tensorflow pytorch nlp,4,1,5,7.8,ML Engineer
+cloud security terraform linux azure gcp aws,5,3,5,8.6,Cloud Engineer
+sql excel statistics power bi tableau python,2,3,5,7.9,Data Analyst
+mongodb css html javascript nodejs express react,5,1,0,6.5,Full Stack Developer
+langchain python llm rag vector database,4,1,1,8.3,AI Engineer
+llm python transformers vector database langchain prompt engineering,3,3,3,8.6,AI Engineer
+numpy statistics python data analysis spring boot,5,0,3,7.3,Data Scientist
+tableau power bi excel sql data visualization python,1,1,4,8.6,Data Analyst
+dsa system design dbms oops sql,1,3,5,9.7,Software Engineer
+fastapi django postgresql flask,4,2,1,8.7,Python Developer
+dbms java dsa oops sql system design,2,3,3,8.9,Software Engineer
+statistics tableau power bi excel sql,5,0,0,9.6,Data Analyst
+vector database prompt engineering transformers rag oops,4,2,5,9.7,AI Engineer
+python tensorflow pytorch computer vision deep learning mlops,5,1,0,7.3,ML Engineer
+express javascript mongodb nodejs,1,1,5,7.7,Full Stack Developer
+power bi tableau data visualization sql excel python statistics,3,2,5,9.7,Data Analyst
+tensorflow pytorch mlops nlp deep learning computer vision python,3,2,4,8.0,ML Engineer
+python fastapi django flask postgresql,2,1,3,9.0,Python Developer
+tensorflow machine learning statistics data analysis python pandas,1,3,5,9.4,Data Scientist
+css nodejs mongodb express javascript react,3,3,1,6.8,Full Stack Developer
+deep learning nlp python pytorch computer vision tensorflow,3,0,4,9.3,ML Engineer
+mongodb javascript express nodejs react,5,2,2,7.8,Full Stack Developer
+postgresql django flask fastapi,2,0,1,7.2,Python Developer
+llm vector database prompt engineering rag,1,2,3,8.3,AI Engineer
+excel data visualization power bi sql python tableau,5,0,0,9.7,Data Analyst
+system design dbms java oops dsa sql,5,1,3,8.6,Software Engineer
+transformers llm vector database prompt engineering langchain,1,0,5,8.6,AI Engineer
+system design sql oops dbms java dsa,2,3,4,7.2,Software Engineer
+numpy tensorflow python data analysis statistics machine learning pandas,5,0,2,9.6,Data Scientist
+java dsa oops sql dbms,1,0,1,9.0,Software Engineer
+tensorflow numpy statistics python data analysis,4,3,3,7.6,Data Scientist
+tensorflow nlp pytorch python computer vision deep learning mlops,1,1,3,9.6,ML Engineer
+spring boot java rest api mysql hibernate,1,2,2,8.4,Java Developer
+langchain transformers prompt engineering vector database,5,1,4,8.6,AI Engineer
+express javascript html react css mongodb nodejs spring boot,4,2,1,9.3,Full Stack Developer
+spring boot mysql rest api java hibernate,3,2,1,7.1,Java Developer
+machine learning statistics pandas data analysis numpy python,2,2,3,7.0,Data Scientist
+python transformers llm rag prompt engineering vector database,1,0,0,9.6,AI Engineer
+excel python data visualization power bi statistics,2,1,5,7.5,Data Analyst
+django postgresql fastapi python machine learning,1,0,3,9.1,Python Developer
+pandas numpy statistics python tensorflow machine learning,5,3,4,7.5,Data Scientist
+tableau python excel statistics power bi data visualization,4,1,1,9.3,Data Analyst
+excel statistics python sql data visualization power bi,1,0,0,8.4,Data Analyst
+nlp mlops computer vision tensorflow deep learning pytorch dsa,3,3,0,6.5,ML Engineer
+python excel tableau data visualization,4,3,3,9.6,Data Analyst
+prompt engineering rag python vector database azure,1,0,5,7.9,AI Engineer
+postgresql python django fastapi,2,0,0,8.7,Python Developer
+python flask postgresql django,2,2,4,8.6,Python Developer
+react nodejs express mongodb javascript css,3,2,5,8.9,Full Stack Developer
+fastapi python flask postgresql,2,1,0,8.2,Python Developer
+terraform github actions linux docker kubernetes,3,3,5,7.4,DevOps Engineer
+deep learning tensorflow mlops pytorch nlp computer vision,5,0,0,9.2,ML Engineer
+linux docker github actions terraform,2,3,3,6.6,DevOps Engineer
+python statistics data visualization power bi sql excel tableau,2,1,3,8.6,Data Analyst
+mysql spring boot rest api hibernate,1,0,0,7.5,Java Developer
+github actions docker terraform jenkins linux kubernetes,1,0,1,7.6,DevOps Engineer
+dbms dsa sql system design oops java,5,1,4,9.3,Software Engineer
+python fastapi flask postgresql,5,0,4,6.7,Python Developer
+github actions linux jenkins docker,4,3,3,7.5,DevOps Engineer
+mlops python nlp tensorflow computer vision pytorch deep learning,1,1,4,7.6,ML Engineer
+data analysis pandas python machine learning,3,3,4,7.5,Data Scientist
+django fastapi flask python postgresql tableau,3,0,0,7.3,Python Developer
+linux cloud security aws gcp azure terraform,5,0,4,7.0,Cloud Engineer
+java spring boot rest api mysql,4,2,0,8.6,Java Developer
+aws gcp linux cloud security terraform,2,0,1,8.5,Cloud Engineer
+mongodb javascript css html express nodejs,2,3,0,7.2,Full Stack Developer
+python rag langchain vector database,1,3,3,8.1,AI Engineer
+python flask fastapi django,5,0,2,9.0,Python Developer
+numpy tensorflow statistics python machine learning data analysis pandas jenkins,3,2,5,7.4,Data Scientist
+postgresql django python flask,3,2,2,8.6,Python Developer
+spring boot mysql java rest api,3,2,2,7.7,Java Developer
+express nodejs css mongodb,5,3,5,6.7,Full Stack Developer
+statistics pandas data analysis python numpy machine learning,1,1,2,7.7,Data Scientist
+computer vision deep learning nlp python pytorch tensorflow,2,3,4,9.1,ML Engineer
+aws cloud security linux gcp azure,5,2,3,8.4,Cloud Engineer
+postgresql flask python django,5,3,2,8.7,Python Developer
+tensorflow python numpy statistics data analysis,4,0,2,8.6,Data Scientist
+nlp pytorch python computer vision deep learning tensorflow mlops,2,1,5,8.7,ML Engineer
+llm python prompt engineering rag transformers,5,3,0,8.5,AI Engineer
+machine learning numpy statistics pandas python tensorflow data analysis,3,2,3,6.7,Data Scientist
+python nlp mlops pytorch,4,2,0,7.7,ML Engineer
+sql system design oops java dbms,4,2,1,8.1,Software Engineer
+power bi tableau python excel postgresql,2,3,1,8.0,Data Analyst
+postgresql fastapi python django,5,1,3,8.7,Python Developer
+python prompt engineering rag llm vector database transformers langchain,4,1,1,7.5,AI Engineer
+dbms sql system design java oops,2,0,1,7.4,Software Engineer
+mysql rest api hibernate java spring boot nlp,3,1,2,9.2,Java Developer
+java oops dbms sql system design,3,2,2,8.5,Software Engineer
+mongodb nodejs express react html css javascript,3,2,3,7.2,Full Stack Developer
+linux aws cloud security azure,2,0,3,7.0,Cloud Engineer
+oops dsa java sql dbms system design,5,2,1,8.0,Software Engineer
+rest api java hibernate spring boot mysql,1,2,4,9.1,Java Developer
+pandas tensorflow numpy statistics machine learning,5,1,3,8.6,Data Scientist
+dsa sql oops java,2,2,2,6.5,Software Engineer
+tensorflow deep learning pytorch nlp mlops,5,2,1,7.2,ML Engineer
+postgresql fastapi django flask python,2,0,4,8.5,Python Developer
+spring boot java mysql hibernate rest api,4,0,2,8.7,Java Developer
+statistics pandas machine learning tensorflow,3,0,2,8.2,Data Scientist
+transformers langchain vector database llm,3,1,1,7.8,AI Engineer
+hibernate mysql spring boot rest api java,4,2,1,7.5,Java Developer
+power bi statistics data visualization excel sql,3,1,4,9.7,Data Analyst
+sql power bi data visualization excel tableau,5,0,3,8.8,Data Analyst
+cloud security terraform azure linux,1,2,0,7.4,Cloud Engineer
+dsa oops java dbms system design,2,0,1,9.4,Software Engineer
+data analysis pandas machine learning python tensorflow numpy statistics,3,2,0,6.8,Data Scientist
+github actions docker kubernetes terraform linux,4,0,1,8.8,DevOps Engineer
+python llm prompt engineering rag langchain,2,1,2,9.2,AI Engineer
+java oops sql dbms system design dsa,2,0,4,7.5,Software Engineer
+kubernetes linux docker terraform github actions jenkins,1,3,3,7.8,DevOps Engineer
+python data analysis tensorflow statistics numpy,3,0,2,8.1,Data Scientist
+html javascript nodejs mongodb css express react,2,3,3,9.4,Full Stack Developer
+excel tableau power bi statistics python sql data visualization,5,0,2,8.9,Data Analyst
+gcp azure aws linux terraform,3,0,1,7.1,Cloud Engineer
+postgresql python django flask fastapi react,4,1,5,9.8,Python Developer
+terraform github actions docker jenkins,3,3,5,6.8,DevOps Engineer
+css nodejs express javascript,2,0,5,6.8,Full Stack Developer
+mysql rest api hibernate java,3,0,5,8.7,Java Developer
+fastapi postgresql python django,5,0,4,8.1,Python Developer
+terraform cloud security aws azure linux gcp,2,0,2,6.5,Cloud Engineer
+python prompt engineering langchain vector database llm rag transformers pandas,1,2,3,7.2,AI Engineer
+github actions jenkins terraform linux,5,2,2,6.9,DevOps Engineer
+dbms system design oops dsa java,1,2,4,7.2,Software Engineer
+oops sql java dbms system design,1,3,1,7.5,Software Engineer
+tableau excel statistics python sql,3,3,4,8.5,Data Analyst
+docker linux github actions terraform kubernetes,1,3,3,7.7,DevOps Engineer
+nodejs javascript css react,1,3,4,8.5,Full Stack Developer
+machine learning statistics pandas data analysis numpy python tensorflow,4,2,5,6.6,Data Scientist
+dsa java sql oops dbms system design,4,2,2,9.0,Software Engineer
+postgresql python flask fastapi django,4,3,0,8.9,Python Developer
+data analysis statistics machine learning python numpy tensorflow pandas,1,1,3,7.3,Data Scientist
+rag transformers llm prompt engineering,2,1,2,9.1,AI Engineer
+transformers python llm langchain,4,3,2,8.8,AI Engineer
+system design dbms oops java dsa,2,2,4,9.5,Software Engineer
+java oops dbms dsa system design sql,5,2,5,8.2,Software Engineer
+statistics power bi data visualization python excel sql,2,3,0,7.7,Data Analyst
+hibernate rest api mysql java spring boot,3,1,1,8.9,Java Developer
+data analysis python tensorflow machine learning numpy pandas,4,3,1,9.1,Data Scientist
+hibernate mysql rest api java transformers,5,3,2,7.0,Java Developer
+java oops system design dsa,5,0,0,8.4,Software Engineer
+java system design oops sql dsa dbms tensorflow,5,0,1,8.0,Software Engineer
+gcp linux cloud security aws,4,1,2,8.8,Cloud Engineer
+java dsa oops sql system design,4,1,0,9.0,Software Engineer
+sql dsa oops java system design dbms,2,1,4,7.5,Software Engineer
+transformers vector database rag llm prompt engineering python langchain,4,3,3,8.7,AI Engineer
+numpy pandas statistics python tensorflow machine learning data analysis,4,1,1,7.9,Data Scientist
+linux docker jenkins kubernetes,3,2,3,9.8,DevOps Engineer
+django postgresql flask python fastapi,1,2,3,6.7,Python Developer
+excel tableau sql data visualization power bi,3,3,0,8.4,Data Analyst
+spring boot rest api mysql java hibernate,5,2,5,7.3,Java Developer
+dbms system design sql oops java dsa,5,1,1,7.4,Software Engineer
+system design dsa sql oops dbms java,3,0,0,8.4,Software Engineer
+langchain llm vector database python,1,1,5,7.2,AI Engineer
+python mlops tensorflow nlp pytorch,5,1,3,9.0,ML Engineer
+javascript react css express nodejs html,1,2,1,7.2,Full Stack Developer
+jenkins github actions kubernetes linux,5,1,4,7.4,DevOps Engineer
+python pytorch mlops deep learning nlp,2,0,1,7.6,ML Engineer
+tableau data visualization power bi sql excel statistics,2,2,2,7.6,Data Analyst
+github actions kubernetes terraform linux jenkins,2,3,1,7.9,DevOps Engineer
+sql dsa system design oops java dbms,4,1,0,8.3,Software Engineer
+computer vision mlops nlp python,4,2,2,7.6,ML Engineer
+statistics excel sql python power bi data visualization tableau,1,2,1,8.0,Data Analyst
+spring boot mysql java hibernate,2,3,2,6.6,Java Developer
+mongodb css html javascript react,5,3,3,7.2,Full Stack Developer
+python sql tableau excel statistics,1,2,0,7.0,Data Analyst
+deep learning python tensorflow pytorch,3,1,0,9.5,ML Engineer
+azure cloud security linux terraform docker,2,3,0,9.7,Cloud Engineer
+tensorflow python computer vision mlops deep learning nlp pytorch,4,3,5,8.4,ML Engineer
+terraform aws azure linux,1,2,2,6.7,Cloud Engineer
+transformers vector database langchain rag python prompt engineering,3,0,4,8.9,AI Engineer
+express react mongodb nodejs javascript,1,2,0,8.5,Full Stack Developer
+cloud security gcp linux terraform aws azure,3,2,3,8.6,Cloud Engineer
+flask fastapi django python postgresql,3,0,3,9.5,Python Developer
+tensorflow deep learning computer vision python nlp pytorch docker,2,3,5,7.0,ML Engineer
+python mlops nlp tensorflow pytorch computer vision deep learning,1,3,5,6.9,ML Engineer
+sql excel data visualization tableau,3,0,2,9.4,Data Analyst
+data analysis statistics tensorflow python,1,3,1,7.3,Data Scientist
+tensorflow nlp pytorch computer vision python,1,2,4,8.1,ML Engineer
+nodejs express html javascript css react,3,3,1,8.8,Full Stack Developer
+jenkins docker github actions linux terraform,2,3,3,9.1,DevOps Engineer
+django postgresql fastapi flask python,1,0,2,9.2,Python Developer
+terraform docker kubernetes linux,1,0,4,6.8,DevOps Engineer
+rest api spring boot java hibernate mysql,3,0,4,6.5,Java Developer
+dsa java sql system design dbms oops,3,0,5,7.4,Software Engineer
+terraform gcp linux aws cloud security azure,3,0,3,9.7,Cloud Engineer
+dsa system design oops sql,3,0,4,7.9,Software Engineer
+postgresql fastapi flask django python,4,0,0,9.6,Python Developer
+rag langchain prompt engineering llm tensorflow,4,2,3,6.8,AI Engineer
+data visualization sql tableau excel statistics,5,1,2,7.3,Data Analyst
+mongodb css html express javascript nodejs,3,3,1,9.2,Full Stack Developer
+mongodb express css javascript html react nodejs,4,2,2,8.1,Full Stack Developer
+system design dsa java sql oops pandas,2,0,5,7.9,Software Engineer
+mlops tensorflow computer vision pytorch deep learning nlp python react,5,1,4,8.7,ML Engineer
+python vector database prompt engineering transformers,5,2,4,6.8,AI Engineer
+react html mongodb express javascript fastapi,2,0,4,7.2,Full Stack Developer
+python prompt engineering rag vector database,1,3,0,7.7,AI Engineer
+react mongodb css express html nodejs javascript azure,3,1,2,6.8,Full Stack Developer
+langchain vector database rag python llm prompt engineering transformers,3,2,4,6.6,AI Engineer
+data analysis pandas tensorflow numpy,4,0,1,9.6,Data Scientist
+dbms dsa sql java system design oops,2,2,3,8.6,Software Engineer
+fastapi postgresql python flask django,2,3,4,7.2,Python Developer
+azure aws cloud security gcp linux,1,2,2,8.3,Cloud Engineer
+python excel power bi tableau statistics data visualization,4,1,0,8.4,Data Analyst
+statistics power bi data visualization python sql excel tableau,3,3,4,8.4,Data Analyst
+azure terraform linux cloud security aws gcp,1,2,0,8.1,Cloud Engineer
+aws azure cloud security terraform gcp,4,2,1,9.2,Cloud Engineer
+tableau python power bi statistics sql excel data visualization,4,3,5,8.2,Data Analyst
+java rest api spring boot mysql,1,1,2,9.5,Java Developer
+rest api java hibernate mysql spring boot,1,2,5,8.5,Java Developer
+hibernate spring boot java mysql rest api,4,3,2,8.7,Java Developer
+aws terraform gcp cloud security azure,1,0,5,8.4,Cloud Engineer
+django python postgresql fastapi flask,4,1,1,6.8,Python Developer
+react express css mongodb vector database,4,0,2,9.2,Full Stack Developer
+data visualization power bi excel statistics sql tableau,1,3,1,8.0,Data Analyst
+transformers python rag vector database,2,1,0,9.0,AI Engineer
+python numpy data analysis machine learning,3,0,2,8.8,Data Scientist
+django fastapi postgresql flask,5,0,2,6.6,Python Developer
+nodejs javascript html css,2,3,4,7.8,Full Stack Developer
+terraform cloud security azure gcp linux aws,2,3,1,9.6,Cloud Engineer
+docker jenkins linux github actions,1,0,2,9.7,DevOps Engineer
+python postgresql django fastapi flask,3,2,5,8.3,Python Developer
+prompt engineering transformers llm rag python,5,1,3,7.3,AI Engineer
+system design java sql dbms oops,3,1,5,8.4,Software Engineer
+python tensorflow numpy pandas data analysis statistics machine learning,4,0,0,8.6,Data Scientist
+gcp azure cloud security terraform vector database,4,2,5,9.4,Cloud Engineer
+deep learning python tensorflow nlp pytorch,1,3,0,7.0,ML Engineer
+dsa java system design oops,5,3,1,8.6,Software Engineer
+system design sql dsa dbms oops java,4,1,1,8.6,Software Engineer
+aws terraform cloud security linux gcp azure,3,0,4,7.3,Cloud Engineer
+css express mongodb nodejs html javascript react,3,0,4,6.9,Full Stack Developer
+react nodejs express javascript css html mongodb,5,2,3,7.7,Full Stack Developer
+python fastapi flask django,1,2,3,7.1,Python Developer
+cloud security aws azure terraform linux,5,3,5,9.1,Cloud Engineer
+tableau excel sql data visualization statistics power bi,4,2,4,8.3,Data Analyst
+deep learning pytorch python nlp computer vision docker,4,0,1,9.3,ML Engineer
+statistics machine learning numpy python data analysis tensorflow pandas,5,0,0,7.2,Data Scientist
+django fastapi postgresql flask python rag,1,1,0,8.1,Python Developer
+tensorflow pandas data analysis statistics numpy,1,0,5,9.6,Data Scientist
+hibernate rest api mysql java,3,3,3,6.7,Java Developer
+docker jenkins linux terraform,4,2,0,9.7,DevOps Engineer
+express nodejs javascript css react html mongodb pytorch,3,2,2,7.4,Full Stack Developer
+system design dsa dbms oops statistics,4,1,0,9.7,Software Engineer
+hibernate java mysql spring boot rest api,1,2,2,8.0,Java Developer
+java mysql hibernate rest api,2,0,2,8.8,Java Developer
+cloud security terraform gcp linux azure system design,2,0,0,8.1,Cloud Engineer
+linux terraform cloud security aws,2,2,4,7.3,Cloud Engineer
+aws cloud security azure gcp terraform,5,0,3,9.4,Cloud Engineer
+dsa oops java dbms sql system design,2,2,1,6.6,Software Engineer
+gcp terraform cloud security aws azure linux,3,0,5,7.3,Cloud Engineer
+java mysql hibernate spring boot,4,0,1,6.9,Java Developer
+pandas python statistics numpy tensorflow,1,1,0,9.4,Data Scientist
+flask django postgresql fastapi,5,2,5,9.5,Python Developer
+numpy pandas statistics tensorflow python data analysis,4,3,3,8.6,Data Scientist
+terraform docker jenkins kubernetes linux,2,2,3,7.8,DevOps Engineer
+flask postgresql python django fastapi,2,0,5,9.6,Python Developer
+jenkins docker github actions kubernetes linux,5,1,2,8.6,DevOps Engineer
+excel sql python tableau statistics data visualization power bi,1,3,4,9.2,Data Analyst
+statistics power bi excel data visualization tableau python sql,5,3,3,7.8,Data Analyst
+gcp azure cloud security linux aws terraform,3,1,5,9.1,Cloud Engineer
+tableau power bi python statistics excel sql data visualization transformers,5,2,1,9.7,Data Analyst
+python langchain prompt engineering rag transformers,3,2,0,7.6,AI Engineer
+spring boot rest api hibernate java,3,2,2,8.9,Java Developer
+data analysis pandas statistics machine learning tensorflow,4,1,1,8.7,Data Scientist
+fastapi flask django python,1,3,3,8.2,Python Developer
+javascript css nodejs html,1,1,1,7.6,Full Stack Developer
+system design dbms java dsa oops,4,1,3,6.6,Software Engineer
+rag langchain prompt engineering vector database transformers,3,0,4,8.6,AI Engineer
+tensorflow pandas data analysis machine learning python,2,3,4,9.3,Data Scientist
+dsa system design java sql oops dbms,3,1,0,7.8,Software Engineer
+oops sql dsa dbms,5,3,0,7.8,Software Engineer
+kubernetes linux terraform docker,4,2,5,8.7,DevOps Engineer
+statistics tableau data visualization sql excel,5,0,2,6.7,Data Analyst
+dsa sql dbms oops system design,1,3,1,8.1,Software Engineer
+azure cloud security aws gcp linux,5,0,3,7.9,Cloud Engineer
+mlops nlp tensorflow deep learning,5,3,5,9.7,ML Engineer
+python data analysis pandas tensorflow,5,0,5,9.7,Data Scientist
+html css react express,2,1,1,7.6,Full Stack Developer
+gcp linux aws terraform azure vector database,1,2,2,7.9,Cloud Engineer
+hibernate spring boot mysql rest api java,5,1,3,7.8,Java Developer
+nlp python computer vision deep learning pytorch,2,2,5,9.3,ML Engineer
+tableau python excel statistics data visualization sql,5,2,2,8.4,Data Analyst
+docker terraform jenkins github actions,3,2,3,8.5,DevOps Engineer
+deep learning python computer vision nlp pytorch mlops rest api,2,1,4,9.5,ML Engineer
+statistics numpy python machine learning pandas data analysis tensorflow,1,1,1,7.7,Data Scientist
+python prompt engineering langchain llm rag,1,1,0,8.4,AI Engineer
+vector database transformers langchain prompt engineering rag data visualization,3,0,4,7.7,AI Engineer
+linux terraform kubernetes jenkins docker,2,2,3,7.9,DevOps Engineer
+spring boot rest api mysql hibernate,3,0,2,8.9,Java Developer
+computer vision tensorflow python pytorch,5,0,0,8.2,ML Engineer
+pandas python numpy data analysis statistics machine learning,5,1,2,7.6,Data Scientist
+kubernetes jenkins terraform github actions,2,3,5,8.7,DevOps Engineer
+data analysis python tensorflow statistics,4,3,4,8.1,Data Scientist
+fastapi django postgresql python flask,5,3,4,8.0,Python Developer
+cloud security aws terraform azure jenkins,1,0,4,6.7,Cloud Engineer
+excel tableau data visualization sql,1,3,2,8.6,Data Analyst
+gcp cloud security aws azure,5,3,2,6.5,Cloud Engineer
+langchain python llm vector database rag prompt engineering transformers javascript,4,2,1,9.0,AI Engineer
+java hibernate mysql rest api,2,3,3,9.3,Java Developer
+tableau statistics data visualization sql,5,1,3,9.7,Data Analyst
+mlops nlp deep learning python,1,1,1,7.6,ML Engineer
+computer vision python tensorflow mlops pytorch deep learning mysql,1,2,5,6.5,ML Engineer
+sql java system design dbms dsa oops,2,2,1,7.3,Software Engineer
+java system design dbms oops sql dsa,5,2,0,9.0,Software Engineer
+deep learning tensorflow pytorch mlops nlp python,5,1,2,7.2,ML Engineer
+langchain llm transformers rag vector database python,1,1,3,7.7,AI Engineer
+linux github actions jenkins kubernetes,4,2,5,7.6,DevOps Engineer
+spring boot hibernate rest api java,5,2,2,6.9,Java Developer
+terraform github actions docker kubernetes jenkins,5,3,1,7.6,DevOps Engineer
+dbms dsa oops system design java sql,4,1,0,9.2,Software Engineer
+sql statistics data visualization excel power bi tableau,3,0,1,9.1,Data Analyst
+postgresql fastapi python django flask,2,0,4,9.1,Python Developer
+postgresql django python flask,1,0,1,8.0,Python Developer
+nlp tensorflow deep learning computer vision pytorch python mlops,4,3,1,6.9,ML Engineer
+machine learning pandas data analysis tensorflow numpy,2,2,3,6.8,Data Scientist
+data visualization excel python power bi statistics tableau sql,2,3,0,7.5,Data Analyst
+machine learning numpy data analysis tensorflow pandas,4,3,3,9.3,Data Scientist
+django python postgresql flask,3,2,1,7.5,Python Developer
+nlp deep learning tensorflow computer vision,2,2,0,7.3,ML Engineer
+pandas tensorflow data analysis machine learning,4,0,0,8.5,Data Scientist
+sql statistics tableau power bi python excel,4,2,1,9.4,Data Analyst
+deep learning mlops tensorflow pytorch python nlp computer vision,4,0,1,8.3,ML Engineer
+tensorflow pandas data analysis statistics machine learning numpy,3,2,5,7.6,Data Scientist
+system design java dbms sql oops,3,1,4,8.6,Software Engineer
+spring boot java mysql hibernate,4,0,3,7.3,Java Developer
+mongodb react html css nodejs,4,1,2,6.7,Full Stack Developer
+linux cloud security terraform gcp azure aws,1,3,0,8.0,Cloud Engineer
+dbms sql java system design oops,2,3,4,8.9,Software Engineer
+javascript mongodb express html react nodejs,3,3,0,8.7,Full Stack Developer
+docker jenkins linux kubernetes,3,0,4,7.9,DevOps Engineer
+gcp cloud security linux azure aws terraform,3,2,0,7.2,Cloud Engineer
+vector database prompt engineering langchain rag llm python transformers,3,0,1,9.5,AI Engineer
+django postgresql fastapi flask,3,1,5,9.5,Python Developer
+numpy data analysis pandas tensorflow statistics machine learning python,2,2,1,7.2,Data Scientist
+prompt engineering transformers vector database python rag,2,3,2,8.0,AI Engineer
+html nodejs express css mongodb,1,3,1,6.8,Full Stack Developer
+python mlops computer vision deep learning nlp,4,3,2,7.3,ML Engineer
+tensorflow computer vision python deep learning nlp postgresql,2,1,1,7.4,ML Engineer
+linux aws gcp terraform,2,3,2,9.2,Cloud Engineer
+llm vector database python prompt engineering langchain,4,1,0,9.1,AI Engineer
+java hibernate spring boot rest api,1,2,2,7.7,Java Developer
+mysql hibernate spring boot java rest api,3,0,2,9.7,Java Developer
+statistics python tensorflow data analysis pandas,2,3,4,7.8,Data Scientist
+hibernate mysql spring boot java rest api,1,2,2,9.3,Java Developer
+flask postgresql fastapi django python,4,2,2,8.0,Python Developer
+django flask python fastapi github actions,4,0,2,7.9,Python Developer
+excel power bi sql data visualization python,3,0,1,9.2,Data Analyst
+power bi data visualization python statistics,3,1,4,8.4,Data Analyst
+excel python statistics power bi sql oops,2,2,3,8.8,Data Analyst
+tensorflow nlp pytorch computer vision python mlops deep learning,5,3,4,8.1,ML Engineer
+oops sql java system design dsa dbms,2,3,1,9.6,Software Engineer
+express mongodb javascript css react html nodejs,5,1,3,8.0,Full Stack Developer
+power bi statistics excel tableau,5,2,4,9.1,Data Analyst
+kubernetes jenkins terraform linux github actions,1,1,5,8.9,DevOps Engineer
+jenkins terraform linux kubernetes github actions docker,4,2,4,8.3,DevOps Engineer
+terraform gcp linux cloud security aws,2,3,5,9.7,Cloud Engineer
+terraform azure linux gcp cloud security aws fastapi,5,3,3,7.2,Cloud Engineer
+css react mongodb express html nodejs,2,2,4,7.3,Full Stack Developer
+mysql java spring boot hibernate,3,3,1,9.1,Java Developer
+numpy pandas machine learning tensorflow python statistics data analysis,5,0,4,9.7,Data Scientist
+terraform docker linux kubernetes,4,0,4,6.5,DevOps Engineer
+gcp cloud security linux azure terraform,4,2,5,9.6,Cloud Engineer
+hibernate java spring boot rest api,3,2,4,6.9,Java Developer
+spring boot hibernate mysql java rest api,3,2,0,7.3,Java Developer
+django flask fastapi postgresql deep learning,2,2,1,7.7,Python Developer
+fastapi django python flask postgresql,1,2,1,8.3,Python Developer
+linux docker kubernetes terraform github actions,5,2,3,7.3,DevOps Engineer
+llm rag prompt engineering transformers langchain python vector database,3,1,1,8.4,AI Engineer
+machine learning data analysis pandas numpy tensorflow,5,3,1,8.8,Data Scientist
+power bi tableau statistics excel data visualization python,5,3,2,6.7,Data Analyst
+power bi python statistics data visualization sql tableau,5,3,5,8.6,Data Analyst
+css javascript react mongodb express,3,3,4,9.3,Full Stack Developer
+deep learning python tensorflow computer vision mlops,1,1,4,8.6,ML Engineer
+linux gcp terraform azure,3,2,0,9.6,Cloud Engineer
+python data visualization excel sql power bi,1,3,5,9.0,Data Analyst
+transformers llm vector database langchain,1,1,3,8.3,AI Engineer
+pandas numpy python tensorflow machine learning statistics data analysis,1,0,5,7.3,Data Scientist
+python vector database llm rag transformers prompt engineering langchain,1,2,5,6.8,AI Engineer
+langchain rag llm transformers,5,0,5,7.9,AI Engineer
+power bi python statistics data visualization sql excel,1,2,1,7.1,Data Analyst
+oops system design java sql dbms dsa,1,1,5,7.4,Software Engineer
+java hibernate spring boot mysql,5,3,5,7.2,Java Developer
+machine learning python numpy data analysis tensorflow pandas statistics,4,2,0,8.3,Data Scientist
+data visualization tableau sql excel,2,3,1,7.4,Data Analyst
+linux kubernetes terraform docker,5,2,0,7.3,DevOps Engineer
+power bi excel statistics tableau data visualization sql,5,3,2,7.3,Data Analyst
+tensorflow python numpy machine learning pandas statistics data analysis,4,1,4,8.7,Data Scientist
+java spring boot mysql hibernate postgresql,5,1,4,8.2,Java Developer
+numpy statistics data analysis tensorflow machine learning,5,3,2,7.7,Data Scientist
+python numpy machine learning data analysis,2,2,1,8.8,Data Scientist
+docker github actions terraform jenkins linux kubernetes data analysis,1,1,3,6.8,DevOps Engineer
+rest api java mysql hibernate,1,3,5,7.5,Java Developer
+llm rag vector database prompt engineering transformers,5,1,2,8.4,AI Engineer
+react express javascript css,2,3,3,8.2,Full Stack Developer
+html react mongodb css javascript nodejs azure,4,1,3,7.6,Full Stack Developer
+terraform kubernetes jenkins github actions,4,3,4,7.1,DevOps Engineer
+mlops python deep learning computer vision tensorflow nlp,4,3,0,7.9,ML Engineer
+tensorflow statistics python data analysis,3,0,1,8.6,Data Scientist
+rag langchain vector database llm prompt engineering python transformers,4,1,3,8.2,AI Engineer
+html nodejs mongodb express css,5,0,4,8.2,Full Stack Developer
+tensorflow computer vision nlp python,1,2,2,7.3,ML Engineer
+terraform linux aws gcp azure computer vision,1,3,2,7.1,Cloud Engineer
+prompt engineering langchain rag vector database python transformers llm,2,2,0,7.6,AI Engineer
+fastapi python postgresql flask spring boot,3,2,1,6.6,Python Developer
+spring boot mysql java rest api hibernate,4,2,1,7.5,Java Developer
+fastapi postgresql python django,3,1,3,7.5,Python Developer
+python power bi tableau excel sql statistics flask,4,3,1,7.5,Data Analyst
+postgresql python fastapi django flask,4,1,1,8.2,Python Developer
+excel sql python tableau power bi statistics data visualization,3,0,1,7.3,Data Analyst
+python rag vector database prompt engineering transformers langchain,4,2,0,9.1,AI Engineer
+pandas statistics machine learning data analysis,5,3,4,6.7,Data Scientist
+java spring boot rest api mysql hibernate,1,2,4,9.6,Java Developer
+python data analysis machine learning numpy react,3,1,0,6.7,Data Scientist
+rest api hibernate java mysql,1,0,3,7.6,Java Developer
+hibernate java rest api mysql spring boot,4,0,5,8.4,Java Developer
+dsa java dbms sql system design,3,1,2,7.2,Software Engineer
+html express nodejs javascript css mongodb,2,1,2,9.6,Full Stack Developer
+sql python statistics excel tableau,1,0,5,7.1,Data Analyst
+tableau data visualization excel statistics power bi,2,1,1,7.7,Data Analyst
+statistics data visualization excel python,4,1,4,9.1,Data Analyst
+tensorflow data analysis python pandas,5,3,0,7.4,Data Scientist
+excel python sql power bi data visualization,3,2,4,7.0,Data Analyst
+computer vision nlp tensorflow python pytorch,1,3,1,8.8,ML Engineer
+sql data visualization statistics python tableau excel,1,1,1,9.0,Data Analyst
+terraform jenkins kubernetes github actions,5,1,2,8.1,DevOps Engineer
+nodejs css html javascript,4,0,4,8.9,Full Stack Developer
+python tableau power bi statistics excel data visualization sql azure,5,3,0,6.7,Data Analyst
+python power bi sql statistics,4,0,2,8.5,Data Analyst
+dsa dbms java oops system design,5,2,5,9.2,Software Engineer
+vector database langchain prompt engineering llm transformers python,4,2,3,7.4,AI Engineer
+power bi statistics tableau excel,5,1,2,9.2,Data Analyst
+power bi statistics sql excel tableau,2,1,0,7.2,Data Analyst
+aws cloud security linux gcp,5,1,4,6.6,Cloud Engineer
+css nodejs javascript express html mongodb react,4,3,1,7.7,Full Stack Developer
+tensorflow computer vision python pytorch,4,1,0,9.2,ML Engineer
+docker github actions terraform kubernetes,5,1,3,7.0,DevOps Engineer
+oops sql dsa system design,2,3,1,6.8,Software Engineer
+data visualization tableau excel statistics power bi prompt engineering,3,2,5,9.3,Data Analyst
+tensorflow machine learning python pandas numpy,4,1,4,9.7,Data Scientist
+mlops nlp pytorch deep learning,4,0,1,8.1,ML Engineer
+react javascript mongodb nodejs express html css,4,3,5,8.0,Full Stack Developer
+sql java dbms oops system design,2,2,2,9.7,Software Engineer
+fastapi python flask django,2,1,4,8.6,Python Developer
+statistics power bi excel data visualization tableau sql,4,0,0,9.4,Data Analyst
+gcp cloud security azure aws linux terraform,1,0,3,9.1,Cloud Engineer
+prompt engineering transformers langchain rag llm,5,3,2,9.1,AI Engineer
+flask postgresql django fastapi,5,2,1,8.9,Python Developer
+power bi python sql excel,4,2,3,8.9,Data Analyst
+deep learning computer vision python mlops nlp tensorflow pytorch,1,0,3,8.6,ML Engineer
+excel python tableau data visualization power bi sql dbms,1,1,0,6.8,Data Analyst
+github actions kubernetes docker jenkins linux terraform,4,1,4,9.1,DevOps Engineer
+python django postgresql flask fastapi,2,2,3,6.7,Python Developer
+dbms system design dsa oops sql,3,1,3,6.5,Software Engineer
+github actions jenkins linux kubernetes docker terraform,2,0,4,7.1,DevOps Engineer
+terraform jenkins kubernetes linux docker django,5,0,2,9.7,DevOps Engineer
+docker kubernetes github actions jenkins,3,1,0,8.4,DevOps Engineer
+vector database prompt engineering llm rag langchain transformers python,5,2,0,8.2,AI Engineer
+oops system design sql dbms dsa,4,2,2,8.0,Software Engineer
+python machine learning data analysis statistics pandas tensorflow numpy,1,2,0,8.4,Data Scientist
+tensorflow statistics python numpy pandas,4,3,4,7.8,Data Scientist
+express javascript mongodb nodejs react,4,2,0,8.0,Full Stack Developer
+data analysis python pandas numpy statistics,5,2,4,8.1,Data Scientist
+java rest api hibernate mysql spring boot,5,2,4,7.9,Java Developer
+statistics power bi data visualization sql tableau python,4,0,4,7.9,Data Analyst
+linux jenkins docker kubernetes,3,0,3,7.6,DevOps Engineer
+transformers llm prompt engineering vector database,5,2,4,8.8,AI Engineer
+pandas machine learning numpy data analysis tensorflow,4,1,2,9.5,Data Scientist
+react express nodejs html css javascript mongodb,3,1,3,9.2,Full Stack Developer
+aws azure cloud security linux gcp terraform,2,1,5,7.6,Cloud Engineer
+python sql statistics excel,5,0,0,9.1,Data Analyst
+tableau statistics excel power bi,1,1,1,8.7,Data Analyst
+mongodb react javascript html nodejs azure,3,2,1,9.1,Full Stack Developer
+terraform jenkins github actions linux docker,4,3,2,9.2,DevOps Engineer
+nlp pytorch mlops computer vision python,5,3,3,9.5,ML Engineer
+langchain vector database prompt engineering python rag llm transformers,5,0,1,9.1,AI Engineer
+terraform cloud security gcp linux aws,1,2,5,9.7,Cloud Engineer
+nodejs mongodb express javascript react html,5,1,1,6.8,Full Stack Developer
+sql power bi data visualization tableau excel statistics python,3,3,4,7.1,Data Analyst
+python postgresql django flask,2,0,1,7.6,Python Developer
+spring boot mysql rest api hibernate,1,3,3,9.6,Java Developer
+rest api java hibernate spring boot mysql vector database,3,1,4,7.5,Java Developer
+flask python django fastapi,4,3,5,9.5,Python Developer
+sql data visualization excel tableau power bi statistics,5,2,3,8.2,Data Analyst
+postgresql python flask fastapi django,1,0,2,7.1,Python Developer
+llm rag langchain prompt engineering python vector database transformers,5,2,0,8.5,AI Engineer
+terraform azure linux cloud security gcp aws,5,3,0,8.9,Cloud Engineer
+spring boot hibernate mysql java rest api,1,3,1,8.2,Java Developer
+transformers rag prompt engineering llm langchain,5,0,2,8.6,AI Engineer
+aws terraform cloud security linux azure gcp,2,0,2,9.8,Cloud Engineer
+fastapi python postgresql django,1,3,4,8.6,Python Developer
+nodejs mongodb javascript html react express css,2,3,4,7.1,Full Stack Developer
+javascript mongodb react nodejs css express html,2,3,2,7.9,Full Stack Developer
+python deep learning pytorch mlops,1,1,4,9.8,ML Engineer
+github actions linux docker jenkins kubernetes power bi,2,0,1,7.8,DevOps Engineer
+django postgresql fastapi python flask,4,0,3,9.1,Python Developer
+flask python fastapi django postgresql,1,0,2,7.0,Python Developer
+python tableau power bi sql data visualization prompt engineering,3,2,2,6.7,Data Analyst
+python langchain vector database prompt engineering rag llm,1,0,1,9.8,AI Engineer
+fastapi postgresql flask python,3,2,2,9.4,Python Developer
+sql dsa system design dbms,1,1,5,9.3,Software Engineer
+sql power bi tableau excel,5,1,3,9.3,Data Analyst
+sql dbms oops java system design,3,3,4,8.1,Software Engineer
+flask fastapi python django postgresql,3,1,5,9.6,Python Developer
+tensorflow statistics python data analysis pandas,1,3,3,7.4,Data Scientist
+power bi tableau python data visualization excel statistics computer vision,5,3,0,8.1,Data Analyst
+spring boot mysql java rest api,3,3,0,7.0,Java Developer
+data analysis tensorflow statistics machine learning numpy python pandas,2,0,4,7.1,Data Scientist
+react javascript nodejs html,5,1,2,6.5,Full Stack Developer
+spring boot rest api hibernate mysql,2,3,2,9.0,Java Developer
+linux aws azure cloud security terraform gcp,1,0,1,8.2,Cloud Engineer
+css react html mongodb javascript,5,0,0,9.5,Full Stack Developer
+terraform kubernetes github actions docker,3,2,4,8.0,DevOps Engineer
+django flask postgresql fastapi python express,3,2,5,7.3,Python Developer
+python data visualization sql tableau power bi excel statistics,5,1,3,7.4,Data Analyst
+deep learning pytorch computer vision mlops nlp,3,3,3,9.8,ML Engineer
+vector database llm rag transformers prompt engineering langchain python,3,0,1,8.2,AI Engineer
+python data analysis tensorflow machine learning statistics,1,0,0,9.4,Data Scientist
+oops system design dbms dsa sql java,5,1,4,8.5,Software Engineer
+pandas python data analysis statistics machine learning numpy tensorflow,2,2,3,7.9,Data Scientist
+java dbms sql dsa oops,5,1,5,9.3,Software Engineer
+java system design oops dsa,4,3,4,7.0,Software Engineer
+terraform github actions kubernetes linux docker,2,2,4,6.6,DevOps Engineer
+python fastapi django flask,1,2,3,6.8,Python Developer
+pytorch tensorflow deep learning nlp rest api,3,3,0,9.8,ML Engineer
+flask fastapi postgresql django gcp,1,2,0,9.8,Python Developer
+kubernetes github actions jenkins terraform,2,2,4,7.9,DevOps Engineer
+java spring boot rest api hibernate,2,1,4,8.5,Java Developer
+dsa sql java dbms oops system design,4,0,0,6.6,Software Engineer
+python computer vision pytorch mlops nlp javascript,3,3,5,8.7,ML Engineer
+vector database transformers python prompt engineering,2,0,1,9.2,AI Engineer
+linux aws terraform gcp azure cloud security,1,0,4,6.8,Cloud Engineer
+dsa java system design dbms oops,4,3,3,7.4,Software Engineer
+vector database prompt engineering rag transformers langchain llm python,2,0,3,6.6,AI Engineer
+computer vision pytorch tensorflow python nlp mlops deep learning,3,3,5,9.5,ML Engineer
+django flask python postgresql fastapi,1,3,2,9.5,Python Developer
+vector database rag transformers llm langchain python,4,1,5,8.4,AI Engineer
+flask fastapi python postgresql,4,0,4,6.6,Python Developer
+django fastapi flask postgresql python,2,3,0,8.2,Python Developer
+hibernate spring boot java mysql,5,2,0,6.8,Java Developer
+spring boot mysql hibernate rest api gcp,5,2,2,7.5,Java Developer
+statistics machine learning tensorflow numpy pandas,5,1,2,7.3,Data Scientist
+python langchain prompt engineering vector database,1,2,5,8.4,AI Engineer
+javascript html css express nodejs react mongodb,2,3,4,6.7,Full Stack Developer
+tensorflow numpy statistics machine learning python,3,1,3,9.6,Data Scientist
+java sql dbms oops dsa system design,2,2,0,7.4,Software Engineer
+langchain python llm transformers rag,3,0,4,9.5,AI Engineer
+langchain transformers prompt engineering python rag llm vector database java,5,2,4,6.8,AI Engineer
+spring boot rest api hibernate java mysql,1,0,1,9.8,Java Developer
+system design sql dbms oops dsa java,3,0,0,8.4,Software Engineer
+javascript nodejs react html css express mongodb,1,2,0,7.4,Full Stack Developer
+javascript mongodb react html express nodejs,5,3,3,7.4,Full Stack Developer
+nodejs css mongodb react express javascript,1,1,1,7.9,Full Stack Developer
+react nodejs css mongodb html javascript express,5,3,2,8.7,Full Stack Developer
+jenkins docker kubernetes terraform github actions,1,3,2,9.5,DevOps Engineer
+flask django fastapi postgresql python,1,3,5,7.8,Python Developer
+terraform jenkins kubernetes linux github actions docker,4,1,0,6.7,DevOps Engineer
+docker jenkins github actions terraform linux,5,3,5,7.1,DevOps Engineer
+fastapi python flask postgresql,3,1,3,8.6,Python Developer
+dsa oops dbms sql,2,1,2,7.6,Software Engineer
+statistics sql excel tableau pytorch,4,2,3,7.7,Data Analyst
+rest api hibernate mysql java,5,0,4,8.1,Java Developer
+dsa oops system design java,1,3,5,7.7,Software Engineer
+python fastapi flask postgresql django,2,1,2,8.0,Python Developer
+transformers langchain rag python llm computer vision,4,3,0,6.7,AI Engineer
+express css mongodb javascript nodejs,1,0,3,6.9,Full Stack Developer
+sql excel python power bi data visualization,3,2,5,8.9,Data Analyst
+tableau data visualization sql statistics excel numpy,3,2,0,7.0,Data Analyst
+hibernate mysql java spring boot,2,1,0,7.6,Java Developer
+oops dsa sql dbms java system design,5,3,4,9.2,Software Engineer
+docker github actions linux jenkins,5,0,1,8.6,DevOps Engineer
+oops dsa java sql,1,0,3,9.0,Software Engineer
+postgresql fastapi flask django,3,3,0,8.7,Python Developer
+deep learning pytorch nlp tensorflow computer vision,4,1,5,8.7,ML Engineer
+github actions terraform linux docker,1,2,0,9.7,DevOps Engineer
+numpy statistics python machine learning rest api,4,0,1,7.6,Data Scientist
+data analysis statistics numpy tensorflow,3,1,2,9.0,Data Scientist
+rest api java mysql hibernate spring boot nodejs,3,0,1,9.5,Java Developer
+oops dbms dsa java,2,0,1,8.4,Software Engineer
+system design dbms java sql dsa oops,5,2,4,6.7,Software Engineer
+gcp cloud security terraform linux,1,2,5,9.2,Cloud Engineer
+computer vision python nlp deep learning machine learning,3,1,4,9.7,ML Engineer
+express react nodejs css javascript html,1,3,5,8.8,Full Stack Developer
+css react html javascript,4,2,5,7.8,Full Stack Developer
+html react javascript css,4,0,1,6.6,Full Stack Developer
+python transformers prompt engineering llm langchain,5,0,4,6.7,AI Engineer
+tableau sql excel statistics python data visualization,5,2,5,8.9,Data Analyst
+spring boot mysql rest api hibernate java,1,0,0,9.3,Java Developer
+statistics excel sql tableau python power bi data visualization,5,0,2,9.1,Data Analyst
+langchain transformers python llm vector database prompt engineering rag nlp,2,2,4,8.8,AI Engineer
+excel statistics data visualization sql tableau python,2,2,2,7.6,Data Analyst
+terraform azure aws cloud security gcp linux,5,2,5,6.9,Cloud Engineer
+django fastapi flask postgresql,1,0,3,8.5,Python Developer
+sql dbms system design oops dsa,1,1,3,9.3,Software Engineer
+python fastapi postgresql flask django,1,3,4,9.0,Python Developer
+terraform cloud security aws azure,2,3,4,8.4,Cloud Engineer
+java hibernate mysql rest api,1,2,4,7.1,Java Developer
+java rest api mysql spring boot,1,0,3,8.6,Java Developer
+jenkins linux kubernetes docker github actions system design,2,2,0,8.1,DevOps Engineer
+gcp azure linux terraform aws cloud security,3,2,2,6.9,Cloud Engineer
+mlops nlp python pytorch tensorflow computer vision deep learning linux,2,2,1,8.2,ML Engineer
+pandas tensorflow machine learning data analysis statistics langchain,2,3,4,9.1,Data Scientist
+rest api hibernate mysql java,5,3,5,7.8,Java Developer
+statistics sql python excel tableau power bi,1,3,5,8.1,Data Analyst
+fastapi django postgresql flask python,2,3,2,7.2,Python Developer
+fastapi postgresql flask django,3,0,0,8.3,Python Developer
+linux gcp azure terraform cloud security aws,4,2,5,9.4,Cloud Engineer
+java dsa dbms oops,4,1,4,8.0,Software Engineer
+tableau power bi data visualization sql python statistics,1,1,5,8.3,Data Analyst
+nodejs html express mongodb css,4,0,1,8.2,Full Stack Developer
+spring boot hibernate rest api java mysql statistics,2,1,3,6.8,Java Developer
+fastapi python flask django postgresql,3,1,0,7.1,Python Developer
+docker jenkins terraform linux github actions,2,3,3,7.1,DevOps Engineer
+sql dbms oops java system design,2,3,3,8.7,Software Engineer
+nlp mlops computer vision tensorflow pytorch deep learning python,5,3,2,8.1,ML Engineer
+java dbms sql system design,4,0,5,8.2,Software Engineer
+spring boot java rest api mysql hibernate,2,0,3,6.8,Java Developer
+spring boot mysql java hibernate,3,3,0,9.0,Java Developer
+pytorch python mlops deep learning computer vision nlp tensorflow,1,0,0,9.3,ML Engineer
+python prompt engineering rag vector database langchain transformers,5,1,5,7.4,AI Engineer
+rag llm vector database prompt engineering langchain tableau,2,0,2,6.8,AI Engineer
+machine learning statistics pandas tensorflow data analysis python,5,3,0,8.9,Data Scientist
+llm langchain transformers vector database python,5,0,5,9.5,AI Engineer
+linux azure terraform gcp,2,2,5,8.0,Cloud Engineer
+linux terraform kubernetes docker github actions,3,2,0,8.6,DevOps Engineer
+rest api spring boot hibernate mysql java,5,1,4,7.1,Java Developer
+html css javascript mongodb nodejs,2,1,2,8.6,Full Stack Developer
+javascript mongodb react html css,1,2,5,7.6,Full Stack Developer
+terraform kubernetes jenkins docker github actions,2,3,1,7.9,DevOps Engineer
+dbms java sql dsa oops system design,5,2,3,8.4,Software Engineer
+fastapi flask postgresql django python,4,3,5,8.3,Python Developer
+rest api java spring boot hibernate,4,0,2,8.8,Java Developer
+statistics sql python power bi excel data visualization langchain,4,2,2,7.0,Data Analyst
+css express react html,5,2,5,9.0,Full Stack Developer
+mlops deep learning tensorflow nlp computer vision python,1,2,1,6.6,ML Engineer
+rest api hibernate java spring boot mysql mlops,4,1,4,8.8,Java Developer
+hibernate spring boot java mysql,5,1,2,6.9,Java Developer
+dsa sql oops java system design dbms,3,3,1,7.9,Software Engineer
+dbms oops dsa sql system design,3,2,2,7.1,Software Engineer
+rest api mysql spring boot java hibernate,1,3,5,7.3,Java Developer
+django fastapi python flask,5,1,3,9.4,Python Developer
+github actions terraform docker jenkins kubernetes,3,3,5,6.6,DevOps Engineer
+javascript css express nodejs,1,1,2,8.3,Full Stack Developer
+system design java sql oops,2,3,4,9.1,Software Engineer
+terraform linux github actions kubernetes,3,1,0,7.2,DevOps Engineer
+dbms system design sql java oops dsa,1,3,4,8.1,Software Engineer
+prompt engineering transformers langchain vector database rag python,4,2,5,9.2,AI Engineer
+llm vector database langchain python rag transformers prompt engineering,4,3,1,8.0,AI Engineer
+pytorch python deep learning mlops nlp,2,0,0,6.8,ML Engineer
+pandas statistics numpy python tensorflow machine learning data analysis,4,3,4,8.2,Data Scientist
+statistics sql python tableau,1,3,5,7.9,Data Analyst
+jenkins kubernetes github actions linux terraform spring boot,4,3,0,8.1,DevOps Engineer
+python mlops tensorflow deep learning pytorch computer vision nlp,2,2,3,9.0,ML Engineer
+tensorflow python machine learning data analysis numpy,1,1,4,8.9,Data Scientist
+tableau python data visualization power bi,1,1,1,6.8,Data Analyst
+rest api mysql hibernate spring boot java,5,3,1,7.9,Java Developer
+kubernetes github actions jenkins linux,4,1,0,6.7,DevOps Engineer
+express css nodejs javascript mongodb html react,3,3,2,9.5,Full Stack Developer
+django python fastapi flask,1,0,3,9.7,Python Developer
+python deep learning mlops pytorch,3,0,1,8.4,ML Engineer
+sql tableau power bi data visualization statistics python,1,1,1,7.7,Data Analyst
+postgresql python django flask,3,1,5,6.6,Python Developer
+dsa dbms system design sql java oops,4,2,3,8.8,Software Engineer
+nodejs css html react express,5,1,1,8.4,Full Stack Developer
+aws azure terraform gcp linux cloud security,3,3,4,9.7,Cloud Engineer
+numpy data analysis statistics tensorflow,1,3,1,8.0,Data Scientist
+data visualization statistics python sql,3,0,3,8.2,Data Analyst
+linux cloud security aws gcp,4,0,1,6.6,Cloud Engineer
+python llm transformers rag vector database,4,1,4,9.4,AI Engineer
+cloud security gcp linux azure terraform,2,1,2,7.8,Cloud Engineer
+express react css javascript mongodb mlops,3,1,4,6.5,Full Stack Developer
+dsa dbms system design sql java,2,1,3,9.5,Software Engineer
+css react html nodejs,4,3,0,9.5,Full Stack Developer
+langchain vector database transformers python llm gcp,1,1,4,6.6,AI Engineer
+power bi statistics sql tableau,5,1,1,7.8,Data Analyst
+dsa sql dbms system design java oops nlp,5,2,0,7.5,Software Engineer
+deep learning computer vision pytorch python mlops cloud security,5,2,0,8.5,ML Engineer
+rag prompt engineering vector database langchain llm python,1,3,3,8.0,AI Engineer
+prompt engineering python llm vector database transformers rag langchain,4,3,1,8.9,AI Engineer
+aws gcp terraform linux azure,3,3,5,7.9,Cloud Engineer
+jenkins linux terraform docker github actions excel,1,1,2,9.7,DevOps Engineer
+python langchain rag vector database llm,5,3,3,8.0,AI Engineer
+computer vision nlp tensorflow mlops deep learning python,4,3,1,6.8,ML Engineer
+hibernate mysql spring boot rest api,2,0,5,9.6,Java Developer
+dsa dbms sql oops,5,3,0,9.3,Software Engineer
+kubernetes jenkins linux github actions,2,0,3,6.9,DevOps Engineer
+prompt engineering langchain rag llm vector database transformers,1,3,4,8.2,AI Engineer
+data visualization power bi sql excel tableau python,2,2,1,7.3,Data Analyst
+pytorch python computer vision deep learning nlp excel,1,1,0,8.4,ML Engineer
+azure cloud security terraform gcp aws,1,0,0,7.5,Cloud Engineer
+dsa system design oops sql java css,3,0,3,9.2,Software Engineer
+langchain vector database rag prompt engineering python,5,3,4,9.0,AI Engineer
+cloud security linux azure gcp terraform aws,2,3,5,9.7,Cloud Engineer
+power bi sql python statistics data visualization excel tableau,5,1,2,8.6,Data Analyst
+dsa system design sql java dbms oops,5,3,3,8.4,Software Engineer
+mongodb nodejs html css,2,2,0,9.7,Full Stack Developer
+cloud security linux gcp terraform prompt engineering,4,0,1,9.5,Cloud Engineer
+llm vector database prompt engineering python transformers langchain rag jenkins,5,1,1,8.4,AI Engineer
+pytorch python mlops deep learning tensorflow nlp computer vision rest api,4,3,2,6.6,ML Engineer
+python fastapi postgresql django,3,3,5,8.2,Python Developer
+python fastapi flask postgresql django,1,0,3,7.9,Python Developer
+power bi statistics sql excel,2,2,4,8.3,Data Analyst
+python numpy statistics pandas machine learning data analysis tensorflow react,2,0,1,8.9,Data Scientist
+python statistics pandas tensorflow machine learning data analysis,4,3,0,8.5,Data Scientist
+hibernate java spring boot mysql,4,1,3,8.0,Java Developer
+mysql rest api hibernate spring boot java,4,3,4,9.5,Java Developer
+kubernetes docker linux terraform jenkins github actions,1,1,3,8.4,DevOps Engineer
+transformers llm vector database prompt engineering python langchain,1,0,5,8.8,AI Engineer
+kubernetes linux docker github actions,4,1,2,7.9,DevOps Engineer
+gcp aws linux cloud security,2,0,5,9.7,Cloud Engineer
+vector database langchain prompt engineering transformers llm,4,3,2,7.1,AI Engineer
+system design dsa sql oops java dbms,1,2,1,7.9,Software Engineer
+sql excel python data visualization tableau power bi statistics,5,1,3,8.3,Data Analyst
+system design java dbms dsa sql,5,0,5,6.7,Software Engineer
+react nodejs javascript css,3,3,4,9.0,Full Stack Developer
+data analysis pandas statistics tensorflow machine learning numpy aws,1,2,3,9.3,Data Scientist
+machine learning pandas statistics tensorflow python numpy,4,0,0,6.8,Data Scientist
+terraform linux aws azure cloud security,3,0,2,7.2,Cloud Engineer
+hibernate rest api spring boot java,5,1,4,8.5,Java Developer
+nlp python mlops computer vision tensorflow deep learning pytorch,4,1,2,9.1,ML Engineer
+python postgresql fastapi flask django,3,2,4,9.5,Python Developer
+mysql java hibernate spring boot,5,1,4,9.5,Java Developer
+langchain vector database transformers python spring boot,5,1,3,9.1,AI Engineer
+jenkins github actions terraform linux docker,4,3,0,8.7,DevOps Engineer
+transformers langchain prompt engineering vector database rag llm python,4,1,5,7.7,AI Engineer
+flask python fastapi postgresql django,3,1,3,8.7,Python Developer
+flask python fastapi postgresql,3,1,0,7.5,Python Developer
+nodejs mongodb html javascript express,5,2,2,7.7,Full Stack Developer
+gcp cloud security aws linux terraform azure pandas,5,0,0,6.8,Cloud Engineer
+deep learning tensorflow mlops computer vision nlp hibernate,1,0,4,7.8,ML Engineer
+tableau python power bi statistics,1,3,5,7.2,Data Analyst
+machine learning pandas numpy statistics python oops,2,1,0,9.3,Data Scientist
+flask django python postgresql fastapi,3,1,5,7.6,Python Developer
+django flask postgresql fastapi python rest api,4,1,0,7.9,Python Developer
+jenkins linux kubernetes github actions docker,5,2,3,7.0,DevOps Engineer
+statistics data analysis machine learning pandas python,3,0,3,8.2,Data Scientist
+deep learning tensorflow nlp python mlops flask,4,0,2,6.6,ML Engineer
+deep learning computer vision python mlops rest api,1,2,1,7.8,ML Engineer
+pandas statistics data analysis machine learning numpy,3,2,4,6.9,Data Scientist
+oops dsa sql java system design dbms,1,1,1,6.8,Software Engineer
+python postgresql fastapi flask,5,2,4,9.6,Python Developer
+express nodejs react css mongodb html,4,1,5,7.9,Full Stack Developer
+mysql hibernate rest api spring boot java,3,2,4,8.4,Java Developer
+aws gcp linux azure terraform,1,0,0,7.3,Cloud Engineer
+sql power bi excel tableau python data visualization statistics,4,3,0,8.2,Data Analyst
+rest api java spring boot mysql hibernate,5,2,2,6.6,Java Developer
+java rest api mysql hibernate terraform,5,2,0,8.4,Java Developer
+hibernate java rest api mysql docker,3,3,0,7.0,Java Developer
+linux cloud security azure gcp terraform,4,2,5,8.1,Cloud Engineer
+flask postgresql django fastapi,4,2,5,9.3,Python Developer
+vector database prompt engineering langchain llm transformers rag,1,3,3,8.5,AI Engineer
+aws terraform cloud security gcp linux azure,3,2,5,8.8,Cloud Engineer
+dsa java sql oops system design,4,2,2,7.1,Software Engineer
+statistics excel tableau python data visualization,1,3,0,6.8,Data Analyst
+hibernate mysql spring boot rest api,5,0,3,7.9,Java Developer
+docker github actions terraform kubernetes,5,1,0,7.9,DevOps Engineer
+gcp terraform aws azure linux cloud security,4,0,4,9.0,Cloud Engineer
+python vector database llm rag prompt engineering langchain transformers,3,3,4,6.6,AI Engineer
+mlops deep learning computer vision pytorch tensorflow python,4,0,2,8.6,ML Engineer
+prompt engineering transformers vector database python rag llm langchain,3,0,3,9.1,AI Engineer
+python postgresql flask fastapi django,4,2,4,8.9,Python Developer
+fastapi python postgresql flask,1,3,3,7.5,Python Developer
+linux kubernetes terraform jenkins github actions,5,3,5,7.9,DevOps Engineer
+postgresql django python flask,1,2,2,7.2,Python Developer
+mlops nlp computer vision tensorflow deep learning pytorch python,2,2,0,8.2,ML Engineer
+computer vision nlp deep learning tensorflow tableau,3,3,3,9.3,ML Engineer
+spring boot java mysql hibernate rest api,5,2,2,9.6,Java Developer
+rest api hibernate mysql spring boot java,4,3,3,8.1,Java Developer
+oops java sql dbms dsa system design,5,3,1,7.7,Software Engineer
+tensorflow python deep learning pytorch mlops computer vision,3,2,0,9.5,ML Engineer
+langchain prompt engineering transformers python rag llm vector database hibernate,2,0,4,9.5,AI Engineer
+cloud security aws gcp terraform azure linux,1,3,3,7.0,Cloud Engineer
+jenkins linux docker terraform kubernetes github actions,5,0,0,6.9,DevOps Engineer
+css mongodb react javascript nodejs express,3,0,0,8.6,Full Stack Developer
+hibernate java spring boot mysql rest api,2,2,3,8.9,Java Developer
+llm rag langchain prompt engineering,1,0,5,8.4,AI Engineer
+power bi sql tableau python statistics data visualization excel,1,3,5,6.7,Data Analyst
+transformers prompt engineering llm vector database rag python langchain,1,2,0,6.7,AI Engineer
+linux jenkins terraform docker,1,0,3,9.3,DevOps Engineer
+spring boot rest api java hibernate deep learning,5,1,0,9.3,Java Developer
+sql oops system design dbms java dsa,4,0,1,7.6,Software Engineer
+tableau sql python power bi data visualization statistics,3,2,3,9.5,Data Analyst
+langchain python transformers llm excel,2,3,0,9.4,AI Engineer
+azure gcp linux terraform aws python,3,2,3,8.6,Cloud Engineer
+llm langchain transformers rag prompt engineering python vector database,5,1,2,9.8,AI Engineer
+machine learning data analysis pandas numpy,2,3,2,8.0,Data Scientist
+data analysis python statistics machine learning pandas,2,0,3,7.7,Data Scientist
+langchain vector database rag python,5,0,5,7.6,AI Engineer
+system design sql java dsa,3,2,4,7.3,Software Engineer
+dbms sql dsa oops java,4,1,5,7.5,Software Engineer
+oops dsa sql dbms java,4,2,5,6.7,Software Engineer
+python excel data visualization statistics prompt engineering,1,1,0,6.8,Data Analyst
+postgresql flask python fastapi,5,0,0,9.6,Python Developer
+jenkins docker linux github actions terraform kubernetes transformers,4,0,0,8.6,DevOps Engineer
+java oops dsa dbms sql system design llm,4,0,3,8.9,Software Engineer
+java oops dbms sql dsa,3,1,0,7.7,Software Engineer
+rag vector database transformers llm prompt engineering python docker,1,0,1,9.5,AI Engineer
+flask postgresql django fastapi python,2,2,5,7.7,Python Developer
+terraform aws gcp azure cloud security,5,2,1,7.8,Cloud Engineer
+data visualization statistics excel tableau python,3,2,0,8.5,Data Analyst
+spring boot mysql java hibernate rest api,1,2,0,7.4,Java Developer
+docker jenkins linux terraform kubernetes,3,0,0,7.6,DevOps Engineer
+data analysis numpy pandas python tensorflow,4,0,2,9.5,Data Scientist
+react css javascript html,3,1,0,6.6,Full Stack Developer
+cloud security terraform linux aws,4,3,3,8.1,Cloud Engineer
+tensorflow nlp python deep learning,1,3,1,8.6,ML Engineer
+java hibernate spring boot rest api,5,1,4,7.1,Java Developer
+rest api java spring boot hibernate mysql,1,2,1,6.7,Java Developer
+system design sql java dbms,3,3,1,7.8,Software Engineer
+jenkins terraform docker github actions kubernetes linux,1,1,5,6.7,DevOps Engineer
+python numpy tensorflow data analysis machine learning statistics pandas,5,3,5,6.8,Data Scientist
+flask django postgresql fastapi python tableau,2,3,1,9.1,Python Developer
+express mongodb css javascript react,2,2,5,8.3,Full Stack Developer
+numpy data analysis machine learning python pandas statistics,4,1,2,7.4,Data Scientist
+statistics sql data visualization excel power bi,1,2,1,8.3,Data Analyst
+mysql rest api hibernate spring boot java,2,0,5,8.6,Java Developer
+flask fastapi postgresql python,3,1,5,9.5,Python Developer
+tensorflow python computer vision mlops,2,0,3,7.4,ML Engineer
+power bi sql data visualization tableau excel django,3,2,3,9.1,Data Analyst
+javascript mongodb nodejs react html css express,2,1,2,8.2,Full Stack Developer
+python llm langchain rag,4,2,2,7.0,AI Engineer
+java sql oops dbms,5,3,4,8.0,Software Engineer
+fastapi django postgresql flask,4,3,0,6.7,Python Developer
+mysql spring boot java rest api,1,3,5,8.2,Java Developer
+mysql java rest api hibernate,2,1,1,8.3,Java Developer
+deep learning computer vision pytorch tensorflow transformers,2,0,4,6.8,ML Engineer
+java oops dsa dbms sql,1,0,3,7.4,Software Engineer
+rag vector database langchain prompt engineering llm transformers,3,0,4,8.7,AI Engineer
+pandas data analysis statistics tensorflow python machine learning numpy dsa,3,3,1,7.6,Data Scientist
+python pytorch nlp tensorflow,2,3,3,9.4,ML Engineer
+data analysis numpy python tensorflow pandas machine learning,5,1,4,6.5,Data Scientist
+excel python sql power bi data visualization statistics,5,2,4,6.5,Data Analyst
+python rag llm vector database langchain prompt engineering,4,3,0,6.7,AI Engineer
+sql data visualization power bi excel,3,3,1,9.0,Data Analyst
+system design sql java dsa dbms,3,1,3,8.0,Software Engineer
+github actions linux docker kubernetes terraform jenkins,3,0,2,8.6,DevOps Engineer
+java dbms dsa oops,1,1,1,8.7,Software Engineer
+cloud security linux azure terraform aws gcp,5,3,2,8.1,Cloud Engineer
+tensorflow deep learning mlops pytorch,3,0,3,8.1,ML Engineer
+dbms oops system design sql dsa java,2,0,4,8.2,Software Engineer
+mlops python tensorflow nlp,1,2,1,8.2,ML Engineer
+python llm langchain rag transformers cloud security,1,1,3,9.2,AI Engineer
+linux aws gcp terraform,4,1,2,6.9,Cloud Engineer
+rest api hibernate spring boot mysql java,3,2,5,8.7,Java Developer
+spring boot hibernate rest api mysql,3,1,4,6.8,Java Developer
+tensorflow pandas numpy data analysis power bi,3,0,4,8.0,Data Scientist
+react css html mongodb,1,0,3,9.1,Full Stack Developer
+hibernate spring boot mysql rest api,3,3,2,8.7,Java Developer
+python rag transformers langchain prompt engineering llm,1,0,2,8.8,AI Engineer
+linux terraform kubernetes github actions docker jenkins,5,1,0,6.9,DevOps Engineer
+tensorflow pytorch computer vision mlops python,4,3,1,6.8,ML Engineer
+statistics python excel sql power bi tableau data visualization,2,0,3,7.8,Data Analyst
+oops sql java dsa dbms,2,3,4,7.2,Software Engineer
+dsa sql java system design dbms,2,1,3,9.1,Software Engineer
+flask django fastapi python postgresql linux,2,2,0,6.5,Python Developer
+llm prompt engineering langchain python,2,1,4,6.8,AI Engineer
+prompt engineering rag vector database transformers python,5,1,0,8.4,AI Engineer
+html nodejs react javascript mongodb,2,2,0,7.8,Full Stack Developer
+python mlops pytorch tensorflow,4,2,2,6.9,ML Engineer
+gcp azure linux cloud security,1,2,5,8.0,Cloud Engineer
+statistics tableau excel data visualization sql python,4,1,3,8.7,Data Analyst
+power bi statistics data visualization tableau excel sql,4,0,0,9.5,Data Analyst
+fastapi flask django postgresql python,5,3,3,9.4,Python Developer
+fastapi flask python postgresql,2,3,5,9.6,Python Developer
+azure linux aws terraform,5,0,0,8.2,Cloud Engineer
+system design oops sql dsa java dbms,4,0,2,8.1,Software Engineer
+system design oops java sql dsa,5,2,0,7.2,Software Engineer
+cloud security aws terraform azure linux,4,3,5,9.1,Cloud Engineer
+tableau statistics python power bi data visualization,1,2,3,7.6,Data Analyst
+java spring boot mysql hibernate rest api,3,2,0,9.7,Java Developer
+java sql dsa system design,4,1,5,9.7,Software Engineer
+cloud security terraform linux gcp,2,2,0,7.8,Cloud Engineer
+kubernetes linux terraform docker github actions jenkins transformers,3,1,4,7.6,DevOps Engineer
+transformers python rag llm prompt engineering vector database langchain,2,2,3,7.8,AI Engineer
+excel power bi tableau data visualization python sql,5,2,5,8.3,Data Analyst
+numpy data analysis tensorflow statistics python machine learning pandas,3,2,0,6.9,Data Scientist
+pytorch computer vision tensorflow python mlops nlp,3,2,0,7.2,ML Engineer
+terraform jenkins docker linux github actions,4,2,2,7.7,DevOps Engineer
+terraform linux kubernetes github actions,5,2,5,9.7,DevOps Engineer
+linux gcp terraform cloud security aws,4,0,3,9.0,Cloud Engineer
+cloud security azure gcp terraform,2,2,5,8.9,Cloud Engineer
+mlops pytorch deep learning python computer vision,5,2,5,8.4,ML Engineer
+azure terraform cloud security aws,1,0,3,8.3,Cloud Engineer
+rest api spring boot java mysql,5,0,2,8.5,Java Developer
+tensorflow deep learning mlops nlp python computer vision pytorch,4,3,0,8.0,ML Engineer
+power bi tableau python data visualization sql statistics excel express,5,0,4,7.8,Data Analyst
+postgresql django fastapi python java,5,1,1,7.2,Python Developer
+rest api spring boot hibernate java mysql,2,0,0,8.2,Java Developer
+statistics data visualization python power bi sql excel tableau system design,5,3,0,7.6,Data Analyst
+css mongodb javascript react html,1,0,3,7.5,Full Stack Developer
+spring boot mysql java rest api,5,2,1,9.8,Java Developer
+cloud security azure aws gcp terraform,3,1,3,7.4,Cloud Engineer
+computer vision pytorch tensorflow python mlops,2,3,0,9.1,ML Engineer
+nodejs html express javascript,2,1,0,7.9,Full Stack Developer
+vector database prompt engineering python llm rag transformers,1,3,3,7.2,AI Engineer
+docker jenkins kubernetes terraform,5,1,1,6.8,DevOps Engineer
+spring boot java hibernate mysql django,5,2,2,8.3,Java Developer
+docker jenkins linux kubernetes github actions terraform,4,0,2,8.5,DevOps Engineer
+express javascript nodejs html deep learning,2,1,4,9.3,Full Stack Developer
+sql java system design oops dbms dsa,4,1,1,7.2,Software Engineer
+gcp azure linux aws terraform cloud security,4,3,0,7.3,Cloud Engineer
+pandas machine learning data analysis numpy tensorflow statistics,4,0,0,7.2,Data Scientist
+prompt engineering vector database transformers langchain llm rag,2,1,0,7.0,AI Engineer
+terraform github actions jenkins kubernetes linux docker,3,3,5,7.2,DevOps Engineer
+tensorflow machine learning python numpy data analysis,1,0,1,8.1,Data Scientist
+power bi tableau python excel,2,0,4,9.1,Data Analyst
+jenkins kubernetes docker github actions,2,3,3,9.3,DevOps Engineer
+pytorch python computer vision mlops,3,3,2,8.6,ML Engineer
+gcp cloud security aws linux,5,0,5,7.0,Cloud Engineer
+fastapi django postgresql flask python,2,0,3,9.4,Python Developer
+data analysis machine learning numpy tensorflow pandas statistics python,3,3,4,6.9,Data Scientist
+tableau statistics excel sql,3,2,3,7.4,Data Analyst
+transformers langchain rag prompt engineering,5,0,1,8.6,AI Engineer
+hibernate java spring boot rest api,2,0,5,7.3,Java Developer
+flask django python postgresql fastapi,1,3,5,7.9,Python Developer
+computer vision pytorch deep learning python nlp tensorflow mlops prompt engineering,2,0,5,9.3,ML Engineer
+docker linux terraform jenkins mongodb,1,1,2,8.6,DevOps Engineer
+terraform linux gcp azure aws,3,3,0,9.3,Cloud Engineer
+vector database rag transformers prompt engineering llm langchain python,5,3,5,7.6,AI Engineer
+gcp linux azure aws terraform cloud security,3,0,3,9.2,Cloud Engineer
+transformers rag langchain prompt engineering python vector database llm,3,0,4,9.0,AI Engineer
+terraform kubernetes github actions linux docker,1,0,5,7.3,DevOps Engineer
+postgresql django fastapi flask python,5,2,0,7.7,Python Developer
+rest api hibernate spring boot mysql,4,0,4,8.9,Java Developer
+javascript html react css mongodb express,1,1,2,9.1,Full Stack Developer
+nodejs express mongodb javascript,1,0,0,9.4,Full Stack Developer
+docker linux kubernetes github actions,4,2,2,9.4,DevOps Engineer
+fastapi django flask postgresql,3,0,1,7.8,Python Developer
+aws cloud security azure terraform gcp prompt engineering,3,0,3,8.5,Cloud Engineer
+dsa dbms java sql,2,0,5,9.7,Software Engineer
+github actions kubernetes docker terraform linux,2,0,3,9.3,DevOps Engineer
+power bi statistics python tableau excel data visualization pytorch,1,3,2,9.4,Data Analyst
+dbms oops sql dsa java system design,1,1,3,9.8,Software Engineer
+rest api spring boot mysql hibernate,2,3,3,7.7,Java Developer
+oops sql java dbms dsa system design transformers,5,3,1,7.1,Software Engineer
+linux kubernetes github actions terraform,2,1,0,7.4,DevOps Engineer
+sql dsa system design java oops,1,0,2,9.2,Software Engineer
+oops java dsa sql dbms system design,1,2,3,9.5,Software Engineer
+power bi sql excel tableau data visualization,3,3,3,7.7,Data Analyst
+cloud security terraform azure gcp aws,2,3,5,6.8,Cloud Engineer
+kubernetes linux jenkins terraform docker,5,1,5,9.7,DevOps Engineer
+mlops computer vision nlp pytorch tensorflow python,5,3,5,7.1,ML Engineer
+java mysql hibernate rest api,4,1,1,7.8,Java Developer
+fastapi postgresql flask python,2,0,1,8.4,Python Developer
+linux terraform github actions docker kubernetes,5,2,5,9.7,DevOps Engineer
+power bi data visualization tableau statistics excel,2,0,3,7.9,Data Analyst
+css javascript react express terraform,3,3,4,8.4,Full Stack Developer
+react mongodb express nodejs javascript css sql,4,2,2,6.7,Full Stack Developer
+python nlp mlops deep learning,3,1,3,9.8,ML Engineer
+jenkins kubernetes terraform github actions,5,1,0,8.1,DevOps Engineer
+rest api hibernate spring boot mysql,4,1,1,7.0,Java Developer
+data visualization power bi statistics excel sql python,2,2,1,7.9,Data Analyst
+python power bi sql excel statistics,3,1,5,8.1,Data Analyst
+python computer vision tensorflow deep learning pytorch nlp mlops,1,0,5,6.6,ML Engineer
+gcp terraform cloud security azure linux aws,4,3,1,7.4,Cloud Engineer
+data analysis numpy python tensorflow statistics,3,2,3,6.6,Data Scientist
+linux terraform gcp cloud security,5,1,3,9.0,Cloud Engineer
+rest api spring boot mysql java,5,2,1,7.2,Java Developer
+linux aws terraform azure gcp cloud security,1,0,2,8.2,Cloud Engineer
+statistics power bi data visualization sql excel python tableau,1,2,4,9.4,Data Analyst
+mysql rest api spring boot java,2,0,0,7.2,Java Developer
+terraform cloud security gcp linux,3,1,3,6.6,Cloud Engineer
+spring boot java mysql hibernate,4,2,1,7.3,Java Developer
+python pytorch deep learning computer vision tensorflow nlp mlops,4,1,5,9.3,ML Engineer
+pandas statistics python tensorflow,1,2,0,7.5,Data Scientist
+postgresql python django flask fastapi,3,1,1,8.0,Python Developer
+sql system design dbms dsa java,4,2,4,9.3,Software Engineer
+jenkins github actions terraform kubernetes linux,1,0,3,7.6,DevOps Engineer
+oops java dbms dsa sql,5,0,4,7.5,Software Engineer
+mongodb express javascript nodejs,1,2,1,8.4,Full Stack Developer
+linux aws azure cloud security,3,1,2,9.3,Cloud Engineer
+prompt engineering python llm vector database langchain transformers rag,5,2,4,7.8,AI Engineer
+tensorflow machine learning statistics data analysis numpy python pandas,4,3,1,7.6,Data Scientist
+jenkins terraform github actions linux docker kubernetes,4,1,4,8.0,DevOps Engineer
+machine learning statistics pandas python tensorflow numpy data analysis,4,3,5,6.8,Data Scientist
+docker github actions kubernetes jenkins,3,3,3,6.5,DevOps Engineer
+postgresql python fastapi flask jenkins,2,3,2,8.1,Python Developer
+html mongodb nodejs react css javascript express,5,1,5,8.1,Full Stack Developer
+python excel sql power bi deep learning,4,0,0,7.6,Data Analyst
+nlp python deep learning pytorch mlops computer vision,4,1,2,7.1,ML Engineer
+rag transformers langchain prompt engineering python vector database llm,4,2,4,8.8,AI Engineer
+linux terraform cloud security aws gcp azure,5,1,2,9.2,Cloud Engineer
+aws cloud security terraform gcp azure linux,4,0,5,9.3,Cloud Engineer
+pytorch deep learning mlops tensorflow python nlp computer vision,1,3,2,8.6,ML Engineer
+docker terraform jenkins kubernetes,1,2,1,7.8,DevOps Engineer
+dbms sql java oops,4,1,4,8.7,Software Engineer
+nlp pytorch tensorflow deep learning python,1,3,4,8.9,ML Engineer
+azure linux gcp aws terraform,4,2,3,8.9,Cloud Engineer
+hibernate rest api spring boot mysql java,5,3,3,8.2,Java Developer
+data visualization excel power bi tableau sql,3,1,5,7.7,Data Analyst
+kubernetes linux docker terraform,2,3,0,9.5,DevOps Engineer
+gcp aws azure linux,5,3,1,8.3,Cloud Engineer
+tensorflow mlops nlp python pytorch computer vision,4,3,0,7.5,ML Engineer
+dsa dbms java system design,1,1,1,7.6,Software Engineer
+terraform gcp aws azure cloud security linux,2,2,1,7.0,Cloud Engineer
+rag transformers llm langchain python,4,1,0,6.5,AI Engineer
+fastapi flask django python postgresql,2,0,0,7.8,Python Developer
+computer vision pytorch nlp deep learning tensorflow mlops,4,2,5,7.9,ML Engineer
+python flask fastapi postgresql,2,1,4,8.4,Python Developer
+sql data visualization tableau python,3,0,2,7.4,Data Analyst
+mysql rest api spring boot hibernate,3,0,5,7.9,Java Developer
+django python flask fastapi,4,1,1,9.5,Python Developer
+llm langchain transformers vector database python rag prompt engineering,2,2,5,8.4,AI Engineer
+python tableau data visualization sql excel,3,0,1,7.3,Data Analyst
+prompt engineering rag python llm langchain vector database,2,3,0,8.0,AI Engineer
+nodejs react express html,5,0,0,8.4,Full Stack Developer
+sql dbms system design oops dsa java,3,3,4,6.9,Software Engineer
+power bi data visualization statistics tableau python excel,3,2,0,9.1,Data Analyst
+kubernetes terraform jenkins docker,2,3,3,6.7,DevOps Engineer
+dbms system design oops dsa,1,1,4,7.7,Software Engineer
+pandas data analysis statistics python,5,0,5,7.7,Data Scientist
+data analysis statistics tensorflow numpy pandas python,4,0,2,8.2,Data Scientist
+azure cloud security terraform aws,3,2,5,8.2,Cloud Engineer
+computer vision deep learning pytorch tensorflow mlops python,1,1,4,6.6,ML Engineer
+sql python tableau power bi data visualization statistics,1,3,0,8.4,Data Analyst
+django flask python postgresql,4,0,0,8.4,Python Developer
+statistics machine learning data analysis tensorflow pandas,1,3,1,8.4,Data Scientist
+css html nodejs express react mongodb javascript,4,1,0,7.3,Full Stack Developer
+dsa system design dbms oops,5,1,2,7.5,Software Engineer
+numpy data analysis statistics machine learning python tensorflow,2,1,1,9.8,Data Scientist
+css nodejs express javascript mongodb react html,5,3,2,9.2,Full Stack Developer
+linux terraform docker kubernetes github actions,5,2,0,7.3,DevOps Engineer
+terraform gcp cloud security aws azure,5,2,5,8.2,Cloud Engineer
+linux github actions jenkins terraform docker kubernetes,1,2,5,8.3,DevOps Engineer
+cloud security aws gcp azure,4,2,5,8.6,Cloud Engineer
+mysql spring boot hibernate rest api java,3,3,0,9.0,Java Developer
+github actions kubernetes terraform jenkins data analysis,5,2,4,7.8,DevOps Engineer
+javascript nodejs react css html mongodb,1,1,4,8.0,Full Stack Developer
+pandas statistics tensorflow machine learning,2,2,1,9.5,Data Scientist
+jenkins terraform linux docker,2,3,5,7.7,DevOps Engineer
+dsa sql system design java dbms,1,3,4,7.5,Software Engineer
+express mongodb html css javascript,1,1,3,6.9,Full Stack Developer
+statistics pandas python machine learning,5,0,3,8.0,Data Scientist
+rag vector database llm transformers langchain python prompt engineering,3,2,2,6.7,AI Engineer
+data visualization python sql tableau excel,3,0,5,8.9,Data Analyst
+data visualization power bi tableau excel sql python statistics,3,0,2,8.7,Data Analyst
+rag prompt engineering transformers langchain llm python,3,1,0,8.6,AI Engineer
+terraform aws azure gcp rag,2,0,3,8.1,Cloud Engineer
+java dsa dbms oops system design sql,5,0,5,7.0,Software Engineer
+terraform github actions jenkins linux,4,0,3,8.8,DevOps Engineer
+github actions terraform docker kubernetes,2,0,2,8.4,DevOps Engineer
+linux gcp cloud security terraform,4,1,1,8.0,Cloud Engineer
+css react html javascript nodejs pandas,3,1,1,8.1,Full Stack Developer
+react html express css nodejs,2,2,0,8.3,Full Stack Developer
+mongodb nodejs html express react,4,2,5,8.3,Full Stack Developer
+fastapi postgresql python flask django,3,0,3,9.7,Python Developer
+azure aws cloud security linux gcp,3,3,0,7.8,Cloud Engineer
+mlops computer vision nlp tensorflow python pytorch deep learning,3,2,4,9.7,ML Engineer
+javascript express react mongodb,5,1,0,6.9,Full Stack Developer
+hibernate java rest api spring boot mysql,2,0,3,6.7,Java Developer
+linux jenkins github actions kubernetes,5,2,1,6.5,DevOps Engineer
+fastapi flask django postgresql python,4,3,3,9.3,Python Developer
+terraform gcp cloud security linux,5,2,4,6.8,Cloud Engineer
+kubernetes jenkins terraform github actions,5,2,2,6.9,DevOps Engineer
+github actions terraform kubernetes jenkins docker,2,3,3,8.7,DevOps Engineer
+python django fastapi flask postgresql sql,4,1,5,6.9,Python Developer
+python vector database transformers prompt engineering rag llm langchain,2,2,4,7.4,AI Engineer
+azure gcp cloud security terraform,2,0,2,8.7,Cloud Engineer
+django flask fastapi python postgresql,1,0,1,8.0,Python Developer
+jenkins docker github actions kubernetes linux terraform,4,0,4,7.7,DevOps Engineer
+terraform docker jenkins github actions linux,5,1,2,8.7,DevOps Engineer
+tensorflow data analysis numpy machine learning cloud security,4,2,0,8.1,Data Scientist
+prompt engineering llm rag transformers langchain,2,3,0,7.2,AI Engineer
+express html css react javascript nodejs mongodb,5,2,2,8.1,Full Stack Developer
+css html express react javascript,5,2,1,7.4,Full Stack Developer
+python prompt engineering transformers langchain llm vector database,3,0,4,9.4,AI Engineer
+fastapi flask python django,1,2,0,8.6,Python Developer
+postgresql python fastapi django,1,2,3,8.2,Python Developer
+oops dbms dsa system design java sql,5,0,1,8.6,Software Engineer
+transformers vector database llm prompt engineering,5,0,1,9.0,AI Engineer
+llm python transformers langchain,3,2,3,9.6,AI Engineer
+postgresql fastapi python flask,4,2,4,8.4,Python Developer
+html react mongodb javascript express,3,0,2,9.8,Full Stack Developer
+javascript react html css,5,2,2,7.2,Full Stack Developer
+fastapi flask python postgresql django,2,3,0,7.6,Python Developer
+linux gcp azure terraform cloud security,1,2,5,6.5,Cloud Engineer
+postgresql django python flask fastapi,2,1,3,8.6,Python Developer
+express nodejs javascript html css mongodb,5,2,1,7.5,Full Stack Developer
+django postgresql fastapi python,2,0,0,9.2,Python Developer
+mongodb express react html,5,1,1,9.1,Full Stack Developer
+jenkins terraform github actions kubernetes docker,3,2,1,8.8,DevOps Engineer
+postgresql django python flask,1,3,1,7.6,Python Developer
+azure gcp linux cloud security,3,3,0,7.0,Cloud Engineer
+terraform azure gcp cloud security linux,3,1,3,6.8,Cloud Engineer
+kubernetes jenkins docker terraform,3,0,1,8.5,DevOps Engineer
+linux cloud security terraform aws,2,2,1,9.3,Cloud Engineer
+prompt engineering transformers vector database langchain,2,2,4,8.1,AI Engineer
+langchain llm rag python prompt engineering,5,3,3,7.1,AI Engineer
+rest api spring boot hibernate mysql java,2,2,2,8.9,Java Developer
+terraform linux aws gcp,3,0,3,9.0,Cloud Engineer
+nlp mlops tensorflow deep learning,3,0,0,9.0,ML Engineer
+python rag transformers vector database langchain,2,3,1,7.3,AI Engineer
+pytorch nlp deep learning python dsa,3,2,4,9.5,ML Engineer
+hibernate spring boot rest api mysql,1,0,3,8.6,Java Developer
+django flask fastapi python,4,1,5,9.0,Python Developer
+github actions kubernetes linux jenkins docker terraform,2,2,3,9.3,DevOps Engineer
+java mysql rest api hibernate,5,3,2,6.6,Java Developer
+deep learning computer vision tensorflow pytorch mlops nlp azure,4,1,3,6.5,ML Engineer
+hibernate spring boot java rest api,4,1,5,6.5,Java Developer
+nlp python tensorflow deep learning mlops computer vision,1,2,5,9.7,ML Engineer
+mysql hibernate rest api spring boot,3,1,1,7.1,Java Developer
+github actions kubernetes linux terraform docker jenkins statistics,5,3,1,6.9,DevOps Engineer
+transformers prompt engineering vector database rag,2,1,0,8.9,AI Engineer
+cloud security linux gcp aws azure,5,1,0,9.8,Cloud Engineer
+express react nodejs css html javascript,4,1,0,8.3,Full Stack Developer
+deep learning python tensorflow computer vision pytorch nlp mlops,1,3,4,6.8,ML Engineer
+github actions kubernetes linux docker terraform jenkins,4,3,2,8.6,DevOps Engineer
+statistics sql power bi excel python data visualization tableau,5,0,1,6.8,Data Analyst
+java mysql hibernate rest api,5,3,1,7.6,Java Developer
+nlp deep learning pytorch python tensorflow computer vision mlops,4,1,5,9.1,ML Engineer
+python postgresql fastapi flask django machine learning,1,2,1,8.1,Python Developer
+transformers prompt engineering langchain vector database rag llm,2,2,0,9.5,AI Engineer
+dsa oops system design sql java,3,0,0,8.1,Software Engineer
+javascript react html express mongodb css nodejs vector database,4,3,1,6.8,Full Stack Developer
+docker linux kubernetes github actions,2,3,3,8.2,DevOps Engineer
+react html mongodb css express javascript nodejs,1,0,1,6.8,Full Stack Developer
+system design oops sql dsa dbms java,1,2,1,7.9,Software Engineer
+mongodb css javascript react express nodejs html,3,0,5,9.1,Full Stack Developer
+hibernate mysql rest api java,5,3,3,7.9,Java Developer
+statistics python tensorflow machine learning numpy pandas data analysis html,5,2,5,7.3,Data Scientist
+numpy pandas statistics tensorflow python,3,0,5,8.2,Data Scientist
+llm rag vector database prompt engineering python langchain transformers,1,2,4,6.8,AI Engineer
+sql java dbms oops system design,4,3,2,6.9,Software Engineer
+statistics data analysis tensorflow pandas numpy python machine learning,1,2,4,8.1,Data Scientist
+llm prompt engineering rag vector database langchain python transformers mlops,2,0,5,8.8,AI Engineer
+cloud security gcp terraform aws azure linux,4,3,1,9.5,Cloud Engineer
+flask python django fastapi postgresql docker,5,1,4,8.0,Python Developer
+spring boot hibernate rest api java,2,2,1,9.6,Java Developer
+github actions linux kubernetes docker terraform jenkins,3,2,3,6.9,DevOps Engineer
+prompt engineering vector database langchain rag python transformers llm docker,1,1,0,7.8,AI Engineer
+terraform linux cloud security gcp azure aws,1,3,3,7.9,Cloud Engineer
+prompt engineering langchain transformers llm,5,0,5,8.7,AI Engineer
+kubernetes terraform linux docker,1,3,2,6.8,DevOps Engineer
+dbms sql dsa oops,3,2,3,9.1,Software Engineer
+css javascript mongodb html express react nodejs,1,3,3,9.4,Full Stack Developer
+prompt engineering llm vector database rag python,5,2,0,7.6,AI Engineer
+transformers prompt engineering llm langchain,3,1,5,8.9,AI Engineer
+data visualization excel python power bi sql tableau,5,0,0,6.9,Data Analyst
+java sql system design dsa oops dbms,3,0,3,7.6,Software Engineer
+kubernetes terraform linux jenkins,2,3,2,8.7,DevOps Engineer
+mongodb css html javascript react,2,2,3,8.1,Full Stack Developer
+mlops computer vision python pytorch tensorflow deep learning,3,2,5,7.0,ML Engineer
+tensorflow nlp computer vision deep learning pytorch mlops python,1,3,2,8.2,ML Engineer
+java hibernate spring boot rest api mysql,5,0,3,8.3,Java Developer
+rest api hibernate java mysql,5,1,0,6.7,Java Developer
+dsa oops dbms system design,3,2,0,8.2,Software Engineer
+rag llm python vector database docker,4,3,2,8.3,AI Engineer
+tensorflow numpy python statistics pandas,4,3,3,9.7,Data Scientist
+python excel tableau data visualization statistics sql,2,0,0,9.5,Data Analyst
+hibernate rest api java spring boot,3,0,5,9.5,Java Developer
+statistics sql excel tableau data visualization power bi,1,0,1,6.6,Data Analyst
+mysql spring boot rest api hibernate java,5,2,2,9.4,Java Developer
+machine learning statistics data analysis python,2,0,1,9.0,Data Scientist
+javascript react css express html nodejs,4,2,0,9.2,Full Stack Developer
+terraform linux kubernetes jenkins docker github actions,2,2,3,6.8,DevOps Engineer
+statistics pandas tensorflow python numpy rag,3,2,1,6.8,Data Scientist
+machine learning numpy tensorflow statistics data analysis,2,3,0,8.9,Data Scientist
+tensorflow computer vision nlp deep learning mlops pytorch python,5,2,5,7.1,ML Engineer
+github actions docker kubernetes terraform,4,0,3,6.8,DevOps Engineer
+machine learning pandas tensorflow statistics python data analysis,1,1,4,9.8,Data Scientist
+mlops python computer vision nlp pytorch deep learning tensorflow,5,3,3,8.9,ML Engineer
+mongodb css html javascript nodejs express react,5,3,5,8.4,Full Stack Developer
+hibernate rest api spring boot java jenkins,5,2,0,7.9,Java Developer
+java mysql hibernate spring boot rest api tableau,3,0,0,9.0,Java Developer
+javascript mongodb express html react,1,0,1,9.3,Full Stack Developer
+llm prompt engineering python transformers rag langchain vector database hibernate,4,2,0,8.0,AI Engineer
+rest api mysql java hibernate,2,0,0,7.8,Java Developer
+fastapi django python flask,5,3,5,9.1,Python Developer
+python nlp deep learning computer vision mlops,3,0,5,8.1,ML Engineer
+gcp linux aws cloud security,3,2,1,9.7,Cloud Engineer
+tableau statistics excel power bi python java,2,0,3,8.2,Data Analyst
+linux terraform gcp aws cloud security,5,2,2,8.2,Cloud Engineer
+python power bi statistics tableau,3,1,1,8.1,Data Analyst
+spring boot hibernate java mysql rest api,4,1,4,8.0,Java Developer
+hibernate rest api java mysql,2,2,5,8.3,Java Developer
+tensorflow pytorch python computer vision,2,2,1,9.6,ML Engineer
+data analysis pandas tensorflow statistics machine learning sql,3,3,4,9.7,Data Scientist
+excel data visualization power bi sql python statistics llm,1,0,4,9.6,Data Analyst
+langchain llm transformers vector database rag python,4,1,0,6.9,AI Engineer
+statistics machine learning tensorflow data analysis pandas,4,1,0,7.9,Data Scientist
+langchain python prompt engineering rag,2,1,2,7.5,AI Engineer
+spring boot hibernate java mysql rest api postgresql,3,1,1,8.4,Java Developer
+dsa oops dbms java system design,5,0,2,7.7,Software Engineer
+data analysis tensorflow statistics machine learning,4,2,2,9.3,Data Scientist
+linux github actions docker terraform kubernetes,2,3,3,7.6,DevOps Engineer
+vector database llm python rag langchain prompt engineering nodejs,2,0,1,7.0,AI Engineer
+docker linux kubernetes terraform,2,2,1,9.6,DevOps Engineer
+pandas statistics tensorflow python,3,3,0,9.2,Data Scientist
+terraform docker github actions kubernetes,5,0,5,7.3,DevOps Engineer
+hibernate spring boot rest api java,1,2,2,8.1,Java Developer
+flask fastapi postgresql python,4,3,4,9.3,Python Developer
+docker jenkins linux terraform kubernetes,4,2,4,8.2,DevOps Engineer
+mongodb css express javascript,3,3,2,7.4,Full Stack Developer
+nlp pytorch tensorflow python mlops deep learning computer vision,2,0,0,8.4,ML Engineer
+linux terraform gcp aws azure,4,3,3,8.2,Cloud Engineer
+oops dbms dsa java system design,2,3,2,8.5,Software Engineer
+azure linux terraform cloud security aws html,2,1,4,9.5,Cloud Engineer
+data analysis numpy statistics tensorflow machine learning,5,1,3,8.9,Data Scientist
+dsa sql oops dbms,3,0,2,8.2,Software Engineer
+numpy pandas machine learning tensorflow,3,1,0,9.6,Data Scientist
+sql python data visualization excel,2,2,4,9.6,Data Analyst
+nodejs html mongodb react sql,3,3,5,7.1,Full Stack Developer
+rag python prompt engineering vector database,1,1,3,9.5,AI Engineer
+computer vision python mlops pytorch deep learning tensorflow,2,3,2,8.1,ML Engineer
+vector database llm prompt engineering langchain rag transformers python,2,3,0,8.6,AI Engineer
+html react mongodb nodejs css express javascript,3,3,2,9.7,Full Stack Developer
+linux terraform aws gcp cloud security azure,4,0,2,8.1,Cloud Engineer
+terraform linux github actions kubernetes vector database,5,3,4,8.4,DevOps Engineer
+java rest api mysql hibernate,2,3,5,9.7,Java Developer
+nlp deep learning pytorch python mlops computer vision,3,3,5,7.9,ML Engineer
+css nodejs javascript mongodb html react,5,1,2,7.1,Full Stack Developer
+java mysql spring boot rest api,5,0,4,7.8,Java Developer
+mysql java hibernate spring boot,2,1,2,8.7,Java Developer
+nodejs html javascript mongodb express react,1,2,1,7.7,Full Stack Developer
+azure cloud security gcp aws linux kubernetes,5,0,0,8.3,Cloud Engineer
+css express nodejs react mongodb,3,1,0,8.2,Full Stack Developer
+rest api hibernate java spring boot,5,2,2,6.9,Java Developer
+statistics tensorflow machine learning numpy data analysis python pandas,4,1,3,8.1,Data Scientist
+data visualization sql tableau python,3,1,0,9.5,Data Analyst
+prompt engineering python vector database langchain,1,0,1,8.5,AI Engineer
+computer vision mlops deep learning nlp,5,3,5,9.3,ML Engineer
+mongodb nodejs javascript react css,4,2,2,7.3,Full Stack Developer
+nodejs javascript html css mongodb,3,0,3,8.6,Full Stack Developer
+cloud security aws gcp linux oops,5,0,1,9.3,Cloud Engineer
+django fastapi python postgresql,4,0,2,6.7,Python Developer
+excel data visualization power bi statistics,5,1,1,9.7,Data Analyst
+postgresql django flask python,5,0,0,7.2,Python Developer
+sql dbms system design java deep learning,1,1,3,7.7,Software Engineer
+tensorflow deep learning pytorch computer vision,1,0,0,7.8,ML Engineer
+fastapi postgresql django flask,1,0,0,9.5,Python Developer
+rag langchain llm vector database prompt engineering python transformers,1,2,5,8.4,AI Engineer
+statistics numpy data analysis tensorflow,1,2,4,9.2,Data Scientist
+data visualization tableau power bi sql,2,2,0,8.6,Data Analyst
+python tensorflow numpy machine learning data analysis pandas statistics,1,3,1,7.9,Data Scientist
+vector database llm langchain rag python,4,2,2,6.5,AI Engineer
+numpy machine learning pandas tensorflow statistics python data analysis,4,2,3,7.4,Data Scientist
+fastapi django flask postgresql,1,0,5,6.5,Python Developer
+power bi python tableau excel,2,3,5,8.3,Data Analyst
+dbms dsa oops java,5,1,3,9.3,Software Engineer
+data visualization python statistics tableau,1,3,1,7.0,Data Analyst
+rag langchain llm transformers python vector database prompt engineering,1,0,0,9.6,AI Engineer
+linux azure aws cloud security gcp terraform,4,1,1,7.3,Cloud Engineer
+html mongodb express javascript,5,2,2,9.6,Full Stack Developer
+hibernate rest api mysql spring boot,1,1,1,7.5,Java Developer
+mongodb javascript nodejs css react express,3,2,5,7.0,Full Stack Developer
+dbms dsa oops sql java system design transformers,1,2,4,8.6,Software Engineer
+fastapi postgresql django python flask vector database,4,3,3,7.0,Python Developer
+react javascript mongodb html css express nodejs prompt engineering,5,1,2,9.4,Full Stack Developer
+aws terraform gcp linux azure cloud security llm,4,3,4,8.1,Cloud Engineer
+pytorch python tensorflow deep learning mlops computer vision,5,1,5,8.2,ML Engineer
+terraform aws linux cloud security,2,0,1,7.6,Cloud Engineer
+rag transformers python llm prompt engineering vector database langchain,2,2,1,7.9,AI Engineer
+system design sql java dsa oops,1,1,0,7.3,Software Engineer
+power bi statistics sql data visualization python excel tableau,5,2,3,8.5,Data Analyst
+gcp cloud security terraform azure linux aws,4,3,3,7.1,Cloud Engineer
+oops system design java dsa sql,3,0,3,8.3,Software Engineer
+transformers langchain vector database python,4,1,4,7.5,AI Engineer
+nodejs express javascript mongodb html react css,2,2,1,8.7,Full Stack Developer
+docker terraform kubernetes jenkins linux github actions,1,0,2,8.5,DevOps Engineer
+python mlops nlp pytorch deep learning computer vision,3,1,3,8.5,ML Engineer
+mysql spring boot java hibernate rest api,3,2,3,7.5,Java Developer
+pytorch python tensorflow mlops nlp rest api,1,3,2,6.8,ML Engineer
+react html express nodejs,1,0,5,9.1,Full Stack Developer
+dsa sql system design dbms oops,5,3,0,9.5,Software Engineer
+vector database rag prompt engineering llm,2,2,4,7.3,AI Engineer
+tensorflow data analysis machine learning numpy pandas statistics prompt engineering,1,0,1,6.6,Data Scientist
+tableau sql statistics python,3,2,3,8.3,Data Analyst
+fastapi django postgresql python,5,2,0,7.0,Python Developer
+tensorflow python pytorch deep learning nlp computer vision,3,2,5,8.8,ML Engineer
+java rest api spring boot mysql,5,0,1,6.8,Java Developer
+python numpy data analysis tensorflow statistics pandas machine learning,5,1,1,6.8,Data Scientist
+dsa sql java system design,4,2,1,7.0,Software Engineer
+postgresql fastapi python django flask,4,1,3,7.0,Python Developer
+machine learning statistics numpy python pandas data analysis tensorflow,5,3,4,6.7,Data Scientist
+oops sql dsa dbms,2,3,1,6.5,Software Engineer
+mongodb nodejs express css html javascript react,2,0,0,6.7,Full Stack Developer
+css html nodejs react express javascript,1,2,3,8.0,Full Stack Developer
+python machine learning statistics pandas data analysis,4,3,1,8.1,Data Scientist
+langchain vector database rag transformers llm python prompt engineering,2,1,1,8.0,AI Engineer
+postgresql django python fastapi flask,1,2,2,7.1,Python Developer
+kubernetes linux docker github actions terraform jenkins,5,0,1,8.2,DevOps Engineer
+data visualization excel sql statistics python power bi tableau,4,3,0,8.7,Data Analyst
+jenkins terraform github actions docker kubernetes linux,3,2,0,9.4,DevOps Engineer
+java oops system design dsa sql,4,1,3,6.8,Software Engineer
+mysql spring boot rest api hibernate java,3,3,0,7.9,Java Developer
+postgresql fastapi flask python llm,2,1,3,8.1,Python Developer
+data visualization power bi sql statistics excel,5,2,3,9.7,Data Analyst
+javascript css react html express,4,3,4,8.3,Full Stack Developer
+machine learning pandas numpy data analysis,2,3,0,8.7,Data Scientist
+flask django python postgresql fastapi,2,3,1,9.5,Python Developer
+mlops python tensorflow nlp computer vision,5,1,2,8.7,ML Engineer
+python data visualization excel sql statistics power bi,2,0,0,9.1,Data Analyst
+terraform jenkins linux docker,1,3,5,7.6,DevOps Engineer
+java rest api hibernate spring boot,2,1,3,7.3,Java Developer
+terraform docker github actions linux,3,0,0,7.6,DevOps Engineer
+mysql rest api spring boot java hibernate,3,3,2,7.5,Java Developer
+mysql spring boot java hibernate,2,1,1,6.7,Java Developer
+postgresql django flask fastapi python azure,2,1,1,8.2,Python Developer
+java system design sql oops,5,1,5,8.0,Software Engineer
+nodejs mongodb express javascript,4,1,1,9.1,Full Stack Developer
+hibernate rest api mysql java,4,3,2,9.4,Java Developer
