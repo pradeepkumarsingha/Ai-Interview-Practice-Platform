@@ -1,38 +1,14 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, BrainCircuit, FileUp, GraduationCap, Layers3, Loader2, Sparkles } from "lucide-react";
+import { ArrowRight, BrainCircuit, FileUp, GraduationCap, Layers3, Loader2, Sparkles, AlertTriangle } from "lucide-react";
 import DashboardShell from "../components/DashboardShell";
 import { Card, Chip, PageHeader, PrimaryButton, ProgressBar, SkeletonBlock } from "../components/ui";
 import { predictRole, uploadResume } from "../api/aiService";
 
 const MotionDiv = motion.div;
 
-const fallbackRoles = [
-  {
-    title: "AI Product Analyst",
-    score: 92,
-    path: "Data Analyst -> AI Analyst -> AI Product Manager",
-    skills: ["SQL", "Python", "Prompting", "Product Metrics"],
-    learning: ["Model evaluation basics", "A/B testing", "Dashboard storytelling"],
-  },
-  {
-    title: "Full Stack Developer",
-    score: 86,
-    path: "Frontend Intern -> MERN Developer -> Platform Engineer",
-    skills: ["React", "Node.js", "MongoDB", "APIs"],
-    learning: ["System design", "Testing", "Cloud deployment"],
-  },
-  {
-    title: "Data Engineer",
-    score: 79,
-    path: "SQL Developer -> Data Engineer -> Analytics Engineer",
-    skills: ["ETL", "Python", "Warehousing", "Pipelines"],
-    learning: ["Airflow", "dbt", "Data modeling"],
-  },
-];
-
 const normalizeRoles = (recommendations) => {
-  if (!recommendations) return fallbackRoles;
+  if (!recommendations) return [];
 
   const rolesArray = recommendations.recommended_roles || recommendations.roles;
   const predictedRole = recommendations.predicted_role;
@@ -41,25 +17,26 @@ const normalizeRoles = (recommendations) => {
   if (predictedRole) {
     return [
       {
-        ...fallbackRoles[0],
         title: predictedRole,
-        score: Math.round((confidence || 0.9) * 100),
+        score: Math.round((confidence || 0) * 100),
+        path: recommendations.path || "No clear path mapped",
+        skills: recommendations.skills || recommendations.required_skills || [],
+        learning: recommendations.learning || recommendations.recommended_learning || [],
       },
-      ...fallbackRoles.slice(1),
     ];
   }
 
   if (Array.isArray(rolesArray) && rolesArray.length) {
-    return rolesArray.slice(0, 3).map((role, index) => ({
-      ...fallbackRoles[index],
+    return rolesArray.slice(0, 3).map((role) => ({
       title: role.title || role.name || role.role || role,
-      score: Math.round((role.score || role.confidence || role.confidence_score || fallbackRoles[index].score / 100) * 100),
-      skills: role.skills || role.required_skills || fallbackRoles[index].skills,
-      learning: role.learning || role.recommended_learning || fallbackRoles[index].learning,
+      score: Math.round((role.score || role.confidence || role.confidence_score || 0) * 100),
+      path: role.path || "Custom Selected Track",
+      skills: role.skills || role.required_skills || [],
+      learning: role.learning || role.recommended_learning || [],
     }));
   }
 
-  return fallbackRoles;
+  return [];
 };
 
 const RoleRecommender = () => {
@@ -72,17 +49,53 @@ const RoleRecommender = () => {
   const [certifications, setCertifications] = useState(0);
   const [cgpa, setCgpa] = useState(0.0);
 
-  const handleFileChange = (e) => {
-    setResumeFile(e.target.files[0] || null);
-  };
   const [recommendations, setRecommendations] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
   const roles = useMemo(() => normalizeRoles(recommendations), [recommendations]);
 
+  const handleFileChange = (e) => {
+    setResumeFile(e.target.files[0] || null);
+  };
+
+  const parseAndSetError = (err) => {
+    console.error("Role Prediction Error:", err);
+    if (err.response) {
+      const status = err.response.status;
+      const data = err.response.data;
+      const serverMsg = data?.detail || data?.message || "Failed to predict role.";
+
+      switch (status) {
+        case 400:
+          setError(serverMsg);
+          break;
+        case 401:
+          setError("Your session has expired. Please login again.");
+          break;
+        case 413:
+          setError("The uploaded file is too large.");
+          break;
+        case 415:
+          setError("Only PDF and DOCX resumes are supported.");
+          break;
+        case 500:
+          setError(serverMsg || "Internal server error occurred.");
+          break;
+        default:
+          setError(serverMsg);
+      }
+    } else if (err.request) {
+      setError("Unable to connect to the server.");
+    } else {
+      setError(err.message || "Unexpected error occurred.");
+    }
+  };
+
   const handleRecommend = async (e) => {
     e.preventDefault();
+    
+    // Clear everything before starting the request
     setLoading(true);
     setError("");
     setRecommendations(null);
@@ -90,11 +103,16 @@ const RoleRecommender = () => {
     if (resumeFile) {
       const formData = new FormData();
       formData.append("resume", resumeFile);
+      formData.append("projects", projects);
+      formData.append("internships", internships);
+      formData.append("certifications", certifications);
+      formData.append("cgpa", cgpa);
+
       try {
         const res = await uploadResume(formData);
         setRecommendations(res.data);
       } catch (err) {
-        setError(err.response?.data?.message || "Failed to get recommendations.");
+        parseAndSetError(err);
       } finally {
         setLoading(false);
       }
@@ -108,17 +126,16 @@ const RoleRecommender = () => {
         return;
       }
       try {
-        const res = await predictRole(resumeText.trim());
+        const res = await predictRole({ resume_text: resumeText.trim() });
         setRecommendations(res.data);
       } catch (err) {
-        setError(err.response?.data?.message || "Failed to get recommendations.");
+        parseAndSetError(err);
       } finally {
         setLoading(false);
       }
       return;
     }
 
-    // Form input mode
     if (!skills.trim()) {
       setError("Please provide a skills summary for the profile form.");
       setLoading(false);
@@ -135,7 +152,7 @@ const RoleRecommender = () => {
       });
       setRecommendations(res.data);
     } catch (err) {
-      setError(err.response?.data?.message || "Failed to get recommendations.");
+      parseAndSetError(err);
     } finally {
       setLoading(false);
     }
@@ -162,116 +179,115 @@ const RoleRecommender = () => {
           </div>
 
           <form onSubmit={handleRecommend} className="space-y-4">
-              <div className="flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setInputMode("paste");
-                    setResumeFile(null);
-                  }}
-                  className={`rounded-full px-4 py-2 text-sm font-semibold ${inputMode === "paste" ? "bg-indigo-600 text-white" : "bg-slate-900/70 text-slate-200"}`}
-                >
-                  Paste resume
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setInputMode("form");
-                    setResumeFile(null);
-                    setResumeText("");
-                  }}
-                  className={`rounded-full px-4 py-2 text-sm font-semibold ${inputMode === "form" ? "bg-indigo-600 text-white" : "bg-slate-900/70 text-slate-200"}`}
-                >
-                  Fill profile form
-                </button>
-              </div>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setInputMode("paste");
+                  setResumeFile(null);
+                }}
+                className={`rounded-full px-4 py-2 text-sm font-semibold ${inputMode === "paste" ? "bg-indigo-600 text-white" : "bg-slate-900/70 text-slate-200"}`}
+              >
+                Paste resume
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setInputMode("form");
+                  setResumeFile(null);
+                  setResumeText("");
+                }}
+                className={`rounded-full px-4 py-2 text-sm font-semibold ${inputMode === "form" ? "bg-indigo-600 text-white" : "bg-slate-900/70 text-slate-200"}`}
+              >
+                Fill profile form
+              </button>
+            </div>
 
-              {inputMode === "paste" ? (
-                <textarea
-                  name="resume"
-                  placeholder="Example: Computer science student skilled in React, Python, SQL, dashboards, and API development..."
-                  value={resumeText}
-                  onChange={(e) => setResumeText(e.target.value)}
-                  disabled={resumeFile !== null}
-                  required={!resumeFile}
-                  autoComplete="off"
-                  className="h-64 w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                />
-              ) : (
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div className="sm:col-span-2">
-                    <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Skills summary</label>
-                    <textarea
-                      value={skills}
-                      onChange={(e) => setSkills(e.target.value)}
-                      placeholder="e.g. Python, SQL, React, machine learning, data analysis"
-                      className="h-32 w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Projects</label>
-                    <input
-                      type="number"
-                      min="0"
-                      value={projects}
-                      onChange={(e) => setProjects(Number(e.target.value))}
-                      className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Internships</label>
-                    <input
-                      type="number"
-                      min="0"
-                      value={internships}
-                      onChange={(e) => setInternships(Number(e.target.value))}
-                      className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Certifications</label>
-                    <input
-                      type="number"
-                      min="0"
-                      value={certifications}
-                      onChange={(e) => setCertifications(Number(e.target.value))}
-                      className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">CGPA</label>
-                    <input
-                      type="number"
-                      min="0"
-                      max="10"
-                      step="0.01"
-                      value={cgpa}
-                      onChange={(e) => setCgpa(Number(e.target.value))}
-                      className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
-                    />
-                  </div>
-                </div>
-              )}
-
-              <input
-                type="file"
-                accept=".txt,.pdf,.doc,.docx"
-                onChange={handleFileChange}
-                className="mt-2 block w-full text-sm text-slate-500 file:mr-4 file:rounded-full file:border-0 file:bg-indigo-600 file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-indigo-700"
+            {inputMode === "paste" ? (
+              <textarea
+                name="resume"
+                placeholder="Example: Computer science student skilled in React, Python, SQL, dashboards, and API development..."
+                value={resumeText}
+                onChange={(e) => setResumeText(e.target.value)}
+                disabled={resumeFile !== null}
+                required={!resumeFile}
+                autoComplete="off"
+                className="h-64 w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
               />
+            ) : (
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div className="sm:col-span-2">
+                  <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Skills summary</label>
+                  <textarea
+                    value={skills}
+                    onChange={(e) => setSkills(e.target.value)}
+                    placeholder="e.g. Python, SQL, React, machine learning, data analysis"
+                    className="h-32 w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Projects</label>
+                  <input
+                    type="number"
+                    min="0"
+                    value={projects}
+                    onChange={(e) => setProjects(Number(e.target.value))}
+                    className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
+                  />
+                </div>
+                <div>
+                  <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Internships</label>
+                  <input
+                    type="number"
+                    min="0"
+                    value={internships}
+                    onChange={(e) => setInternships(Number(e.target.value))}
+                    className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
+                  />
+                </div>
+                <div>
+                  <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">Certifications</label>
+                  <input
+                    type="number"
+                    min="0"
+                    value={certifications}
+                    onChange={(e) => setCertifications(Number(e.target.value))}
+                    className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
+                  />
+                </div>
+                <div>
+                  <label className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">CGPA</label>
+                  <input
+                    type="number"
+                    min="0"
+                    max="10"
+                    step="0.01"
+                    value={cgpa}
+                    onChange={(e) => setCgpa(Number(e.target.value))}
+                    className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-indigo-400 focus:bg-white focus:ring-4 focus:ring-indigo-500/10 dark:border-white/10 dark:bg-white/5 dark:text-slate-100 dark:focus:bg-white/10"
+                  />
+                </div>
+              </div>
+            )}
 
-              <PrimaryButton type="submit" disabled={loading || (!resumeText && !resumeFile && (inputMode === "paste" ? true : !skills.trim()))} className="w-full">
-                {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
-                {loading ? "Analyzing input" : "Get role recommendations"}
-              </PrimaryButton>
-            </form>
+            <input
+              type="file"
+              accept=".txt,.pdf,.doc,.docx"
+              onChange={handleFileChange}
+              className="mt-2 block w-full text-sm text-slate-500 file:mr-4 file:rounded-full file:border-0 file:bg-indigo-600 file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-indigo-700"
+            />
 
-          {error && <p className="mt-4 rounded-xl bg-red-50 p-3 text-sm font-medium text-red-700 dark:bg-red-500/10 dark:text-red-200">{error}</p>}
+            <PrimaryButton type="submit" disabled={loading || (!resumeText && !resumeFile && (inputMode === "paste" ? true : !skills.trim()))} className="w-full">
+              {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Sparkles className="h-4 w-4" />}
+              {loading ? "Analyzing input" : "Get role recommendations"}
+            </PrimaryButton>
+          </form>
         </Card>
 
         <div className="space-y-6">
-          {loading ? (
+          {/* 1. Show processing skeleton while loading */}
+          {loading && (
             <Card hover={false}>
               <div className="mb-5 flex items-center gap-3">
                 <BrainCircuit className="h-6 w-6 animate-pulse text-indigo-500" />
@@ -286,7 +302,25 @@ const RoleRecommender = () => {
                 <SkeletonBlock className="h-24" />
               </div>
             </Card>
-          ) : (
+          )}
+
+          {/* 2. Error State: Show only this professional red card card on failure */}
+          {!loading && error && (
+            <Card className="border-red-200 bg-red-50/60 p-6 dark:border-red-500/20 dark:bg-red-950/20" hover={false}>
+              <div className="flex items-start gap-3">
+                <div className="rounded-xl bg-red-100 p-2 text-red-600 dark:bg-red-900/30 dark:text-red-400">
+                  <AlertTriangle className="h-5 w-5" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-red-800 dark:text-red-400">⚠️ Role Prediction Failed</h3>
+                  <p className="mt-2 text-sm text-red-700 dark:text-red-300 font-medium">{error}</p>
+                </div>
+              </div>
+            </Card>
+          )}
+
+          {/* 3. Success State: Render recommendation container ONLY if data exists and no error occurs */}
+          {!loading && !error && recommendations !== null && (
             <Card className="border-white/40 bg-white/70 shadow-xl shadow-indigo-500/5 dark:bg-white/5" hover={false}>
               <div className="mb-5 flex items-center justify-between">
                 <div>
@@ -326,13 +360,21 @@ const RoleRecommender = () => {
                       <div>
                         <p className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">Required skills</p>
                         <div className="flex flex-wrap gap-2">
-                          {role.skills.map((skill) => <Chip key={skill} tone="indigo">{skill}</Chip>)}
+                          {role.skills.length > 0 ? (
+                            role.skills.map((skill) => <Chip key={skill} tone="indigo">{skill}</Chip>)
+                          ) : (
+                            <span className="text-xs text-slate-400">None detected</span>
+                          )}
                         </div>
                       </div>
                       <div>
                         <p className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">Recommended learning</p>
                         <div className="flex flex-wrap gap-2">
-                          {role.learning.map((item) => <Chip key={item} tone="purple">{item}</Chip>)}
+                          {role.learning.length > 0 ? (
+                            role.learning.map((item) => <Chip key={item} tone="purple">{item}</Chip>)
+                          ) : (
+                            <span className="text-xs text-slate-400">None recommended</span>
+                          )}
                         </div>
                       </div>
                     </div>
@@ -344,24 +386,28 @@ const RoleRecommender = () => {
         </div>
       </div>
 
-      <Card className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white" hover={false}>
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <div>
-            <h2 className="text-2xl font-bold">Career growth path</h2>
-            <p className="mt-1 text-indigo-100">Beginner friendly roadmap from current skills to placement-ready profile.</p>
+      {/* 4. Timeline State: Render timeline roadmap ONLY if there's no error and data exists */}
+      {!loading && !error && recommendations !== null && (
+        <Card className="mt-6 bg-gradient-to-r from-indigo-600 to-blue-600 text-white" hover={false}>
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h2 className="text-2xl font-bold">Career growth path</h2>
+              <p className="mt-1 text-indigo-100">Beginner friendly roadmap from current skills to placement-ready profile.</p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2 text-sm font-semibold">
+              {["Foundation", "Portfolio", "Interview", "Apply"].map((step, index) => (
+                <React.Fragment key={step}>
+                  <span className="rounded-full bg-white/15 px-4 py-2">{step}</span>
+                  {index < 3 && <ArrowRight className="h-4 w-4 text-indigo-100" />}
+                </React.Fragment>
+              ))}
+            </div>
           </div>
-          <div className="flex flex-wrap items-center gap-2 text-sm font-semibold">
-            {["Foundation", "Portfolio", "Interview", "Apply"].map((step, index) => (
-              <React.Fragment key={step}>
-                <span className="rounded-full bg-white/15 px-4 py-2">{step}</span>
-                {index < 3 && <ArrowRight className="h-4 w-4 text-indigo-100" />}
-              </React.Fragment>
-            ))}
-          </div>
-        </div>
-      </Card>
+        </Card>
+      )}
     </DashboardShell>
   );
 };
 
 export default RoleRecommender;
+

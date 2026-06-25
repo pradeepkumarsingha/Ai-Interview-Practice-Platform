@@ -32,9 +32,54 @@ const DigitalTwin = () => {
       formData.append("resume", file);
       const res = await getDigitalTwin(formData, token);
       setResult(res.data);
-    } catch (err) {
-      setError(err.response?.data?.message || "Failed to upload resume.");
-    } finally {
+    }
+    catch (err) {
+  console.error("Digital Twin Error:", err);
+
+  if (err.response) {
+    const status = err.response.status;
+    const data = err.response.data;
+
+    switch (status) {
+      case 400:
+        setError(
+          data.detail ||
+          data.error ||
+          data.message ||
+          "The uploaded resume is invalid or could not be processed."
+        );
+        break;
+
+      case 401:
+        setError("Your session has expired. Please login again.");
+        break;
+
+      case 413:
+        setError("The uploaded file is too large.");
+        break;
+
+      case 415:
+        setError("Only PDF, DOC, DOCX and TXT files are supported.");
+        break;
+
+      case 500:
+        setError("Internal server error. Please try again later.");
+        break;
+
+      default:
+        setError(
+          data.detail ||
+          data.error ||
+          "Something went wrong."
+        );
+    }
+  } else if (err.request) {
+    setError("Unable to connect to the server.");
+  } else {
+    setError(err.message || "Unexpected error occurred.");
+  }
+}
+    finally {
       setLoading(false);
     }
   };

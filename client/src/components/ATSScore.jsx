@@ -16,21 +16,84 @@ const ATSScore = ({ file, token, autoFetch = true }) => {
 
   useEffect(() => {
     if (!file || !autoFetch) return;
-    const fetchScore = async () => {
-      setLoading(true);
-      setError("");
-      try {
-        const formData = new FormData();
-        formData.append("resume", file);
-        const res = await getAtsScore(formData, token);
-        setAtsData(res?.data);
-      } catch (err) {
-        setError(err?.response?.data?.message || "Failed to fetch ATS score.");
-        setAtsData(null);
-      } finally {
-        setLoading(false);
+  const fetchScore = async () => {
+  setLoading(true);
+  setError("");
+  setAtsData(null);
+
+  try {
+    const formData = new FormData();
+    formData.append("resume", file);
+
+    const res = await getAtsScore(formData, token);
+
+    setAtsData(res.data);
+
+  } catch (err) {
+
+    console.error("ATS Error:", err);
+
+    if (err.response) {
+
+      const status = err.response.status;
+      const data = err.response.data;
+
+      switch (status) {
+
+        case 400:
+          setError(
+            data.detail ||
+            data.message ||
+            "Invalid resume. Please upload a valid resume."
+          );
+          break;
+
+        case 401:
+          setError("Your session has expired. Please login again.");
+          break;
+
+        case 413:
+          setError("The uploaded file is too large.");
+          break;
+
+        case 415:
+          setError("Only PDF and DOCX resumes are supported.");
+          break;
+
+        case 500:
+          setError(
+            data.detail ||
+            data.message ||
+
+            "Internal server error."
+          );
+          break;
+
+        default:
+          setError(
+            data.detail ||
+            data.message ||
+            "Failed to analyze resume."
+          );
       }
-    };
+
+    } else if (err.request) {
+
+      setError("Unable to connect to the server.");
+
+    } else {
+
+      setError(err.message || "Unexpected error occurred.");
+    }
+
+    setAtsData(null);
+
+  } finally {
+
+    setLoading(false);
+
+  }
+};
     fetchScore();
   }, [file, token, autoFetch]);
 
@@ -67,13 +130,56 @@ const ATSScore = ({ file, token, autoFetch = true }) => {
     );
   }
 
+  if (error) {
+  return (
+    <Card hover={false}>
+      <div className="rounded-2xl border border-red-300 bg-red-50 p-5 dark:border-red-500/30 dark:bg-red-500/10">
+        <div className="flex items-start gap-3">
+          <AlertTriangle className="mt-0.5 h-6 w-6 text-red-600" />
+
+          <div>
+            <h3 className="font-semibold text-red-700 dark:text-red-300">
+              ATS Analysis Failed
+            </h3>
+
+            <p className="mt-1 text-sm text-red-600 dark:text-red-200">
+              {error}
+            </p>
+          </div>
+        </div>
+      </div>
+    </Card>
+  );
+}
   const timelineSteps = report.weakness.length > 0
     ? report.weakness.slice(0, 3).map((skill) => `Improve ${skill} coverage`)
     : ["Optimize summary", "Add missing skills", "Quantify project impact"];
 
   return (
     <div className="space-y-6">
-      {error && <div className="rounded-xl bg-red-50 p-3 text-sm font-semibold text-red-700 dark:bg-red-500/10 dark:text-red-200">{error}</div>}
+      {error && (
+  <div className="rounded-2xl border border-red-300 bg-red-50 p-5 dark:border-red-500/30 dark:bg-red-500/10">
+
+    <div className="flex items-start gap-3">
+
+      <AlertTriangle className="mt-0.5 h-6 w-6 text-red-600" />
+
+      <div>
+
+        <h3 className="font-semibold text-red-700 dark:text-red-300">
+          ATS Analysis Failed
+        </h3>
+
+        <p className="mt-1 text-sm text-red-600 dark:text-red-200">
+          {error}
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+)}
 
       <div className="grid gap-6 lg:grid-cols-[0.75fr_1.25fr]">
         <Card hover={false}>

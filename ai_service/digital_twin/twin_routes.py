@@ -49,6 +49,81 @@ COMMON_INTERVIEW_TERMS = {
     "design",
 }
 
+# ---------------- Resume Validation ---------------- #
+
+ALLOWED_FILE_TYPES = {".pdf", ".docx"}
+
+RESUME_KEYWORDS = {
+    "education",
+    "experience",
+    "skills",
+    "technical skills",
+    "projects",
+    "internship",
+    "certification",
+    "summary",
+    "objective"
+}
+
+REQUIRED_SECTIONS = [
+    "education",
+    "skills",
+    "experience"
+]
+
+
+def validate_resume(filename: str, text: str):
+    suffix = Path(filename).suffix.lower()
+
+    # File type
+    if suffix not in ALLOWED_FILE_TYPES:
+        raise HTTPException(
+            status_code=400,
+            detail="Only PDF and DOCX resumes are allowed."
+        )
+
+    # Empty text
+    if not text or len(text.strip()) == 0:
+        raise HTTPException(
+            status_code=400,
+            detail="No readable text found. Please upload a valid resume."
+        )
+
+    words = text.split()
+
+    # Minimum words
+    if len(words) < 50:
+        raise HTTPException(
+            status_code=400,
+            detail="Resume contains too little information."
+        )
+
+    lower = text.lower()
+
+    # Resume keywords
+    keyword_count = sum(
+        keyword in lower
+        for keyword in RESUME_KEYWORDS
+    )
+
+    if keyword_count < 2:
+        raise HTTPException(
+            status_code=400,
+            detail="Uploaded document doesn't appear to be a resume."
+        )
+
+    # Required sections
+    section_count = sum(
+        section in lower
+        for section in REQUIRED_SECTIONS
+    )
+
+    if section_count < 2:
+        raise HTTPException(
+            status_code=400,
+            detail="Resume is missing important sections like Skills, Education or Experience."
+        )
+
 
 class DigitalTwinResponse(BaseModel):
     user_id: Optional[str]
@@ -176,6 +251,11 @@ async def get_digital_twin(
     if resume is not None:
         resume_text = await _extract_resume_text(resume)
 
+        validate_resume(
+            resume.filename,
+            resume_text
+        )
+
     if not user_id and not role and not resume_text:
         raise HTTPException(status_code=400, detail="user_id, role, or resume is required")
 
@@ -194,7 +274,7 @@ async def get_digital_twin(
             {"user_id": user_id}, sort=[("createdAt", -1)]
         )
 
-    if resume_text:
+    if resume_text and len(resume_text.strip()) > 0:
         if not results.get("role"):
             predicted_roles = predict_roles(resume_text, 0, 0, 0, 0.0)
             results["role"] = {"recommended_roles": predicted_roles}

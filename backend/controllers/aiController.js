@@ -267,19 +267,22 @@ export const predictRole = async (req, res) => {
       const result = await aiService.predictRole(requestBody.resume_text, requestBody.skills);
       res.json({ success: true, ...result });
     } catch (aiError) {
-      logger.warn(`Role prediction AI service failed, returning defaults`);
-      // Return default recommendations on failure
-      const defaultRoles = [
-        { role: "Full-Stack Engineer", confidence: 85 },
-        { role: "Backend Engineer", confidence: 80 },
-        { role: "DevOps Engineer", confidence: 75 }
-      ];
-      res.json({ 
-        success: true,
-        recommended_roles: defaultRoles,
-        usingDefaults: true 
+      logger.error("Role Prediction Error:", {
+        status: aiError.response?.status,
+        data: aiError.response?.data,
+        message: aiError.message,
+      });
+
+      return res.status(aiError.response?.status || 500).json({
+        success: false,
+        message:
+          aiError.response?.data?.detail ||
+          aiError.response?.data?.message ||
+          aiError.response?.data?.error ||
+          "Role prediction failed.",
       });
     }
+
   } catch (err) {
     logger.error("predictRole error:", err.message);
     res.status(500).json({ 
@@ -310,21 +313,21 @@ export const digitalTwin = async (req, res) => {
       );
       res.json({ success: true, ...result });
     } catch (aiError) {
-      logger.warn(`Digital twin analysis failed: ${aiError.message}`);
-      // Return placeholder analysis on failure
-      res.json({
-        success: true,
-        analysis: {
-          summary: "Resume analysis temporarily unavailable. Please try again.",
-          recommendations: [
-            "Enhance your technical skills",
-            "Add more project experience",
-            "Improve communication skills"
-          ]
-        },
-        usingDefaults: true
-      });
-    }
+    logger.error("Digital Twin Error:", {
+        status: aiError.response?.status,
+        data: aiError.response?.data,
+        message: aiError.message,
+    });
+
+    return res.status(aiError.response?.status || 500).json({
+        success: false,
+        message:
+            aiError.response?.data?.detail ||
+            aiError.response?.data?.message ||
+            aiError.response?.data?.error ||
+            "Failed to analyze resume.",
+    });
+}
   } catch (err) {
     logger.error("digitalTwin error:", err.message);
     res.status(500).json({ 
@@ -355,25 +358,41 @@ export const atsScore = async (req, res) => {
         req.body.job_description,
         req.user?._id?.toString()
       );
-      return res.status(200).json({ success: true, ...result });
-    } catch (aiError) {
-      logger.warn(`ATS scoring failed: ${aiError.message}`);
-      // Return placeholder score on failure
+
       return res.status(200).json({
         success: true,
-        ats_score: 65,
-        matched_skills: [],
-        missing_skills: [],
-        recommendations: ["Unable to perform detailed analysis. Using default recommendations."],
-        usingDefaults: true
+        ...result,
+      });
+
+    } catch (aiError) {
+
+      logger.error("ATS AI Service Error:", {
+        status: aiError.response?.status,
+        data: aiError.response?.data,
+        message: aiError.message,
+      });
+
+      return res.status(aiError.response?.status || 500).json({
+        success: false,
+        message:
+          aiError.response?.data?.detail ||
+          aiError.response?.data?.message ||
+          aiError.response?.data?.error ||
+          "ATS analysis failed.",
       });
     }
+
   } catch (err) {
-    logger.error("atsScore controller error:", err.message);
+
+    logger.error("ATS Controller Error:", err);
+
     return res.status(500).json({
       success: false,
-      message: "ATS scoring failed",
-      error: process.env.NODE_ENV === 'development' ? err.message : undefined
+      message: "Internal server error.",
+      error:
+        process.env.NODE_ENV === "development"
+          ? err.message
+          : undefined,
     });
   }
 };
