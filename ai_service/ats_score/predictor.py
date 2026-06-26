@@ -3,8 +3,10 @@ import re
 import numpy as np
 from scipy.sparse import hstack
 from pathlib import Path
-MODEL_PATH = BASE_DIR /model/ "ats_model.pkl"
-TFIDF_PATH = BASE_DIR /model/ "ats_tfidf.pkl"
+
+BASE_DIR = Path(__file__).parent
+MODEL_PATH = BASE_DIR / "model" / "ats_model.pkl"
+TFIDF_PATH = BASE_DIR / "model" / "ats_tfidf.pkl"
 
 COMMON_SKILLS = [
     "python", "java", "javascript", "machine learning", "sql", "cloud", "aws", "azure", "docker",

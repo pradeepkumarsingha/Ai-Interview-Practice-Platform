@@ -1,19 +1,22 @@
 import joblib
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent.parent
 import numpy as np
 
 from scipy.sparse import hstack
 
 
 model = joblib.load(
-    "role_recommender/models/role_model.pkl"
+    str(BASE_DIR / "role_recommender" / "models" / "role_model.pkl")
 )
 
 tfidf = joblib.load(
-    "role_recommender/models/tfidf.pkl"
+    str(BASE_DIR / "role_recommender" / "models" / "tfidf.pkl")
 )
 
 encoder = joblib.load(
-    "role_recommender/models/label_encoder.pkl"
+    str(BASE_DIR / "role_recommender" / "models" / "label_encoder.pkl")
 )
 
 
