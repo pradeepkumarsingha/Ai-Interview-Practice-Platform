@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
   },
   experienceLevel: {
     type: String,
-    enum: ['beginner', 'intermediate', 'advanced'],
+    enum: ['Beginner', 'Intermediate', 'Advanced'],
     default: 'Beginner'
   },
   targetRole: String,
