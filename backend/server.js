@@ -18,6 +18,8 @@ import interviewRoutes from './routes/interviewRoutes.js';
 
 dotenv.config();
 const app = express();
+app.set('trust proxy', 1); 
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
