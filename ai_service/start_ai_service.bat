@@ -7,5 +7,5 @@ if exist venv\Scripts\activate.bat (
   echo Create one with: python -m venv venv
 )
 set AI_SERVICE_PORT=5000
-python run.py
+python main.py
 pause

@@ -2,9 +2,11 @@ import joblib
 import re
 import numpy as np
 from scipy.sparse import hstack
-
-model = joblib.load("ats_score/model/ats_model.pkl")
-tfidf = joblib.load("ats_score/model/ats_tfidf.pkl")
+from pathlib import Path
+model_path = Path(__file__).parent / "model" / "ats_model.pkl"
+model = joblib.load(str(model_path))
+tfidf_path = Path(__file__).parent / "model" / "ats_tfidf.pkl"
+tfidf = joblib.load(str(tfidf_path))
 
 COMMON_SKILLS = [
     "python", "java", "javascript", "machine learning", "sql", "cloud", "aws", "azure", "docker",

@@ -8,7 +8,7 @@ import mockEvaluation from "../data/mockEvaluation.js";
 import { aiService } from "../services/aiService.js";
 import { logger } from "../utils/logger.js";
 
-const AI_SERVICE_URL = process.env.AI_SERVICE_URL|| "http://127.0.0.1:5000";
+const AI_SERVICE_URL = process.env.AI_SERVICE_URL|| "http://0.0.0.0:10000";
 const INTERVIEW_QUESTION_LIMIT = 10;
 
 const DOMAIN_ALIASES = {
@@ -264,7 +264,11 @@ export const predictRole = async (req, res) => {
     }
 
     try {
-      const result = await aiService.predictRole(requestBody.resume_text, requestBody.skills);
+      const result = await aiService.predictRole(
+        requestBody.resume_text,
+        requestBody.skills,
+        req.file?.path
+      );
       res.json({ success: true, ...result });
     } catch (aiError) {
       logger.error("Role Prediction Error:", {
