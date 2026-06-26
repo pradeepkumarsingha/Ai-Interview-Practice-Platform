@@ -8,6 +8,18 @@ BASE_DIR = Path(__file__).parent
 MODEL_PATH = BASE_DIR / "model" / "ats_model.pkl"
 TFIDF_PATH = BASE_DIR / "model" / "ats_tfidf.pkl"
 
+model = None
+tfidf = None
+
+try:
+    if MODEL_PATH.exists() and TFIDF_PATH.exists():
+        model = joblib.load(MODEL_PATH)
+        tfidf = joblib.load(TFIDF_PATH)
+    else:
+        print(f"[WARN] ATS model files not found at {MODEL_PATH.parent}. Using heuristic scoring.")
+except Exception as load_err:
+    print(f"[WARN] Failed to load ATS models: {load_err}. Using heuristic scoring.")
+
 COMMON_SKILLS = [
     "python", "java", "javascript", "machine learning", "sql", "cloud", "aws", "azure", "docker",
     "kubernetes", "react", "node", "node.js", "api", "data analysis", "project management", "communication",
@@ -53,6 +65,25 @@ def _has_metrics(text):
     return bool(METRIC_PATTERNS.search(_normalize(text)))
 
 
+def _heuristic_ats_score(resume_text, jd_text):
+    resume_set = set(_extract_skills(resume_text))
+    jd_set = set(_extract_skills(jd_text)) if jd_text and jd_text.strip() else set(FALLBACK_JD_SKILLS)
+    overlap_ratio = len(resume_set & jd_set) / max(len(jd_set), 1)
+    word_count = len(_normalize(resume_text).split())
+
+    section_bonus = 0.0
+    if _has_section(resume_text, SUMMARY_PATTERNS):
+        section_bonus += 0.12
+    if _has_section(resume_text, SKILLS_SECTION_PATTERNS):
+        section_bonus += 0.12
+    if _has_metrics(resume_text):
+        section_bonus += 0.1
+
+    length_bonus = min(word_count / 500, 0.16)
+    score = (overlap_ratio * 55) + ((section_bonus + length_bonus) * 100)
+    return round(min(100.0, max(0.0, score)), 2)
+
+
 def predict_ats(
     resume_skills,
     jd_skills,
@@ -63,21 +94,16 @@ def predict_ats(
 ):
 
     combined_text = resume_skills + " [SEP] " + jd_skills
-    X_text = tfidf.transform([combined_text])
-
-    X_num = np.array([
-        [
-            projects,
-            internships,
-            certifications,
-            cgpa
-        ]
-    ])
-
-    X = hstack([X_text, X_num])
-    ats_score = round(float(model.predict(X)[0]), 2)
-
     resume_text = _normalize(resume_skills)
+
+    if model is not None and tfidf is not None:
+        X_text = tfidf.transform([combined_text])
+        X_num = np.array([[projects, internships, certifications, cgpa]])
+        X = hstack([X_text, X_num])
+        ats_score = round(float(model.predict(X)[0]), 2)
+    else:
+        ats_score = _heuristic_ats_score(resume_skills, jd_skills)
+
     resume_skills_list = _extract_skills(resume_text)
     resume_set = set(resume_skills_list)
 

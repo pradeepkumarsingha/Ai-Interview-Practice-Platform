@@ -238,8 +238,11 @@ const AIInterview = () => {
         <div className="grid gap-6 lg:grid-cols-[0.7fr_1.3fr]">
           <Card hover={false}>
             <h2 className="text-xl font-bold text-slate-950 dark:text-white">Final score</h2>
-            <div className="py-6">
-              <Gauge value={Math.round((finalResult.average_score ?? 7.6) * 10)} label="Score" tone="green" />
+            <div className="py-6 text-center">
+              <Gauge value={Math.round((finalResult.average_score ?? 0) * 10)} label="Score" tone={finalResult.average_score >= 7 ? "green" : finalResult.average_score >= 4 ? "orange" : "red"} />
+              <p className="mt-2 text-sm font-semibold text-slate-600 dark:text-slate-300">
+                {(finalResult.average_score ?? 0).toFixed(1)} / 10
+              </p>
             </div>
           </Card>
           <Card hover={false}>

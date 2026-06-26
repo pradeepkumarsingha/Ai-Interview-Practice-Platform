@@ -122,15 +122,29 @@ const localEvaluateAnswers = (questions, answers, state = null) => {
     const answer = String(rawAnswer).trim();
     const lowerAnswer = answer.toLowerCase();
     const words = answer.split(/\s+/).filter(Boolean);
-    const skipped = !answer || lowerAnswer === 'no answer submitted.';
+    const skipped =
+      !answer ||
+      lowerAnswer === 'no answer submitted.' ||
+      lowerAnswer.includes('no answer submitted');
 
     if (skipped) {
+      return {
+        score: 0,
+        technical: 0,
+        communication: 0,
+        confidence: 0,
+        skipped: true,
+      };
+    }
+
+    // Very short or low-effort answers should score low.
+    if (words.length < 5) {
       return {
         score: 1,
         technical: 1,
         communication: 1,
         confidence: 1,
-        skipped: true,
+        skipped: false,
       };
     }
 
@@ -146,13 +160,13 @@ const localEvaluateAnswers = (questions, answers, state = null) => {
     const technicalScore = Math.min(matchedTechTerms / 3, 1) * 2;
     const structureScore = /because|therefore|first|second|for example|result|impact|learned/i.test(answer) ? 1 : 0;
 
-    const score = Math.max(2, Math.min(10, lengthScore + detailScore + relevanceScore + technicalScore + structureScore));
+    const score = Math.max(0, Math.min(10, lengthScore + detailScore + relevanceScore + technicalScore + structureScore));
 
     return {
       score,
-      technical: Math.max(2, Math.min(10, 3 + relevanceScore + technicalScore + detailScore)),
-      communication: Math.max(2, Math.min(10, 3 + lengthScore + structureScore + Math.min(words.length / 60, 1) * 2)),
-      confidence: Math.max(2, Math.min(10, 3 + detailScore + structureScore + Math.min(words.length / 40, 1) * 2)),
+      technical: Math.max(0, Math.min(10, relevanceScore + technicalScore + detailScore)),
+      communication: Math.max(0, Math.min(10, lengthScore + structureScore + Math.min(words.length / 60, 1) * 2)),
+      confidence: Math.max(0, Math.min(10, detailScore + structureScore + Math.min(words.length / 40, 1) * 2)),
       skipped: false,
     };
   });
@@ -160,10 +174,18 @@ const localEvaluateAnswers = (questions, answers, state = null) => {
   const average = (values) => values.reduce((sum, value) => sum + value, 0) / Math.max(values.length, 1);
   const completedAnswers = scoredAnswers.filter((item) => !item.skipped).length;
   const completionRatio = completedAnswers / Math.max(questions.length, 1);
-  const averageScore = average(scoredAnswers.map((item) => item.score));
+  let averageScore = average(scoredAnswers.map((item) => item.score));
   const technicalScore = average(scoredAnswers.map((item) => item.technical));
   const communicationScore = average(scoredAnswers.map((item) => item.communication));
   const confidenceScore = average(scoredAnswers.map((item) => item.confidence));
+
+  if (completionRatio === 0) {
+    averageScore = 0;
+  } else if (completionRatio < 0.4) {
+    averageScore = Math.min(averageScore, 2.5);
+  } else if (completionRatio < 0.7) {
+    averageScore = Math.min(averageScore, 4.5);
+  }
 
   const strengths = [];
   const improvements = [];
@@ -171,7 +193,8 @@ const localEvaluateAnswers = (questions, answers, state = null) => {
   if (completionRatio >= 0.8) strengths.push('Answered most interview questions with consistent effort.');
   if (communicationScore >= 6.5) strengths.push('Communication is reasonably clear and structured.');
   if (technicalScore >= 6.5) strengths.push('Responses include relevant technical context.');
-  if (!strengths.length) strengths.push('Good start. Continue practicing complete, specific answers.');
+  if (!strengths.length && averageScore > 0) strengths.push('Good start. Continue practicing complete, specific answers.');
+  if (averageScore === 0) strengths.push('No meaningful answers were submitted in this attempt.');
 
   if (completionRatio < 0.8) improvements.push('Avoid skipping questions; give at least a concise structured answer.');
   if (technicalScore < 6.5) improvements.push('Add more role-specific technical terms, examples, and trade-offs.');

@@ -13,7 +13,7 @@ from db import db
 
 router = APIRouter()
 
-ALLOWED_FILE_TYPES = {".pdf", ".docx"}
+ALLOWED_FILE_TYPES = {".pdf", ".docx", ".txt", ".md"}
 
 RESUME_KEYWORDS = {
     "education", "experience", "skills", "technical skills", 
@@ -21,7 +21,6 @@ RESUME_KEYWORDS = {
 }
 
 REQUIRED_SECTIONS = ["education", "skills", "experience"]
-
 
 async def _extract_resume_text(resume: UploadFile) -> str:
     suffix = Path(resume.filename or "").suffix.lower()
@@ -45,18 +44,16 @@ async def _extract_resume_text(resume: UploadFile) -> str:
     except Exception as e:
         print(f"[ERROR] Text extraction failed: {e}")
         return ""
-    finally:
-        await resume.close()
+    
     return ""
-
 
 def validate_resume(filename: str, text: str):
     suffix = Path(filename).suffix.lower()
     if suffix not in ALLOWED_FILE_TYPES:
-        raise HTTPException(status_code=400, detail="Only PDF and DOCX resumes are allowed.")
+        raise HTTPException(status_code=400, detail="Only PDF, DOCX, TXT, and MD resumes are allowed.")
     if not text or len(text.strip()) == 0:
         raise HTTPException(status_code=400, detail="No readable text found.")
-    if len(text.split()) < 50:
+    if len(text.split()) < 30:
         raise HTTPException(status_code=400, detail="Resume contains too little information.")
     
     lower = text.lower()
