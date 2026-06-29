@@ -20,6 +20,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.get("/health", tags=["Utility"])
+def health_check():
+    return {
+        "status": "healthy",
+        "service": "CareerAI Backend Engine",
+        "timestamp": time()
+    }
 # --- ROUTER REGISTRATION ---
 # Keeping the root path relative ("") ensures the explicit strings inside 
 # your individual router files handle the routing targets directly.
