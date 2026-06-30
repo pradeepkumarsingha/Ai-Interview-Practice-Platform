@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from time import time
+from datetime import datetime
 load_dotenv()
 
 from role_recommender.role_routes import router as role_router
@@ -28,9 +28,7 @@ def health_check():
         "service": "CareerAI Backend Engine",
         "timestamp": datetime.now().isoformat()
     }
-# --- ROUTER REGISTRATION ---
-# Keeping the root path relative ("") ensures the explicit strings inside 
-# your individual router files handle the routing targets directly.
+
 app.include_router(ats_router)
 app.include_router(role_router)
 app.include_router(interview_router)
