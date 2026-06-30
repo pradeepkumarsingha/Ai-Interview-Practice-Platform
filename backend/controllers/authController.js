@@ -54,6 +54,8 @@ export const register = async (req, res) => {
   }
 };
 
+import axios from "axios";
+
 export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -62,7 +64,7 @@ export const login = async (req, res) => {
       return res.status(400).json({ message: "Missing fields" });
     }
 
-    const user = await User.findOne({ email }).select('+password');
+    const user = await User.findOne({ email }).select("+password");
     if (!user) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
@@ -72,8 +74,18 @@ export const login = async (req, res) => {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    // ✅ Track last login (activity tracking) without triggering full schema validation
-    await User.updateOne({ _id: user._id }, { lastLogin: new Date() });
+    await User.updateOne(
+      { _id: user._id },
+      { lastLogin: new Date() }
+    );
+
+    // Warm up AI service (don't await)
+    axios
+      .get(`${process.env.AI_SERVICE_URL}/health`)
+      .then(() => console.log("AI service warmed up"))
+      .catch((err) =>
+        console.log("Health check failed:", err.message)
+      );
 
     res.json({
       _id: user._id,
@@ -84,9 +96,8 @@ export const login = async (req, res) => {
       experienceLevel: user.experienceLevel,
       targetRole: user.targetRole,
       preferredDomain: user.preferredDomain,
-      token: generateToken(user._id)
+      token: generateToken(user._id),
     });
-
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: "Server error" });
