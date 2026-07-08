@@ -57,6 +57,12 @@ export const aiService = {
   // Predict role from resume or skills
   async predictRole(resumeText, skills = null, filePath = null) {
     try {
+      try {
+        await this.warmup();
+      } catch (warmupError) {
+        logger.warn(`Role warmup failed, continuing with request retry: ${warmupError.message}`);
+      }
+
       if (filePath) {
         return await withRetry(async () => {
           // Send file directly to AI service for PDF parsing.
