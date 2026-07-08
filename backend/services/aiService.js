@@ -9,6 +9,8 @@ import { logger } from '../utils/logger.js';
 const AI_SERVICE_URL = process.env.AI_SERVICE_URL || 'http://127.0.0.1:10000';
 const TIMEOUT = parseInt(process.env.AI_SERVICE_TIMEOUT || '30000');
 const MAX_RETRIES = 3;
+const HEALTH_CHECK_TIMEOUT = parseInt(process.env.AI_SERVICE_HEALTH_TIMEOUT || '10000');
+const WARMUP_TIMEOUT = parseInt(process.env.AI_SERVICE_WARMUP_TIMEOUT || '60000');
 
 class AIServiceError extends Error {
   constructor(message, code = 'AI_SERVICE_ERROR', statusCode = 500) {
@@ -17,6 +19,17 @@ class AIServiceError extends Error {
     this.statusCode = statusCode;
   }
 }
+
+const createResumeFormData = (filePath, extraFields = {}) => {
+  const formData = new FormData();
+  formData.append('resume', fs.createReadStream(filePath));
+
+  Object.entries(extraFields).forEach(([key, value]) => {
+    formData.append(key, value);
+  });
+
+  return formData;
+};
 
 // Retry logic with exponential backoff
 const withRetry = async (fn, retries = MAX_RETRIES, delay = 1000) => {
@@ -36,6 +49,7 @@ const shouldRetry = (error) => {
   // Retry on network errors and 5xx errors, but not 4xx client errors
   return error.code === 'ECONNREFUSED' || 
          error.code === 'ETIMEDOUT' || 
+         error.code === 'ECONNABORTED' ||
          (error.response && error.response.status >= 500);
 };
 
@@ -44,15 +58,15 @@ export const aiService = {
   async predictRole(resumeText, skills = null, filePath = null) {
     try {
       if (filePath) {
-        // Send file directly to AI service for PDF parsing
-        const formData = new FormData();
-        formData.append('resume', fs.createReadStream(filePath));
-        formData.append('projects', '0');
-        formData.append('internships', '0');
-        formData.append('certifications', '0');
-        formData.append('cgpa', '0.0');
-
         return await withRetry(async () => {
+          // Send file directly to AI service for PDF parsing.
+          const formData = createResumeFormData(filePath, {
+            projects: '0',
+            internships: '0',
+            certifications: '0',
+            cgpa: '0.0',
+          });
+
           const response = await axios.post(
             `${AI_SERVICE_URL}/predict-role`,
             formData,
@@ -101,9 +115,7 @@ export const aiService = {
   async digitalTwin(filePath, userId = null) {
     try {
       return await withRetry(async () => {
-        const formData = new FormData();
-        formData.append('resume', fs.createReadStream(filePath));
-        if (userId) formData.append('user_id', userId);
+        const formData = createResumeFormData(filePath, userId ? { user_id: userId } : {});
 
         const response = await axios.post(
           `${AI_SERVICE_URL}/digital_twin`,
@@ -129,10 +141,10 @@ export const aiService = {
   async calculateATSScore(filePath, jobDescription = null, userId = null) {
     try {
       return await withRetry(async () => {
-        const formData = new FormData();
-        formData.append('resume', fs.createReadStream(filePath));
-        if (jobDescription) formData.append('job_description', jobDescription);
-        if (userId) formData.append('user_id', userId);
+        const formData = createResumeFormData(filePath, {
+          ...(jobDescription ? { job_description: jobDescription } : {}),
+          ...(userId ? { user_id: userId } : {}),
+        });
 
         const response = await axios.post(
           `${AI_SERVICE_URL}/ats_score`,
@@ -201,13 +213,24 @@ export const aiService = {
     try {
       const response = await axios.get(
         `${AI_SERVICE_URL}/health`,
-        { timeout: 5000 }
+        { timeout: HEALTH_CHECK_TIMEOUT }
       );
       return response.data;
     } catch (error) {
       logger.error(`AI service health check failed: ${error.message}`);
       return { status: 'unhealthy', error: error.message };
     }
+  },
+
+  // Warm up the AI service before the first real request hits it.
+  async warmup() {
+    return withRetry(async () => {
+      const response = await axios.get(
+        `${AI_SERVICE_URL}/health`,
+        { timeout: WARMUP_TIMEOUT }
+      );
+      return response.data;
+    }, MAX_RETRIES, 2000);
   }
 };
 

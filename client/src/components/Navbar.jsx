@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
   Bell,
@@ -28,17 +28,12 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn, onToggleSidebar }) => {
   const [profileOpen, setProfileOpen] = useState(false);
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!mounted) return;
+  useLayoutEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
+    document.body.classList.toggle("dark", theme === "dark");
+    document.documentElement.dataset.theme = theme;
     localStorage.setItem("theme", theme);
-  }, [theme, mounted]);
+  }, [theme]);
 
   const user = (() => {
     try {
@@ -101,6 +96,7 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn, onToggleSidebar }) => {
             onClick={() => setTheme((current) => (current === "dark" ? "light" : "dark"))}
             className="rounded-xl border border-slate-200 bg-white p-2 text-slate-600 shadow-sm hover:bg-slate-50 dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:bg-white/10"
             aria-label="Toggle dark mode"
+            aria-pressed={theme === "dark"}
           >
             {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </button>

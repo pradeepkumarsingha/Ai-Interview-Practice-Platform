@@ -1,6 +1,7 @@
 import User from '../models/User.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+import { aiService } from '../services/aiService.js';
 
 const generateToken = (id) => jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN || '7d' });
 
@@ -54,8 +55,6 @@ export const register = async (req, res) => {
   }
 };
 
-import axios from "axios";
-
 export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -79,13 +78,13 @@ export const login = async (req, res) => {
       { lastLogin: new Date() }
     );
 
-    // Warm up AI service (don't await)
-    axios
-      .get(`${process.env.AI_SERVICE_URL}/health`)
-      .then(() => console.log("AI service warmed up"))
-      .catch((err) =>
-        console.log("Health check failed:", err.message)
-      );
+    // Warm up AI service so the first prediction request is less likely to hit a cold start.
+    try {
+      await aiService.warmup();
+      console.log("AI service warmed up");
+    } catch (warmupError) {
+      console.log("Health check failed:", warmupError.message);
+    }
 
     res.json({
       _id: user._id,
