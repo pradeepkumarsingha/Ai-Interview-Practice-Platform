@@ -140,6 +140,13 @@ export const aiService = {
   // Calculate ATS score
   async calculateATSScore(filePath, jobDescription = null, userId = null) {
     try {
+      // Render cold starts are much more reliable when we wait for /health first.
+      try {
+        await this.warmup();
+      } catch (warmupError) {
+        logger.warn(`ATS warmup failed, continuing with request retry: ${warmupError.message}`);
+      }
+
       return await withRetry(async () => {
         const formData = createResumeFormData(filePath, {
           ...(jobDescription ? { job_description: jobDescription } : {}),
